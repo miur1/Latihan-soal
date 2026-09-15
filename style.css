@@ -329,14 +329,11 @@ body {
 .rekap-item.rk-benar .tanda { color: var(--hijau); }
 .rekap-item.rk-salah .tanda { color: var(--merah); }
 
-@media (max-width: 480px) {
-  #app { padding: 28px 18px 56px; }
-  .kop h1 { font-size: 22px; }
-  .pertanyaan { font-size: 17.5px; }
-}
+/* =========================================================
+   FLASHCARD (Kotoba)
+   ========================================================= */
 
-
-/* ---------- Flashcard (Kotoba) ---------- */
+/* ---------- Kartu flip ---------- */
 .kartu-fc {
   width: 100%;
   max-width: 480px;
@@ -419,6 +416,107 @@ body {
   margin-top: -8px;
 }
 
+/* ---------- Statistik (Hafal / Belum / Total) ---------- */
+.stat-fc {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin: 12px 0 4px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  color: var(--tinta-pudar);
+}
+
+.stat-item {
+  flex: 1;
+  text-align: center;
+  padding: 8px 6px;
+  border: 1px solid var(--garis);
+  border-radius: var(--radius);
+  background: var(--kertas);
+  white-space: nowrap;
+}
+
+.stat-item strong {
+  color: var(--tinta);
+  font-weight: 600;
+}
+
+.stat-hafal-item strong { color: var(--hijau); }
+.stat-belum-item strong { color: var(--merah); }
+
+/* ---------- Tombol Hafal / Belum ---------- */
+.aksi-fc {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.aksi-fc .btn {
+  flex: 1;
+  padding: 14px 16px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.btn-hafal {
+  background: var(--hijau);
+  color: var(--kertas);
+  border-color: var(--hijau);
+}
+.btn-hafal:hover { background: #255840; }
+.btn-hafal.aktif {
+  box-shadow: 0 0 0 3px rgba(47, 110, 79, 0.25);
+}
+
+.btn-belum {
+  background: var(--merah);
+  color: var(--kertas);
+  border-color: var(--merah);
+}
+.btn-belum:hover { background: #8a2e23; }
+.btn-belum.aktif {
+  box-shadow: 0 0 0 3px rgba(167, 58, 44, 0.25);
+}
+
+/* ---------- Navigasi Prev / Next ---------- */
+.aksi-fc-nav {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.aksi-fc-nav .btn-nav {
+  flex: 1;
+  background: transparent;
+  border: 1px solid var(--garis);
+  color: var(--tinta);
+  padding: 10px 14px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+}
+.aksi-fc-nav .btn-nav:hover:not(:disabled) {
+  border-color: var(--navi);
+  color: var(--navi);
+}
+.aksi-fc-nav .btn-nav:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* ---------- Tombol Reset ---------- */
+.tautan-reset {
+  display: block;
+  margin: 20px auto 0;
+  text-align: center;
+  color: var(--merah) !important;
+  font-size: 12px;
+}
+.tautan-reset:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Ringkasan hasil flashcard ---------- */
 .ringkasan-fc {
   text-align: center;
   color: var(--tinta-pudar);
@@ -426,9 +524,19 @@ body {
   margin: 16px 0;
 }
 
+/* ---------- Responsive mobile ---------- */
 @media (max-width: 480px) {
+  #app { padding: 28px 18px 56px; }
+  .kop h1 { font-size: 22px; }
+  .pertanyaan { font-size: 17.5px; }
+
   .kartu-fc { height: 260px; }
   .teks-kanji { font-size: 52px; }
   .teks-baca { font-size: 16px; }
   .teks-arti { font-size: 26px; }
-}
+
+  .stat-fc { font-size: 11px; }
+  .stat-item { padding: 6px 4px; }
+  .aksi-fc .btn { padding: 12px 10px; font-size: 13px; }
+  .aksi-fc-nav .btn-nav { font-size: 12px; padding: 9px 8px; }
+    }
