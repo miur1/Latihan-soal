@@ -59,7 +59,7 @@ const layarPilih = document.getElementById("layar-pilih");
 const daftarPaketEl = document.getElementById("daftar-paket"); // dipakai utk daftar kategori
 const statusMuatEl = document.getElementById("status-muat");
 
-// Layar 2: pilih paket dalam kategori (BARU)
+// Layar 2: pilih paket dalam kategori
 const layarPilihPaket = document.getElementById("layar-pilih-paket");
 const judulKategoriEl = document.getElementById("judul-kategori");
 const daftarPaketKategoriEl = document.getElementById("daftar-paket-kategori");
@@ -152,14 +152,29 @@ function bukaKategori(k) {
   tampilkan(layarPilihPaket);
 }
 
+/* =========================================================
+   FUNGSI MULAI PAKET (deteksi kuis vs flashcard)
+   ========================================================= */
 async function mulaiPaket(p) {
   statusMuatEl.textContent = `Memuat ${p.nama}...`;
   try {
     const res = await fetch(p.file);
     if (!res.ok) throw new Error("Gagal memuat file");
     const data = await res.json();
-    paketAktif = { ...p, judul: data.judul || p.nama, soal: data.soal };
     statusMuatEl.textContent = "";
+
+    // Kalau tipe flashcard, oper ke flashcard.js
+    if (data.tipe === "flashcard") {
+      window.mulaiFlashcard({
+        ...p,
+        judul: data.judul || p.nama,
+        kartu: data.kartu,
+      });
+      return;
+    }
+
+    // Default: kuis pilihan ganda
+    paketAktif = { ...p, judul: data.judul || p.nama, soal: data.soal };
     mulaiSesi();
   } catch (err) {
     statusMuatEl.textContent = `Gagal memuat soal (${err.message}). Pastikan file ${p.file} ada dan halaman ini dibuka lewat server (bukan dibuka langsung dari file explorer).`;
@@ -322,3 +337,11 @@ btnKembaliKategori.addEventListener("click", () => {
    INIT
    ========================================================= */
 renderDaftarKategori();
+
+/* =========================================================
+   EKSPOSE UNTUK FLASHCARD.JS
+   ========================================================= */
+window.kembaliKeDaftarPaket = function () {
+  if (kategoriAktif) tampilkan(layarPilihPaket);
+  else tampilkan(layarPilih);
+};
