@@ -90,8 +90,61 @@
       </div>
     </section>
 
+    <!-- ===== LAYAR 5: FLASHCARD (Kotoba) ===== -->
+    <section id="layar-flashcard" class="layar tersembunyi">
+      <header class="kop-soal">
+        <button id="btn-keluar-fc" class="tautan-kecil" type="button">&larr; Ganti paket</button>
+        <span id="judul-fc" class="judul-paket-aktif"></span>
+        <span id="nomor-fc" class="nomor-progres"></span>
+      </header>
+
+      <div class="garis-progres">
+        <div id="isi-progres-fc" class="isi-progres"></div>
+      </div>
+
+      <div id="kartu-fc" class="kartu-fc">
+        <div class="kartu-fc-inner">
+          <div class="kartu-fc-depan">
+            <span id="teks-kanji" class="teks-kanji"></span>
+            <span id="teks-baca" class="teks-baca"></span>
+          </div>
+          <div class="kartu-fc-belakang">
+            <span id="teks-arti" class="teks-arti"></span>
+          </div>
+        </div>
+      </div>
+
+      <p class="petunjuk-fc">Ketuk kartu untuk lihat arti</p>
+
+      <div class="aksi-bawah">
+        <button id="btn-ulangi-fc" class="btn btn-sekunder" type="button" disabled>🔁 Ulangi nanti</button>
+        <button id="btn-hafal-fc" class="btn btn-utama" type="button" disabled>✓ Sudah hafal</button>
+      </div>
+    </section>
+
+    <!-- ===== LAYAR 6: HASIL FLASHCARD ===== -->
+    <section id="layar-hasil-fc" class="layar tersembunyi">
+      <header class="kop">
+        <span class="kop-label">HASIL FLASHCARD</span>
+        <h1 id="judul-hasil-fc">Selesai!</h1>
+      </header>
+
+      <div class="kartu-skor">
+        <span id="skor-hafal" class="skor-angka">0</span>
+        <span class="skor-keterangan">kartu sudah hafal</span>
+      </div>
+
+      <p id="ringkasan-fc" class="ringkasan-fc"></p>
+
+      <div class="aksi-bawah">
+        <button id="btn-ulangi-sesi-fc" class="btn btn-utama" type="button">Ulangi yang belum hafal</button>
+        <button id="btn-paket-lain-fc" class="btn btn-sekunder" type="button">Pilih paket lain</button>
+      </div>
+    </section>
+
   </div>
 
 <script src="app.js"></script>
+<script src="flashcard.js"></script>
 </body>
 </html>
