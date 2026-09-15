@@ -1,0 +1,65 @@
+{
+  "judul": "Paket Soal 2 - Bahasa Indonesia",
+  "soal": [
+    {
+      "id": "p2-01",
+      "pertanyaan": "Kalimat berikut yang menggunakan kata baku adalah...",
+      "pilihan": {
+        "A": "Dia sedang mempraktekkan ilmunya.",
+        "B": "Dia sedang mempraktikkan ilmunya.",
+        "C": "Dia sedang mempraktik'an ilmunya.",
+        "D": "Dia sedang praktekin ilmunya."
+      },
+      "jawaban": "B",
+      "pembahasan": "Bentuk baku dari kata tersebut adalah 'mempraktikkan', bukan 'mempraktekkan'."
+    },
+    {
+      "id": "p2-02",
+      "pertanyaan": "Sinonim dari kata 'gembira' adalah...",
+      "pilihan": {
+        "A": "Sedih",
+        "B": "Marah",
+        "C": "Senang",
+        "D": "Takut"
+      },
+      "jawaban": "C",
+      "pembahasan": "'Gembira' memiliki makna yang sama dengan 'senang'."
+    },
+    {
+      "id": "p2-03",
+      "pertanyaan": "Antonim dari kata 'rajin' adalah...",
+      "pilihan": {
+        "A": "Giat",
+        "B": "Tekun",
+        "C": "Cekatan",
+        "D": "Malas"
+      },
+      "jawaban": "D",
+      "pembahasan": "'Rajin' berlawanan makna dengan 'malas'."
+    },
+    {
+      "id": "p2-04",
+      "pertanyaan": "Ide pokok sebuah paragraf biasanya terdapat pada...",
+      "pilihan": {
+        "A": "Kalimat penjelas",
+        "B": "Kalimat utama",
+        "C": "Judul saja",
+        "D": "Setiap kata"
+      },
+      "jawaban": "B",
+      "pembahasan": "Ide pokok terkandung dalam kalimat utama, yang biasanya didukung oleh kalimat-kalimat penjelas."
+    },
+    {
+      "id": "p2-05",
+      "pertanyaan": "Penulisan huruf kapital yang tepat terdapat pada kalimat...",
+      "pilihan": {
+        "A": "saya tinggal di kota Bandung.",
+        "B": "Saya tinggal di Kota Bandung.",
+        "C": "Saya tinggal di kota bandung.",
+        "D": "Saya Tinggal Di Kota Bandung."
+      },
+      "jawaban": "B",
+      "pembahasan": "Huruf pertama kalimat dan nama tempat (Bandung) ditulis kapital, sedangkan kata 'kota' tetap huruf kecil karena bukan bagian dari nama diri."
+    }
+  ]
+}

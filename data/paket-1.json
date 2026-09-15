@@ -1,0 +1,77 @@
+{
+  "judul": "Paket Soal 1 - Matematika Dasar",
+  "soal": [
+    {
+      "id": "p1-01",
+      "pertanyaan": "Berapakah hasil dari 12 + 7 x 3?",
+      "pilihan": {
+        "A": "57",
+        "B": "33",
+        "C": "19",
+        "D": "45"
+      },
+      "jawaban": "B",
+      "pembahasan": "Kalikan dulu: 7 x 3 = 21, lalu 12 + 21 = 33 (urutan operasi: kali/bagi dulu, baru tambah/kurang)."
+    },
+    {
+      "id": "p1-02",
+      "pertanyaan": "Jika x + 5 = 12, maka nilai x adalah...",
+      "pilihan": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8"
+      },
+      "jawaban": "C",
+      "pembahasan": "x = 12 - 5 = 7."
+    },
+    {
+      "id": "p1-03",
+      "pertanyaan": "Luas persegi panjang dengan panjang 8 cm dan lebar 5 cm adalah...",
+      "pilihan": {
+        "A": "13 cm²",
+        "B": "26 cm²",
+        "C": "40 cm²",
+        "D": "45 cm²"
+      },
+      "jawaban": "C",
+      "pembahasan": "Luas = panjang x lebar = 8 x 5 = 40 cm²."
+    },
+    {
+      "id": "p1-04",
+      "pertanyaan": "Bilangan prima di bawah ini adalah...",
+      "pilihan": {
+        "A": "9",
+        "B": "15",
+        "C": "21",
+        "D": "17"
+      },
+      "jawaban": "D",
+      "pembahasan": "17 hanya bisa dibagi 1 dan dirinya sendiri, sehingga termasuk bilangan prima."
+    },
+    {
+      "id": "p1-05",
+      "pertanyaan": "Hasil dari 3/4 + 1/2 adalah...",
+      "pilihan": {
+        "A": "4/6",
+        "B": "5/4",
+        "C": "1",
+        "D": "2/3"
+      },
+      "jawaban": "B",
+      "pembahasan": "Samakan penyebut: 3/4 + 2/4 = 5/4."
+    },
+    {
+      "id": "p1-06",
+      "pertanyaan": "20% dari 150 adalah...",
+      "pilihan": {
+        "A": "20",
+        "B": "25",
+        "C": "30",
+        "D": "35"
+      },
+      "jawaban": "C",
+      "pembahasan": "20% x 150 = 0,2 x 150 = 30."
+    }
+  ]
+}

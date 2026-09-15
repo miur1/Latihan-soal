@@ -1,0 +1,336 @@
+:root {
+  --kertas: #F1EFE6;
+  --kertas-gelap: #E7E3D3;
+  --tinta: #21262E;
+  --tinta-pudar: #5B6169;
+  --garis: #C7C2AE;
+  --navi: #1F3A5C;
+  --navi-terang: #2C517F;
+  --hijau: #2F6E4F;
+  --hijau-lembut: #E4EEE7;
+  --merah: #A73A2C;
+  --merah-lembut: #F3E3DF;
+  --radius: 3px;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--kertas-gelap);
+  color: var(--tinta);
+  font-family: 'Lora', Georgia, serif;
+  line-height: 1.5;
+}
+
+#app {
+  max-width: 640px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background: var(--kertas);
+  border-left: 1px solid var(--garis);
+  border-right: 1px solid var(--garis);
+  padding: 40px 28px 64px;
+}
+
+.layar.tersembunyi { display: none; }
+
+/* ---------- Kop / header umum ---------- */
+.kop-label, .kop-soal .judul-paket-aktif {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  color: var(--tinta-pudar);
+}
+
+.kop { margin-bottom: 32px; }
+.kop h1 {
+  font-family: 'Lora', serif;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1.3;
+  margin: 8px 0 0;
+  max-width: 22ch;
+}
+
+/* ---------- Daftar paket (layar pilih) ---------- */
+.daftar-paket {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.kartu-paket {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  text-align: left;
+  width: 100%;
+  padding: 18px 20px;
+  background: var(--kertas);
+  border: 1px solid var(--garis);
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-family: inherit;
+  color: inherit;
+  transition: border-color 0.15s ease, transform 0.1s ease;
+}
+.kartu-paket:hover { border-color: var(--navi); }
+.kartu-paket:active { transform: translateY(1px); }
+
+.kartu-paket .kp-nama {
+  font-weight: 600;
+  font-size: 17px;
+  display: block;
+}
+.kartu-paket .kp-info {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  color: var(--tinta-pudar);
+  display: block;
+  margin-top: 4px;
+}
+.kartu-paket .kp-panah {
+  font-family: 'IBM Plex Mono', monospace;
+  color: var(--navi);
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.status-muat {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  color: var(--tinta-pudar);
+  margin-top: 20px;
+}
+
+/* ---------- Layar soal ---------- */
+.kop-soal {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  margin-bottom: 14px;
+}
+.tautan-kecil {
+  background: none;
+  border: none;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  color: var(--navi);
+  cursor: pointer;
+  padding: 0;
+  order: -1;
+  width: 100%;
+}
+.nomor-progres {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  color: var(--tinta-pudar);
+  margin-left: auto;
+}
+
+.garis-progres {
+  height: 3px;
+  background: var(--garis);
+  border-radius: 2px;
+  margin-bottom: 28px;
+  overflow: hidden;
+}
+.isi-progres {
+  height: 100%;
+  background: var(--navi);
+  width: 0%;
+  transition: width 0.25s ease;
+}
+
+.lembar {
+  background: repeating-linear-gradient(
+    var(--kertas),
+    var(--kertas) 37px,
+    var(--garis) 38px
+  );
+  border: 1px solid var(--garis);
+  border-radius: var(--radius);
+  padding: 24px 22px 28px;
+}
+
+.lembar-kepala { margin-bottom: 6px; }
+.stempel {
+  display: inline-block;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: var(--navi);
+  border: 1px solid var(--navi);
+  border-radius: 2px;
+  padding: 2px 8px;
+}
+
+.pertanyaan {
+  font-size: 19px;
+  font-weight: 500;
+  margin: 14px 0 20px;
+}
+
+.daftar-pilihan {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pilihan {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  text-align: left;
+  width: 100%;
+  background: transparent;
+  border: 1px solid var(--garis);
+  border-radius: var(--radius);
+  padding: 11px 14px;
+  font-family: 'Lora', serif;
+  font-size: 15px;
+  color: var(--tinta);
+  cursor: pointer;
+}
+.pilihan:hover { border-color: var(--navi-terang); }
+
+.pilihan .huruf {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--tinta-pudar);
+  border: 1px solid var(--garis);
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1px;
+}
+
+.pilihan.dipilih { border-color: var(--navi); }
+.pilihan.dipilih .huruf { border-color: var(--navi); color: var(--navi); }
+
+.pilihan.benar {
+  border-color: var(--hijau);
+  background: var(--hijau-lembut);
+}
+.pilihan.benar .huruf { border-color: var(--hijau); color: var(--hijau); }
+
+.pilihan.salah {
+  border-color: var(--merah);
+  background: var(--merah-lembut);
+}
+.pilihan.salah .huruf { border-color: var(--merah); color: var(--merah); }
+
+.pilihan:disabled { cursor: default; }
+
+.pembahasan {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px dashed var(--garis);
+}
+.pembahasan.tersembunyi { display: none; }
+.verdict {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin: 0 0 6px;
+}
+.verdict.benar { color: var(--hijau); }
+.verdict.salah { color: var(--merah); }
+#teks-pembahasan { margin: 0; color: var(--tinta-pudar); font-size: 14.5px; }
+
+/* ---------- Aksi bawah & tombol ---------- */
+.aksi-bawah { margin-top: 22px; }
+
+.btn {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  letter-spacing: 0.03em;
+  padding: 13px 20px;
+  border-radius: var(--radius);
+  border: 1px solid transparent;
+  cursor: pointer;
+  width: 100%;
+}
+.btn.tersembunyi { display: none; }
+
+.btn-utama {
+  background: var(--navi);
+  color: var(--kertas);
+}
+.btn-utama:disabled {
+  background: var(--garis);
+  color: var(--tinta-pudar);
+  cursor: not-allowed;
+}
+.btn-utama:not(:disabled):hover { background: var(--navi-terang); }
+
+.btn-sekunder {
+  background: transparent;
+  border-color: var(--garis);
+  color: var(--tinta);
+  margin-top: 10px;
+}
+.btn-sekunder:hover { border-color: var(--navi); }
+
+/* ---------- Layar hasil ---------- */
+.kartu-skor {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  border: 1px solid var(--garis);
+  border-radius: var(--radius);
+  padding: 22px 22px 20px;
+  margin-bottom: 20px;
+}
+.skor-angka {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 34px;
+  font-weight: 600;
+  color: var(--navi);
+}
+.skor-keterangan {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  color: var(--tinta-pudar);
+}
+
+.rekap-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 28px;
+}
+.rekap-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14px;
+  padding: 10px 12px;
+  border-radius: var(--radius);
+  border: 1px solid var(--garis);
+}
+.rekap-item .tanda {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.rekap-item.rk-benar .tanda { color: var(--hijau); }
+.rekap-item.rk-salah .tanda { color: var(--merah); }
+
+@media (max-width: 480px) {
+  #app { padding: 28px 18px 56px; }
+  .kop h1 { font-size: 22px; }
+  .pertanyaan { font-size: 17.5px; }
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ruang Latihan Soal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="app">
+
+    <!-- ===== LAYAR 1: PILIH PAKET SOAL ===== -->
+    <section id="layar-pilih" class="layar">
+      <header class="kop">
+        <span class="kop-label">RUANG LATIHAN</span>
+        <h1>Pilih paket soal yang mau kamu kerjakan</h1>
+      </header>
+
+      <div id="daftar-paket" class="daftar-paket">
+        <!-- diisi otomatis oleh app.js dari config PAKET -->
+      </div>
+
+      <p id="status-muat" class="status-muat"></p>
+    </section>
+
+    <!-- ===== LAYAR 2: KERJAKAN SOAL ===== -->
+    <section id="layar-soal" class="layar tersembunyi">
+      <header class="kop-soal">
+        <button id="btn-keluar" class="tautan-kecil" type="button">&larr; Ganti paket</button>
+        <span id="judul-paket-aktif" class="judul-paket-aktif"></span>
+        <span id="nomor-progres" class="nomor-progres"></span>
+      </header>
+
+      <div class="garis-progres">
+        <div id="isi-progres" class="isi-progres"></div>
+      </div>
+
+      <article class="lembar">
+        <div class="lembar-kepala">
+          <span id="nomor-soal-stempel" class="stempel">SOAL 01</span>
+        </div>
+        <p id="teks-pertanyaan" class="pertanyaan"></p>
+        <div id="daftar-pilihan" class="daftar-pilihan"></div>
+
+        <div id="pembahasan" class="pembahasan tersembunyi">
+          <p id="teks-verdict" class="verdict"></p>
+          <p id="teks-pembahasan"></p>
+        </div>
+      </article>
+
+      <div class="aksi-bawah">
+        <button id="btn-jawab" class="btn btn-utama" type="button" disabled>Cek jawaban</button>
+        <button id="btn-lanjut" class="btn btn-utama tersembunyi" type="button">Soal berikutnya &rarr;</button>
+      </div>
+    </section>
+
+    <!-- ===== LAYAR 3: HASIL AKHIR ===== -->
+    <section id="layar-hasil" class="layar tersembunyi">
+      <header class="kop">
+        <span class="kop-label">HASIL</span>
+        <h1 id="judul-hasil">Selesai!</h1>
+      </header>
+
+      <div class="kartu-skor">
+        <span id="skor-angka" class="skor-angka">0/0</span>
+        <span id="skor-keterangan" class="skor-keterangan">benar</span>
+      </div>
+
+      <div id="rekap-list" class="rekap-list"></div>
+
+      <div class="aksi-bawah">
+        <button id="btn-ulangi" class="btn btn-utama" type="button">Acak &amp; ulangi paket ini</button>
+        <button id="btn-paket-lain" class="btn btn-sekunder" type="button">Pilih paket lain</button>
+      </div>
+    </section>
+
+  </div>
+
+<script src="app.js"></script>
+</body>
+</html>
