@@ -1,0 +1,225 @@
+{
+  "judul": "Paket Soal 3 - SSW PM + KJ",
+  "soal": [
+    {
+      "id": "p3-01",
+      "pertanyaan": "腸炎(ちょうえん)ビブリオは原因(げんいん)になりやすい食品(しょくひん)はどれですか。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "食肉(しょくにく)、牛肉(ぎゅうにく)、鶏卵(けいらん)",
+        "B": "海水(かいすい)にいる(魚介類)ぎょかいる、さしみ、すしなど",
+        "C": "食肉(しょくにく)、鶏肉(とりにく)、井戸水(いどみず)"
+      },
+      "jawaban": "B",
+      "pembahasan": "Vibrio parahaemolyticus adalah bakteri yang hidup di air laut. Sumber infeksi utamanya adalah makanan laut mentah atau setengah matang seperti sashimi dan sushi."
+    },
+    {
+      "id": "p3-02",
+      "pertanyaan": "サルモネラ属菌(ぞくきん)主な(おもな)症状(しょうじょう)はどれですか。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "発熱(はつねつ)、腹痛(ふくつう)、げしいて痢(げり)",
+        "B": "発熱(はつねつ)、腹痛(ふくつう)、下痢(げり)",
+        "C": "吐き気(はきけ)、おうと、腹痛(ふくつう)"
+      },
+      "jawaban": "B",
+      "pembahasan": "Gejala infeksi Salmonella meliputi demam, sakit perut, dan diare. Gejala biasanya muncul 12-72 jam setelah infeksi."
+    },
+    {
+      "id": "p3-03",
+      "pertanyaan": "黄色ブドウ(おうしょくブドウ)は原因 (げんいん) になりやすい食品 (しょくひん)はどれですか。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "米(こめ) や小麦(こむぎ)などを使って(つかって) 調理(ちょうり)した食品(しょくひん)",
+        "B": "手(て)や指(ゆび)に傷(きず)、おにぎり、すし、弁当(べんとう)など",
+        "C": "缶詰(かんづめ)、びんづめ"
+      },
+      "jawaban": "B",
+      "pembahasan": "Staphylococcus aureus sering ditemukan pada tangan/luka yang terinfeksi, dan makanan yang diolah dengan tangan seperti onigiri, sushi, dan bento."
+    },
+    {
+      "id": "p3-04",
+      "pertanyaan": "微生物検査 (びせいぶつけんさ)を自主的(じしゅてき)に行う(おこなう)場合 (ばあい)の一般的な (いっぱんてきな) 検査項目(けんさこうもく)はどれですか。 間違って(まちがって)ものを一つ選んで(えらんで)ください",
+      "pilihan": {
+        "A": "一般生菌数 (いっぱんせいきんすう)",
+        "B": "大腸菌 (だいちょうきん)",
+        "C": "ノロウイルス"
+      },
+      "jawaban": "C",
+      "pembahasan": "Pemeriksaan mikroba rutin yang dilakukan secara mandiri umumnya mencakup angka kuman umum dan E. coli. Norovirus tidak termasuk pemeriksaan rutin karena memerlukan metode khusus dan bukan indikator higiene umum."
+    },
+    {
+      "id": "p3-05",
+      "pertanyaan": "表示(ひょうじ)することが望まし(のぞまし)食品 (しょくひん)は何種類(しゅるい)がありますか。。 正しものを選んでください",
+      "pilihan": {
+        "A": "20種類(しゅるい)",
+        "B": "21種類(しゅるい)",
+        "C": "7種類(しゅるい)"
+      },
+      "jawaban": "B",
+      "pembahasan": "Jumlah bahan pangan yang dianjurkan untuk dicantumkan (表示推奨) ada 21 jenis."
+    },
+    {
+      "id": "p3-06",
+      "pertanyaan": "物理的危害要因(ぶつりてききがよういん)ケガの げんいんはどれですか。。 まちがっているものをひとつえらびなさい",
+      "pilihan": {
+        "A": "硬質(こうしつ)プラスチック",
+        "B": "交差汚染(こうさおせん)",
+        "C": "金属(きんぞく)、石(いし)、ガラス"
+      },
+      "jawaban": "B",
+      "pembahasan": "Bahaya fisik disebabkan oleh benda keras seperti plastik keras, logam, batu, dan kaca. Kontaminasi silang (交差汚染) adalah bahaya biologis, bukan fisik."
+    },
+    {
+      "id": "p3-07",
+      "pertanyaan": "安全(あんぜん)のための正しい(ただし)服装 (ふくそう)はなんですか。。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "刃物(はもの)やドライバーなどを、ポケットに入れて作業(さぎょう)しています",
+        "B": "タオルなどを首(くび)に巻いて(まいています",
+        "C": "作業(さぎょう)をするときは、決められた安全(あんぜん)な服装(ふくそう)作業(さぎょう)を着用(ちゃくよう)します"
+      },
+      "jawaban": "C",
+      "pembahasan": "Pakaian kerja yang benar adalah yang telah ditentukan dan aman. Membawa benda tajam di kantong atau memakai handuk di leher justru berbahaya."
+    },
+    {
+      "id": "p3-08",
+      "pertanyaan": "作業手順(さぎょうてじゅん)はどういう意味(いみ)ですか。。 まちがっているものをひとつえらびなさい",
+      "pilihan": {
+        "A": "作業場(さぎょうじょう)で決められていることを守って(まもって)",
+        "B": "よい製品(せいひん)を作る(つくる)ためだけでなく、働く(はたらく)人たちが危険(きけん)を避ける(さける)",
+        "C": "決められた作業手順(さぎょうてじゅん)を守って(まもって)"
+      },
+      "jawaban": "A",
+      "pembahasan": "Prosedur kerja (作業手順) bukan hanya soal menaati aturan di tempat kerja, tetapi juga untuk menghasilkan produk yang baik dan menghindari bahaya bagi pekerja. Pernyataan A tidak lengkap/tepat sebagai definisi."
+    },
+    {
+      "id": "p3-09",
+      "pertanyaan": "人たちが労働災害(ろうどうさいがい)が起こり (おこり)やすいときはどんな人ですか。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "経験(けいけん)が長い(ながい)人達(ひとたち)",
+        "B": "経経験(けいけん)が少い(すくない)人達(ひとたち)",
+        "C": "長く(ながく)働いて(はたらいて)います"
+      },
+      "jawaban": "B",
+      "pembahasan": "Kecelakaan kerja lebih rentan terjadi pada pekerja yang kurang berpengalaman."
+    },
+    {
+      "id": "p3-10",
+      "pertanyaan": "この人はどうしてですか。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "はされ・巻き込まれ(まきこまれ)",
+        "B": "転倒(てんとう)",
+        "C": "こすれ擦り傷(すりきず)"
+      },
+      "jawaban": "A",
+      "pembahasan": "Berdasarkan gambar, pekerja tersebut mengalami risiko terjepit/tergulung (はさまれ・巻き込まれ) oleh mesin."
+    },
+    {
+      "id": "p3-11",
+      "pertanyaan": "転倒(てんとう)防止(ぼうし)のためにはなんですか。。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "床(ゆか)が濡れて(ぬれて)いたら、きちんと拭き取ります(ふきとります)",
+        "B": "床(ゆか)が濡れて(ぬれて)いたらすぐに 機会(きかい)を止めます(とめます)",
+        "C": "足元(あしもと)気をつけて走ります(はしります)"
+      },
+      "jawaban": "A",
+      "pembahasan": "Untuk mencegah terpeleset/terjatuh, lantai yang basah harus segera dilap hingga kering. Berlari di area kerja justru meningkatkan risiko terjatuh."
+    },
+    {
+      "id": "p3-12",
+      "pertanyaan": "(切れ。こすれ) の防止(ぼうし) はなんですか。 まちがっているものをひとつえらびなさい",
+      "pilihan": {
+        "A": "作業中(さぎょうちゅう)の包丁(ほうちょう)は置き方(おきかた)や置き場所(おきばしょ)の安全(あんぜん)を確認(かくにん)します",
+        "B": "使い終わった(おわった)包丁(ほうちょう)5エス整理(せいり)、(せいとん)、清潔(せいけつ)、習慣(しゅうかん)を徹底(てってい)して、きちんと片付けます(かたづけます)",
+        "C": "包丁(ほうちょう)はそのままにしておきます"
+      },
+      "jawaban": "C",
+      "pembahasan": "Pisau (包丁) tidak boleh dibiarkan begitu saja setelah digunakan. Harus dirapikan dan disimpan dengan aman untuk mencegah luka."
+    },
+    {
+      "id": "p3-13",
+      "pertanyaan": "熱中症(ねっちゅしょう)の症状(しょうじょう)は なんですか。。 まちがっているものをひとつえらびなさい",
+      "pilihan": {
+        "A": "倦怠感(けんたいかん)",
+        "B": "指(ゆび)がいたい",
+        "C": "虚脱感(きよだつかん)やる気が出ない"
+      },
+      "jawaban": "B",
+      "pembahasan": "Gejala heat stroke (熱中症) meliputi rasa lelah, kelemahan, dan kehilangan motivasi. Nyeri pada jari (指が痛い) bukan gejala heat stroke."
+    },
+    {
+      "id": "p3-14",
+      "pertanyaan": "重い(おもい)熱中症(ねっちゅしょう)の症状 (しょうじょう)はなんですか。。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "体(からだ)が寒い(さむい)",
+        "B": "目(め)の前(まえ)が白(しろ)くなって、何もわからなくなって、倒れる (たおれる)",
+        "C": "足(あし)がいたい"
+      },
+      "jawaban": "B",
+      "pembahasan": "Gejala heat stroke berat adalah pandangan memutih, kehilangan kesadaran, dan pingsan."
+    },
+    {
+      "id": "p3-15",
+      "pertanyaan": "熱中症(ねっちゅしょう)の症状(しょうじょう)への対応(たいおう)はどうしたらいいですか。 まちがっているものをひとつえらびなさい",
+      "pilihan": {
+        "A": "熱い(あつい)場所(ばしょ)に 避難(ひなん)しています",
+        "B": "涼しい(すずしい)場所(ばしょ)に移動(いどう)させます",
+        "C": "衣服(いふく)をゆるめて、体(からだ)を冷やします(ひやします)"
+      },
+      "jawaban": "A",
+      "pembahasan": "Jika ada gejala heat stroke, pindahkan ke tempat yang sejuk, longgarkan pakaian, dan dinginkan tubuh. Membiarkan di tempat panas adalah tindakan yang salah."
+    },
+    {
+      "id": "p3-16",
+      "pertanyaan": "異常事態(いじょうじたい)の例(れい)はなんですか。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "赤い(あかい)ランプがついていません",
+        "B": "レバーがぐらぐらします",
+        "C": "青い(あおい)ランプがついています"
+      },
+      "jawaban": "B",
+      "pembahasan": "Contoh keadaan abnormal adalah tuas (レバー) yang goyah/tidak stabil. Lampu merah tidak menyala atau lampu biru menyala belum tentu menunjukkan keadaan abnormal."
+    },
+    {
+      "id": "p3-17",
+      "pertanyaan": "いつでも職場(しょくば)のルールを守って(まもって)行動(こうどう)できるようにするそれは何の活動(かつどう)ですか。。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "整理(せいり)",
+        "B": "習慣(しゅうかん)",
+        "C": "整頓(せいとん)"
+      },
+      "jawaban": "B",
+      "pembahasan": "Selalu menaati aturan tempat kerja dan bertindak sesuai aturan adalah wujud dari 'Shuukan' (習慣) atau pembiasaan diri."
+    },
+    {
+      "id": "p3-18",
+      "pertanyaan": "必要(ひつよう)なものは保管(ほかん)して不要(ふよう)なものを捨てる (すてる)それは何の活動(かつどう)ですか。。 正しものを一つ選んで(えらんで)ください",
+      "pilihan": {
+        "A": "整理(せいり)",
+        "B": "清掃(せいそう)",
+        "C": "しつけ"
+      },
+      "jawaban": "A",
+      "pembahasan": "Menyimpan barang yang diperlukan dan membuang barang yang tidak diperlukan adalah definisi dari 'Seiri' (整理)."
+    },
+    {
+      "id": "p3-19",
+      "pertanyaan": "必要(ひつよう)なものが取り出し(とりだし)やすいように、置く(おく)場所(ばしょ)を決めて(きめて) おくそれは何の活動(かつどう)ですか。。 正しものを一つ選んで(えらんで)ください",
+      "pilihan": {
+        "A": "清潔(せいけつ)",
+        "B": "整頓(せいとん)",
+        "C": "習慣(しゅうかん)"
+      },
+      "jawaban": "B",
+      "pembahasan": "Menentukan tempat penyimpanan agar barang yang diperlukan mudah diambil adalah definisi dari 'Seiton' (整頓)."
+    },
+    {
+      "id": "p3-20",
+      "pertanyaan": "作業場(さぎょうじょう)とその周辺(しゅうへん)をいつもきれいに掃除 (そうじ)するそれは何の活動(かつどう)ですか。。 正しものを選んでください",
+      "pilihan": {
+        "A": "清潔(せいけつ)",
+        "B": "整頓(せいとん)",
+        "C": "清掃(せいそう)"
+      },
+      "jawaban": "C",
+      "pembahasan": "Selalu membersihkan tempat kerja dan sekitarnya adalah definisi dari 'Seiso' (清掃)."
+    }
+  ]
+}
