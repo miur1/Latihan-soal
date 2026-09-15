@@ -1,1 +1,226 @@
-
+{
+  "judul": "Paket Soal 6 - SSW PM + KJ",
+  "soal": [
+    {
+      "id": "p6-01",
+      "pertanyaan": "安全(あんぜんな)食品(しょくひん)を作るための 全体像(ぜんたいぞう)ではどれですか。 まちがっているものひとつえらびなさい",
+      "pilihan": {
+        "A": "安全(あんぜんな)原材料(げんざいりょう)の受入(うけいれ)",
+        "B": "微生物(せいぶつ)の増殖(ぞうしょく)を殺さない(ころさない)",
+        "C": "きれいな製造環境(せいぞうかんきょう)"
+      },
+      "jawaban": "B",
+      "pembahasan": "Dalam pembuatan pangan yang aman, mikroba harus dikendalikan atau dibunuh. 'Tidak membunuh mikroba' adalah pernyataan yang salah karena justru mikroba harus dikendalikan."
+    },
+    {
+      "id": "p6-02",
+      "pertanyaan": "食中毒(しょくちゅうどく)の原因(げんいん)のひとつまちがっているものをえらびなさい。。",
+      "pilihan": {
+        "A": "微生物(びせいぶつ)",
+        "B": "細菌(さいきん)",
+        "C": "風味(ふうみ)"
+      },
+      "jawaban": "C",
+      "pembahasan": "Penyebab keracunan makanan adalah mikroba (bakteri, virus, parasit) dan toksin. 'Cita rasa' (風味) bukanlah penyebab keracunan makanan."
+    },
+    {
+      "id": "p6-03",
+      "pertanyaan": "ポツリヌス菌(きん)では主な(おもな) 症状(しょうじょう)はどれか。。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "吐き気(はきけ)、おうと、呼吸困難(こきゅうこんなん)",
+        "B": "吐き気(はきけ)、おうと、腹痛(ふくつう)",
+        "C": "吐き気(はきけ)、おうと"
+      },
+      "jawaban": "A",
+      "pembahasan": "Gejala keracunan Clostridium botulinum meliputi mual, muntah, dan yang paling khas adalah gangguan pernapasan (呼吸困難) akibat kelumpuhan otot."
+    },
+    {
+      "id": "p6-04",
+      "pertanyaan": "ポツリヌス菌の主な(おもな)予防対策(よぼうたいさく)どれですか。。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "120℃以上(いじょう)、4分以上(いじょう)加熱(かねつ)します",
+        "B": "120℃以上(いじょう)、4秒以上(いじょう)加熱(かねつ)します",
+        "C": "100℃以上(いじょう)、4分以上(いじょう)加熱します",
+        "D": "80℃以上(いじょう)、4分以上(いじょう)加熱(かねつ)します."
+      },
+      "jawaban": "A",
+      "pembahasan": "Spora Clostridium botulinum sangat tahan panas dan hanya dapat dibunuh dengan pemanasan pada suhu 120°C selama minimal 4 menit (retort)."
+    },
+    {
+      "id": "p6-05",
+      "pertanyaan": "働(はたらく)人の衛生管理(えいせいかんり)、自分(じぶん)でしっかり衛生 管理(えいせいかんり)をします。 まちがっているものを一つえらびなさい",
+      "pilihan": {
+        "A": "いつも清潔(せいけつ)ない",
+        "B": "ていきてきに頭髪(とうはつ)をあらいます",
+        "C": "爪(つめ)などを伸(のばさ)ないようにします"
+      },
+      "jawaban": "A",
+      "pembahasan": "Manajemen higiene pekerja yang benar adalah selalu menjaga kebersihan diri, mencuci rambut secara teratur, dan tidak memanjangkan kuku. 'Tidak selalu bersih' adalah pernyataan yang salah."
+    },
+    {
+      "id": "p6-06",
+      "pertanyaan": "症状(しょうじょう)があって体調(たいちょう)が悪 (わるい)ときは、どうせればいいですか。 正しいものをえらびなさい",
+      "pilihan": {
+        "A": "必(かならず)自分(じぶん)の職場(しょくば)の責任者(せきにんしゃ)に ほうこくする",
+        "B": "必(かならず)自分(じぶん)の職場(しょくば)の警察(けいさつ)にほうこ くする",
+        "C": "アパトに戻(もどる) "
+      },
+      "jawaban": "A",
+      "pembahasan": "Jika merasa tidak enak badan atau memiliki gejala penyakit, wajib melaporkan kepada penanggung jawab di tempat kerja."
+    },
+    {
+      "id": "p6-07",
+      "pertanyaan": "整理(せいり)によると労働安全(ろうどうあんぜん)と関係(かんけい)につ いてはなんですか。 ただしいものを一つえらびなさい",
+      "pilihan": {
+        "A": "作業効率(さぎょうこうりつ)があがって、転倒(てんとう)などの 危険 (きけん)が減る(へる)",
+        "B": "いつでも職場(しょくば)のルールを守ること",
+        "C": "作業(さぎょう)するとき守る(まもる)こと"
+      },
+      "jawaban": "A",
+      "pembahasan": "Seiri (整理) meningkatkan efisiensi kerja dan mengurangi bahaya seperti terpeleset/terjatuh."
+    },
+    {
+      "id": "p6-08",
+      "pertanyaan": "異物混入いぶつこんにゅうでとくに多いのはなんですか 正しいものを一つえらびなさい",
+      "pilihan": {
+        "A": "ガラス",
+        "B": "金属(きんぞく)",
+        "C": "毛髪(もうはつ)と虫(むし)"
+      },
+      "jawaban": "C",
+      "pembahasan": "Kontaminasi benda asing yang paling sering terjadi adalah rambut (毛髪) dan serangga (虫)."
+    },
+    {
+      "id": "p6-09",
+      "pertanyaan": "新型(しんがた)コロナウイルス感染症(かんせんしょう) (COVID-19) 食品工 場(しょくひんこうじょう)で 予防(よぼう)どれですか。。 まちがっているものを一つえらびなさい",
+      "pilihan": {
+        "A": "ドアノブ、たくさんの人が触(さわる)場所(ばしょ)をしょどくしませ ん",
+        "B": "食堂しょくどう、事務室じむしつは、ていきてきに空気(くうき)を入 れ換(かえます)",
+        "C": "更衣室(こういしつ)ていきてきに空気(くうき)を入れ換(かえます)"
+      },
+      "jawaban": "A",
+      "pembahasan": "Pencegahan COVID-19 di pabrik makanan meliputi desinfeksi gagang pintu dan area yang sering disentuh. 'Tidak mendisinfeksi' adalah tindakan yang salah."
+    },
+    {
+      "id": "p6-10",
+      "pertanyaan": "原材料(げんざいりょう)の受入(うけいれ)のけっかは、その後(ご)の製造工 程(せいぞうこうてい)でどのように対応(たいおう)するかを判断(はんだん) するための じゅうようなデータになりますなんですか。 正しいものを一つえらびなさい",
+      "pilihan": {
+        "A": "原材料(げんざいりょう)の管理(かんり)",
+        "B": "受入(うけいれ)検査(けんさ)",
+        "C": "健康(けんこう)の管理(かんり)"
+      },
+      "jawaban": "B",
+      "pembahasan": "Hasil penerimaan bahan baku merupakan data penting dari pemeriksaan penerimaan (受入検査) untuk menentukan penanganan pada proses produksi selanjutnya."
+    },
+    {
+      "id": "p6-11",
+      "pertanyaan": "(かんり)についてどれか。。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "冷凍庫(れいとうこ), -15℃以下(いか) 一 冷蔵庫(れいぞうこ)が 10℃以 下(いか)",
+        "B": "冷凍庫(れいとうこ), 10℃以下(いか) 一 冷蔵庫(れいぞうこ)が 10℃以下 (いか)",
+        "C": "冷凍庫(れいとうこ), 15℃以下(いか) 一 冷蔵庫(れいぞうこ)が-10℃以下 (いか)"
+      },
+      "jawaban": "A",
+      "pembahasan": "Suhu standar freezer adalah -15°C atau lebih rendah, dan lemari es adalah 10°C atau lebih rendah."
+    },
+    {
+      "id": "p6-12",
+      "pertanyaan": "凍結工程(とりつつこうてい)すると、食感(しょっかん)や風味(ふうみ)など が変化(へんか)、ひんしつが劣化 (れっか)します、防(ふせぐ)ためにはなんですか。。 まちがっているものをえらびなさい",
+      "pilihan": {
+        "A": "できるだけ低温(ていおん)にほぞんします",
+        "B": "食品(しょくひん)がゆっくり凍結(とりつつ)させます",
+        "C": "短時間(たんじかん)で急速(きゅうそく)に凍結(とりつつ)させます"
+      },
+      "jawaban": "B",
+      "pembahasan": "Untuk mencegah penurunan kualitas akibat pembekuan, makanan harus dibekukan dengan cepat (cepat beku), bukan perlahan-lahan."
+    },
+    {
+      "id": "p6-13",
+      "pertanyaan": "X 線(せん)異物検出器(いぶつけんしゅつき)することができますなんです か。 まちがっているものをえらびなさい",
+      "pilihan": {
+        "A": "石(いし)",
+        "B": "ガラス",
+        "C": "金属(きんぞく)"
+      },
+      "jawaban": "C",
+      "pembahasan": "Detektor sinar-X dapat mendeteksi benda asing seperti batu, kaca, tulang, dan plastik keras. Logam juga dapat dideteksi, tetapi biasanya logam dideteksi oleh detektor logam. Dalam konteks 'X線異物検出器', yang paling tepat adalah mendeteksi non-logam. Namun pertanyaan meminta 'yang salah', dan logam justru juga bisa dideteksi. Yang paling tepat sebagai 'salah' adalah jika ada yang menganggap X-ray hanya untuk logam. Di sini opsi C (logam) dianggap sebagai jawaban yang salah karena X-ray utamanya mendeteksi non-logam."
+    },
+    {
+      "id": "p6-14",
+      "pertanyaan": "期限表示(きげんひょうじ)について ケアレスミスをしなしためになんですか まちがっているものを一つえらんでください",
+      "pilihan": {
+        "A": "ロットナンバーを包装(ほうそう)ラインに掲示(けいじ)する",
+        "B": "消費期限(しょうひきげん)や賞味期限(しょうみきげん)の期限表示(き げんひょうじ)のミスでけです",
+        "C": "その日の賞味期限(しょうみきげん)記録(きろく)としてのこしておく"
+      },
+      "jawaban": "B",
+      "pembahasan": "Untuk mencegah kesalahan penulisan tanggal kedaluwarsa, langkah yang benar adalah menampilkan nomor lot di lini pengemasan dan mencatat tanggal kedaluwarsa harian. 'Kesalahan penulisan tanggal' bukanlah tindakan pencegahan, melainkan masalah yang harus dicegah."
+    },
+    {
+      "id": "p6-15",
+      "pertanyaan": "微生物検査(びせいぶつけんさ)を自主的(じしゅてき)に行(おこなう)場合 (ばあい)の一般的いっぱんてきな検査項目(けんさこうもく)は何ですか。。 まちがっているものを一つえらびなさい",
+      "pilihan": {
+        "A": "大腸菌(たいちょうきん)",
+        "B": "サルモネラ属菌(ぞくきん)",
+        "C": "大腸菌群(たいちょうきんぐん)"
+      },
+      "jawaban": "B",
+      "pembahasan": "Pemeriksaan mikroba rutin yang dilakukan secara mandiri umumnya mencakup E. coli dan koliform. Salmonella bukanlah pemeriksaan rutin umum, melainkan pemeriksaan khusus."
+    },
+    {
+      "id": "p6-16",
+      "pertanyaan": "保管(ほかん)サンプルの管理(かんり)はどれですか ただしいものを一つえらびなさい",
+      "pilihan": {
+        "A": "定期的(ていきてき)に温度(おんど)かくにんします",
+        "B": "クレームが発生(はっせい)した場合(ばあい)に備(そな)えて、製造した 製品の中から、一定(いってい)の割合(わりあい)",
+        "C": "無機物(むきぶつ)保管(ほかん)します"
+      },
+      "jawaban": "B",
+      "pembahasan": "Sampel simpan (保管サンプル) disimpan untuk berjaga-jaga jika terjadi keluhan (klaim) dari konsumen, dengan mengambil sebagian produk yang diproduksi."
+    },
+    {
+      "id": "p6-17",
+      "pertanyaan": "製品せいひんを輸送(ゆそう)するときはまちがっているものを一つ選んで えらんでください",
+      "pilihan": {
+        "A": "定期的(ていきてき)に温度(おんど)を確認(かくにん)します",
+        "B": "温度(おんど)管理(かんり)を徹底(てってい)しなければなりません",
+        "C": "製品(せいひん)が残(のこ)りません"
+      },
+      "jawaban": "C",
+      "pembahasan": "Saat mengangkut produk, suhu harus dipantau secara berkala dan manajemen suhu harus dilakukan dengan ketat. 'Produk tidak tersisa' bukanlah prosedur transportasi."
+    },
+    {
+      "id": "p6-18",
+      "pertanyaan": "特定原材料(とくていげんざいりょう)として表示 (ひょうじ)する義務(ぎむ)がある食品(しょくひん)どれですか。 正しいものを一つえらびなさい",
+      "pilihan": {
+        "A": "えび、かに、こむぎ、そば、たまご、にゅう、らっかせい",
+        "B": "かに、えび、くるみ、ごま、さけ、さば、らっかせい",
+        "C": "あわび、いか、いくら、まつたけ、もも、そば、りんご、らっかせい"
+      },
+      "jawaban": "A",
+      "pembahasan": "Bahan pangan yang wajib dicantumkan (特定原材料) ada 7 jenis: udang, kepiting, gandum, soba, telur, susu, dan kacang tanah."
+    },
+    {
+      "id": "p6-19",
+      "pertanyaan": "交差汚染(こうさおせん)の方法(ほうほう)防止 (ぼうし)しますどれですか。 まちがっているものをひとつえらびなさい",
+      "pilihan": {
+        "A": "器具(きぐ)の使い(つかい)分け(わけ)",
+        "B": "原材料(げんざいりょう)の区分(くぶん)と保管(ほかん)",
+        "C": "容器(ようき)の工夫(くふう)"
+      },
+      "jawaban": "C",
+      "pembahasan": "Pencegahan kontaminasi silang meliputi pemisahan alat, pemisahan dan penyimpanan bahan baku. 'Modifikasi wadah' (容器の工夫) bukanlah tindakan pencegahan kontaminasi silang secara langsung."
+    },
+    {
+      "id": "p6-20",
+      "pertanyaan": "薬剤(やくざい)の管理(かんり)三つがあります、なんですか。 正しいものをえらびなさい",
+      "pilihan": {
+        "A": "専用(せんよう)の保管(ほかん)場所(ばしょ)、入出庫台帳(にゅうしゅっ こだいちょう)のきろく、低温(ていおん)の保管(ほかん)します",
+        "B": "専用(せんよう)の保管(ほかん)場所(ばしょ)、入出庫台帳(にゅうしゅっ こだいちょう)のきろく、容器(ようき)の工夫(くふう)",
+        "C": "入出庫台帳(にゅうしゅっこだいちょう)のきろく、容器(ようき)の工夫 (くふう)、保管(ほかん)サンプルの管理(かんり)"
+      },
+      "jawaban": "A",
+      "pembahasan": "Manajemen bahan kimia (薬剤) mencakup: tempat penyimpanan khusus, pencatatan keluar-masuk (buku catatan), dan penyimpanan pada suhu rendah."
+    }
+  ]
+}
