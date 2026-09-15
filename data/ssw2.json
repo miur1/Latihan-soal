@@ -1,1 +1,225 @@
-
+{
+  "judul": "Paket Soal 2 - SSW PM + KJ",
+  "soal": [
+    {
+      "id": "p2-01",
+      "pertanyaan": "ノロウイルスを殺す(ころす)ために。 加熱温度(かねつおんど)と時間(じかん)何(なん)C°ですか。ただしもの をひとつえらびなさい",
+      "pilihan": {
+        "A": "5°C～90秒以上(びょういじょう)",
+        "B": "85°C-90°C～90秒以上(びょういじょう)",
+        "C": "80°C-85°C～90秒以上(びょういじょう)"
+      },
+      "jawaban": "B",
+      "pembahasan": "Norovirus dapat dinonaktifkan dengan pemanasan pada suhu 85°C-90°C selama setidaknya 90 detik."
+    },
+    {
+      "id": "p2-02",
+      "pertanyaan": "ほとんど微生物(びせいぶつ)は何(なん)C°急速 (きゅうそく)に増殖(ぞうしょく)しますか。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "35℃以下(いか) - 40℃以下(いか)で",
+        "B": "30℃ - 40℃間(あいだ)で",
+        "C": "30℃ - 40℃以下(いか)で"
+      },
+      "jawaban": "B",
+      "pembahasan": "Sebagian besar mikroba tumbuh dengan cepat pada kisaran suhu 30°C hingga 40°C."
+    },
+    {
+      "id": "p2-03",
+      "pertanyaan": "金属検出器(きんぞくけんしゅっき)、X 線異物検出器(X いぶつけんしゅ つき)、期限表示(きげんひょうじ)の管理(かんり)は何(なん)の工程(こう てい)ですか。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "凍結工程(とうけつこうてい)",
+        "B": "包装工程(ほうそうこうてい)",
+        "C": "製造工程(せいぞうこうてい)"
+      },
+      "jawaban": "B",
+      "pembahasan": "Detektor logam, detektor sinar-X, dan manajemen tanggal kedaluwarsa adalah bagian dari proses pengemasan (packaging process)."
+    },
+    {
+      "id": "p2-04",
+      "pertanyaan": "腸炎(ちょうえん)ビブリオ原因(げんいん)になりやすい食品はどれです か。 正しいものをひとつえらびなさい",
+      "pilihan": {
+        "A": "野菜(やさい)、食肉(しょくにく)、鶏肉(とりにく)、いどみずなど",
+        "B": "海水( かいすい )にいる魚介類(ぎょかいるい) 刺し身(さしみ)、すしな ど",
+        "C": "鶏肉(とりにく)、鶏卵(けいらん)、刺し身(さしみ)、すしなど"
+      },
+      "jawaban": "B",
+      "pembahasan": "Vibrio parahaemolyticus sering ditemukan pada makanan laut mentah atau setengah matang seperti sashimi dan sushi."
+    },
+    {
+      "id": "p2-05",
+      "pertanyaan": "カンピロバクター主な(おもな)症状(しょうじょう)はどれですか。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "発熱(はつねつ)、腹痛(ふくつう)、下痢(げり)",
+        "B": "発熱(はつねつ)、腹痛(ふくつう)、げしいて下痢(げり)",
+        "C": "吐き気(はきけ)、おうと、腹痛(ふくつう)"
+      },
+      "jawaban": "A",
+      "pembahasan": "Gejala infeksi Campylobacter meliputi demam, sakit perut, dan diare."
+    },
+    {
+      "id": "p2-06",
+      "pertanyaan": "作業場(さぎょうじょう)に入(はいる)まえに なんで毛髪(もうはつ)やほこりなどを落(おとしますか)。ただしものを ひとつえらびなさい",
+      "pilihan": {
+        "A": "粘着(ねんちゃくローラー)やエアタオル",
+        "B": "エアーシャワや粘着(ねんちゃくローラー)",
+        "C": "エアタオルやヘアーネット"
+      },
+      "jawaban": "B",
+      "pembahasan": "Sebelum masuk ke area produksi, gunakan air shower dan roller perekat untuk menghilangkan rambut dan debu."
+    },
+    {
+      "id": "p2-07",
+      "pertanyaan": "作業(さぎょう)のまえに何なにをしなければなりませんか。 まちがっているものをひとつえらびなさい",
+      "pilihan": {
+        "A": "作業(さぎょう)の確認(かくにん)",
+        "B": "器具(きぐ)装置(そうち)機械(きかい)などの使用前(しょうまえ)の確 認(かくにん)",
+        "C": "器具(きぐ)装置(そうち)機械(きかい)などのそのままにする"
+      },
+      "jawaban": "C",
+      "pembahasan": "Sebelum bekerja, peralatan dan mesin harus diperiksa. Membiarkannya begitu saja (そのままにする) adalah tindakan yang salah."
+    },
+    {
+      "id": "p2-08",
+      "pertanyaan": "指(ゆび)で指さしながら,その名称(めいしょう)や状態(じょうたい)を声(こ え)に出だして言(いいます)それはなんの意味(いみ)ですか。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "合図(あいず)を確実(かくじつ)",
+        "B": "指差呼称(しさこしょう)",
+        "C": "機械(きかい)を操作(そうさ)するとき"
+      },
+      "jawaban": "B",
+      "pembahasan": "Menunjuk dan menyebutkan nama serta kondisi objek disebut 'Shisa Koshou' (pointing and calling), yang bertujuan untuk meningkatkan kesadaran dan mengurangi kesalahan."
+    },
+    {
+      "id": "p2-09",
+      "pertanyaan": "作業中(さぎょうちゅう)の注意事項(ちゅういじこう)について。 まちがっているものをひとつえらびなさい",
+      "pilihan": {
+        "A": "よそ見(み)をしてはいけません",
+        "B": "指差呼称(しさこしょう)してはいけません",
+        "C": "ムダ話(はなし)をしてはいけません"
+      },
+      "jawaban": "B",
+      "pembahasan": "Selama bekerja, kita tidak boleh melihat ke tempat lain atau mengobrol. Namun, melakukan 'Shisa Koshou' (pointing and calling) justru dianjurkan, bukan dilarang."
+    },
+    {
+      "id": "p2-10",
+      "pertanyaan": "これは機械(きかい)を操作(そうさ)するについて 何なにをしなければなりませんか。。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "運転方法(うてんほうほう)がわからないときは操作(そうさ)しても ういいです",
+        "B": "絶対(ぜったい)手(て)を入れてはいけません",
+        "C": "機械(きかい)の下(した)にくぐってもういいです"
+      },
+      "jawaban": "B",
+      "pembahasan": "Saat mengoperasikan mesin, dilarang keras memasukkan tangan ke dalam area mesin yang berbahaya."
+    },
+    {
+      "id": "p2-11",
+      "pertanyaan": "加熱 (かねつ)したものや、冷却(れいきゃく)したものはどうしたらいいで すか。。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "長(ながく)室温(しつおん)で放置(ほうち)します",
+        "B": "長(ながく)高温(こうおん)で保管(ほかん)します",
+        "C": "長(ながく)室温(しつおん)で放置(ほうち)してはいけません"
+      },
+      "jawaban": "C",
+      "pembahasan": "Makanan yang telah dipanaskan atau didinginkan tidak boleh dibiarkan terlalu lama pada suhu ruangan karena dapat menyebabkan pertumbuhan bakteri."
+    },
+    {
+      "id": "p2-12",
+      "pertanyaan": "製品(せいひん) に異常(いじょう)を発見(はっけん)したときは 何なにをし たらいいですか。。 まちがっているものをひとつえらびなさい",
+      "pilihan": {
+        "A": "すぐに仕事(しごと)つづけます",
+        "B": "すぐに製造(せいぞう)ラインを止めて(とめて)",
+        "C": "すぐに責任者(せきにんしゃ)に報告(ほうこく)します"
+      },
+      "jawaban": "A",
+      "pembahasan": "Jika menemukan kelainan pada produk, jangan melanjutkan pekerjaan. Hentikan lini produksi dan laporkan kepada penanggung jawab."
+    },
+    {
+      "id": "p2-13",
+      "pertanyaan": "整理(せいり)、整頓(せいとん)清掃(せいそう)などによって、職場(しょく ば)をいつも汚(よごれ)がない 状態(じょうたい)に保(たもちます)それは何なんの意味(いろみ)ですか。。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "清掃(せいそう)",
+        "B": "整理(せいり)",
+        "C": "清潔(せいけつ)"
+      },
+      "jawaban": "C",
+      "pembahasan": "Menjaga tempat kerja tetap bersih melalui Seiri, Seiton, dan Seiso adalah definisi dari 'Seiketsu' (清潔)."
+    },
+    {
+      "id": "p2-14",
+      "pertanyaan": "窓(まど)やドアを閉しめたままで、空気(くうき)を入(いれ)換(かえない) とは何な人の意味(いろ)ですか。。ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "密集(みっしゅう)",
+        "B": "密閉(みっぺい)",
+        "C": "密接(みっせつ)"
+      },
+      "jawaban": "B",
+      "pembahasan": "Menutup jendela dan pintu serta tidak mengganti udara adalah definisi dari 'Mippei' (密閉)."
+    },
+    {
+      "id": "p2-15",
+      "pertanyaan": "衛生上 (えいせいじょう) の 注意事項 (ちゅういじこう) についてどれです か。。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "間違っている(まちがっている)方法(ほうほう)で手をあらいます",
+        "B": "汚染区(おせんく)と 非汚染区(ひおせんく)をはっきりと区別(くべつ) します",
+        "C": "頭髪(とうはつ)や鼻(はな)などに触れた手で作業(さぎょう)をしなけれ ばなりません"
+      },
+      "jawaban": "B",
+      "pembahasan": "Praktik higiene yang benar adalah membedakan dengan jelas antara area terkontaminasi dan area bersih."
+    },
+    {
+      "id": "p2-16",
+      "pertanyaan": "冷凍庫(れいとうこ), 冷蔵庫(れいぞうこ)の管理 (かんり)についてどれか。。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "冷凍庫 (れいとうこ), -10℃以下(いか) 一 冷蔵庫 (れいぞうこ)が 15℃以 下(いか)",
+        "B": "冷凍庫 (れいとうこ), -15℃以下(いか) 一 冷蔵庫 (れいぞうこ)が 10℃以 下(いか)",
+        "C": "冷凍庫(れいとうこ), 15℃以下(いか) 一 冷蔵庫 (れいぞうこ)が-10℃以下 (いか)"
+      },
+      "jawaban": "B",
+      "pembahasan": "Suhu standar untuk freezer adalah -15°C atau lebih rendah, dan untuk lemari es adalah 10°C atau lebih rendah."
+    },
+    {
+      "id": "p2-17",
+      "pertanyaan": "食肉 (しょくにく)と魚介類(ぎょかいるい)の保管温度 (ほかんおんど)の規 定(きてい)はどれですか。。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "-4° C 以下(いか)です",
+        "B": "4° C 以上(いじょう)です",
+        "C": "4° C 以下(いか)です"
+      },
+      "jawaban": "C",
+      "pembahasan": "Daging dan makanan laut harus disimpan pada suhu 4°C atau lebih rendah."
+    },
+    {
+      "id": "p2-18",
+      "pertanyaan": "特定原材料(とくていげんざいりょう)として表示(ひょうじ)する 義務(き む)がある食品(しょくひん)どれですか。 正しものを一つ選んで(えらんで)ください",
+      "pilihan": {
+        "A": "エビ、カニ、こむぎ、そば、たまご、にゅう、らっかせい",
+        "B": "とりにく、カニ、こむぎ、そば、たまご、にゅう、ふっかせい",
+        "C": "とりにく、あわび、こむぎ、そば、たまご、にゅう、ふっかかせい"
+      },
+      "jawaban": "A",
+      "pembahasan": "Bahan-bahan yang wajib dicantumkan (特定原材料) adalah: udang, kepiting, gandum, soba, telur, susu, dan kacang tanah."
+    },
+    {
+      "id": "p2-19",
+      "pertanyaan": "原材料(げんざいりょう)区分(くぶん)と保管 (ほかん)についてどれか。。 間違って(まちがって)ものを一つ選んで(えらんで)ください",
+      "pilihan": {
+        "A": "含まない(ふくまない)原材料(げんざいりょう)と区分(くぶん)して保 管(ほかん)します",
+        "B": "原材料(げんざいりょう)はしっかり洗浄(せんじょう)します",
+        "C": "ほかの 原材料 (げんざいりょう)などの上に重ねて (かさねて)はいけま せん"
+      },
+      "jawaban": "B",
+      "pembahasan": "Bahan baku tidak selalu harus dicuci bersih (misalnya tepung, minyak). Oleh karena itu, pernyataan 'B' tidak selalu benar sebagai aturan umum penyimpanan dan pemisahan bahan."
+    },
+    {
+      "id": "p2-20",
+      "pertanyaan": "HACCP には何つの原則 (げんそく)がありますか。。 正しものを選んでください",
+      "pilihan": {
+        "A": "3つの原則 (げんそく)",
+        "B": "4つの原則 (げんそく)",
+        "C": "7つの原則 (げんそく)"
+      },
+      "jawaban": "C",
+      "pembahasan": "HACCP memiliki 7 prinsip utama."
+    }
+  ]
+}
