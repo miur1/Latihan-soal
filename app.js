@@ -1,38 +1,72 @@
 /* =========================================================
-   KONFIGURASI PAKET SOAL
-   Tambah paket baru cukup dengan menambah baris di sini
-   dan menaruh file JSON-nya di folder /data
+   KONFIGURASI KATEGORI & PAKET SOAL
+   Tambah kategori / paket baru cukup di sini.
+   File JSON ditaruh di folder /data/<kategori>/
    ========================================================= */
-const PAKET = [
-  { id: "paket-1", nama: "ssw 1", file: "data/ssw1.json" },
-  { id: "paket-2", nama: "ssw 2", file: "data/ssw2.json" },
-  { id: "paket-3", nama: "ssw 3", file: "data/ssw3.json" },
-  { id: "paket-4", nama: "ssw 4", file: "data/ssw4.json" },
-  { id: "paket-5", nama: "ssw 5", file: "data/ssw5.json" },
-  { id: "paket-6", nama: "ssw 6", file: "data/ssw6.json" },
-  { id: "paket-7", nama: "ssw 7", file: "data/ssw7.json" },
-  { id: "paket-8", nama: "ssw 8", file: "data/ssw8.json" },
+const KATEGORI = [
+  {
+    id: "ssw",
+    nama: "SSW",
+    ikon: "🍜",
+    paket: [
+      { id: "ssw-1", nama: "ssw 1", file: "data/ssw/ssw1.json" },
+      { id: "ssw-2", nama: "ssw 2", file: "data/ssw/ssw2.json" },
+      { id: "ssw-3", nama: "ssw 3", file: "data/ssw/ssw3.json" },
+      { id: "ssw-4", nama: "ssw 4", file: "data/ssw/ssw4.json" },
+      { id: "ssw-5", nama: "ssw 5", file: "data/ssw/ssw5.json" },
+      { id: "ssw-6", nama: "ssw 6", file: "data/ssw/ssw6.json" },
+      { id: "ssw-7", nama: "ssw 7", file: "data/ssw/ssw7.json" },
+      { id: "ssw-8", nama: "ssw 8", file: "data/ssw/ssw8.json" },
+    ],
+  },
+  {
+    id: "jft",
+    nama: "JFT",
+    ikon: "📘",
+    paket: [
+      { id: "jft-1", nama: "jft 1", file: "data/jft/jft1.json" },
+      { id: "jft-2", nama: "jft 2", file: "data/jft/jft2.json" },
+    ],
+  },
+  {
+    id: "kotoba",
+    nama: "Kotoba",
+    ikon: "📚",
+    paket: [
+      { id: "kotoba-1", nama: "Bab 1", file: "data/kotoba/bab1.json" },
+      { id: "kotoba-2", nama: "Bab 2", file: "data/kotoba/bab2.json" },
+      { id: "kotoba-3", nama: "Bab 3", file: "data/kotoba/bab3.json" },
+    ],
+  },
 ];
 
 /* =========================================================
    STATE
    ========================================================= */
-let paketAktif = null;   // { id, nama, file, judul, soal: [...] }
-let soalAcak = [];       // urutan soal ter-acak untuk sesi berjalan
+let kategoriAktif = null;   // { id, nama, ikon, paket: [...] }
+let paketAktif = null;      // { id, nama, file, judul, soal: [...] }
+let soalAcak = [];          // urutan soal ter-acak untuk sesi berjalan
 let indexSoal = 0;
-let jawabanUser = [];    // { soalId, pertanyaan, dipilih, benar }
+let jawabanUser = [];       // { pertanyaan, dipilih, jawabanBenar, benar }
 let sudahDijawab = false;
+let pilihanTerpilih = null;
 
 /* =========================================================
    ELEMEN DOM
    ========================================================= */
+// Layar 1: pilih kategori
 const layarPilih = document.getElementById("layar-pilih");
-const layarSoal = document.getElementById("layar-soal");
-const layarHasil = document.getElementById("layar-hasil");
-
-const daftarPaketEl = document.getElementById("daftar-paket");
+const daftarPaketEl = document.getElementById("daftar-paket"); // dipakai utk daftar kategori
 const statusMuatEl = document.getElementById("status-muat");
 
+// Layar 2: pilih paket dalam kategori (BARU)
+const layarPilihPaket = document.getElementById("layar-pilih-paket");
+const judulKategoriEl = document.getElementById("judul-kategori");
+const daftarPaketKategoriEl = document.getElementById("daftar-paket-kategori");
+const btnKembaliKategori = document.getElementById("btn-kembali-kategori");
+
+// Layar 3: sesi soal
+const layarSoal = document.getElementById("layar-soal");
 const judulPaketAktifEl = document.getElementById("judul-paket-aktif");
 const nomorProgresEl = document.getElementById("nomor-progres");
 const isiProgresEl = document.getElementById("isi-progres");
@@ -42,11 +76,12 @@ const daftarPilihanEl = document.getElementById("daftar-pilihan");
 const pembahasanEl = document.getElementById("pembahasan");
 const teksVerdictEl = document.getElementById("teks-verdict");
 const teksPembahasanEl = document.getElementById("teks-pembahasan");
-
 const btnJawab = document.getElementById("btn-jawab");
 const btnLanjut = document.getElementById("btn-lanjut");
 const btnKeluar = document.getElementById("btn-keluar");
 
+// Layar 4: hasil
+const layarHasil = document.getElementById("layar-hasil");
 const judulHasilEl = document.getElementById("judul-hasil");
 const skorAngkaEl = document.getElementById("skor-angka");
 const rekapListEl = document.getElementById("rekap-list");
@@ -56,8 +91,6 @@ const btnPaketLain = document.getElementById("btn-paket-lain");
 /* =========================================================
    UTIL
    ========================================================= */
-
-// Fisher-Yates shuffle, tidak mengubah array asli
 function acak(array) {
   const hasil = [...array];
   for (let i = hasil.length - 1; i > 0; i--) {
@@ -68,16 +101,41 @@ function acak(array) {
 }
 
 function tampilkan(layar) {
-  [layarPilih, layarSoal, layarHasil].forEach((el) => el.classList.add("tersembunyi"));
+  [layarPilih, layarPilihPaket, layarSoal, layarHasil].forEach((el) =>
+    el.classList.add("tersembunyi")
+  );
   layar.classList.remove("tersembunyi");
 }
 
 /* =========================================================
-   LAYAR 1: RENDER DAFTAR PAKET
+   LAYAR 1: DAFTAR KATEGORI
    ========================================================= */
-function renderDaftarPaket() {
+function renderDaftarKategori() {
   daftarPaketEl.innerHTML = "";
-  PAKET.forEach((p) => {
+  KATEGORI.forEach((k) => {
+    const kartu = document.createElement("button");
+    kartu.type = "button";
+    kartu.className = "kartu-paket";
+    kartu.innerHTML = `
+      <span>
+        <span class="kp-nama">${k.ikon || "📁"} ${k.nama}</span>
+        <span class="kp-info">${k.paket.length} paket soal</span>
+      </span>
+      <span class="kp-panah">&rarr;</span>
+    `;
+    kartu.addEventListener("click", () => bukaKategori(k));
+    daftarPaketEl.appendChild(kartu);
+  });
+}
+
+/* =========================================================
+   LAYAR 2: DAFTAR PAKET DALAM KATEGORI
+   ========================================================= */
+function bukaKategori(k) {
+  kategoriAktif = k;
+  judulKategoriEl.textContent = `${k.ikon || "📁"} ${k.nama}`;
+  daftarPaketKategoriEl.innerHTML = "";
+  k.paket.forEach((p) => {
     const kartu = document.createElement("button");
     kartu.type = "button";
     kartu.className = "kartu-paket";
@@ -89,8 +147,9 @@ function renderDaftarPaket() {
       <span class="kp-panah">&rarr;</span>
     `;
     kartu.addEventListener("click", () => mulaiPaket(p));
-    daftarPaketEl.appendChild(kartu);
+    daftarPaketKategoriEl.appendChild(kartu);
   });
+  tampilkan(layarPilihPaket);
 }
 
 async function mulaiPaket(p) {
@@ -108,12 +167,13 @@ async function mulaiPaket(p) {
 }
 
 /* =========================================================
-   LAYAR 2: SESI SOAL
+   LAYAR 3: SESI SOAL
    ========================================================= */
 function mulaiSesi() {
   soalAcak = acak(paketAktif.soal);
   indexSoal = 0;
   jawabanUser = [];
+  pilihanTerpilih = null;
   judulPaketAktifEl.textContent = paketAktif.judul;
   tampilkan(layarSoal);
   renderSoal();
@@ -121,6 +181,7 @@ function mulaiSesi() {
 
 function renderSoal() {
   sudahDijawab = false;
+  pilihanTerpilih = null;
   const soal = soalAcak[indexSoal];
 
   nomorSoalStempelEl.textContent = `SOAL ${String(indexSoal + 1).padStart(2, "0")}`;
@@ -146,8 +207,6 @@ function renderSoal() {
   btnJawab.disabled = true;
   btnLanjut.classList.add("tersembunyi");
 }
-
-let pilihanTerpilih = null;
 
 function pilihJawaban(huruf) {
   if (sudahDijawab) return;
@@ -184,11 +243,13 @@ function cekJawaban() {
 
   btnJawab.classList.add("tersembunyi");
   btnLanjut.classList.remove("tersembunyi");
-  btnLanjut.innerHTML = indexSoal === soalAcak.length - 1 ? "Lihat hasil &rarr;" : "Soal berikutnya &rarr;";
+  btnLanjut.innerHTML =
+    indexSoal === soalAcak.length - 1
+      ? "Lihat hasil &rarr;"
+      : "Soal berikutnya &rarr;";
 }
 
 function lanjutSoal() {
-  pilihanTerpilih = null;
   if (indexSoal < soalAcak.length - 1) {
     indexSoal++;
     renderSoal();
@@ -199,7 +260,7 @@ function lanjutSoal() {
 }
 
 /* =========================================================
-   LAYAR 3: HASIL
+   LAYAR 4: HASIL
    ========================================================= */
 function tampilkanHasil() {
   tampilkan(layarHasil);
@@ -222,7 +283,9 @@ function tampilkanHasil() {
     item.className = `rekap-item ${j.benar ? "rk-benar" : "rk-salah"}`;
     item.innerHTML = `
       <span class="tanda">${j.benar ? "✓" : "✕"}</span>
-      <span>${i + 1}. ${j.pertanyaan}${j.benar ? "" : ` — jawabanmu ${j.dipilih}, yang benar ${j.jawabanBenar}`}</span>
+      <span>${i + 1}. ${j.pertanyaan}${
+        j.benar ? "" : ` — jawabanmu ${j.dipilih}, yang benar ${j.jawabanBenar}`
+      }</span>
     `;
     rekapListEl.appendChild(item);
   });
@@ -233,11 +296,29 @@ function tampilkanHasil() {
    ========================================================= */
 btnJawab.addEventListener("click", cekJawaban);
 btnLanjut.addEventListener("click", lanjutSoal);
-btnKeluar.addEventListener("click", () => tampilkan(layarPilih));
+
+// Keluar dari sesi soal → kembali ke daftar paket kategori
+btnKeluar.addEventListener("click", () => {
+  if (kategoriAktif) tampilkan(layarPilihPaket);
+  else tampilkan(layarPilih);
+});
+
+// Ulangi sesi yang sama
 btnUlangi.addEventListener("click", mulaiSesi);
-btnPaketLain.addEventListener("click", () => tampilkan(layarPilih));
+
+// Dari hasil → kembali ke daftar paket kategori (bukan ke kategori utama)
+btnPaketLain.addEventListener("click", () => {
+  if (kategoriAktif) tampilkan(layarPilihPaket);
+  else tampilkan(layarPilih);
+});
+
+// Kembali dari daftar paket ke daftar kategori
+btnKembaliKategori.addEventListener("click", () => {
+  kategoriAktif = null;
+  tampilkan(layarPilih);
+});
 
 /* =========================================================
    INIT
    ========================================================= */
-renderDaftarPaket();
+renderDaftarKategori();
