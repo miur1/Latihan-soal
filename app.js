@@ -56,7 +56,7 @@ let pilihanTerpilih = null;
    ========================================================= */
 // Layar 1: pilih kategori
 const layarPilih = document.getElementById("layar-pilih");
-const daftarPaketEl = document.getElementById("daftar-paket"); // dipakai utk daftar kategori
+const daftarPaketEl = document.getElementById("daftar-paket");
 const statusMuatEl = document.getElementById("status-muat");
 
 // Layar 2: pilih paket dalam kategori
@@ -105,6 +105,32 @@ function tampilkan(layar) {
     el.classList.add("tersembunyi")
   );
   layar.classList.remove("tersembunyi");
+}
+
+/**
+ * Reset semua state sesi soal (dipakai saat keluar).
+ */
+function resetStateSesi() {
+  paketAktif = null;
+  soalAcak = [];
+  indexSoal = 0;
+  jawabanUser = [];
+  sudahDijawab = false;
+  pilihanTerpilih = null;
+
+  // Bersihkan tampilan (biar nggak ada sisa render lama)
+  if (daftarPilihanEl) daftarPilihanEl.innerHTML = "";
+  if (teksPertanyaanEl) teksPertanyaanEl.textContent = "";
+  if (pembahasanEl) pembahasanEl.classList.add("tersembunyi");
+  if (isiProgresEl) isiProgresEl.style.width = "0%";
+}
+
+/**
+ * Reset semua state termasuk kategori yang sedang dibuka.
+ */
+function resetSemuaState() {
+  resetStateSesi();
+  kategoriAktif = null;
 }
 
 /* =========================================================
@@ -312,24 +338,26 @@ function tampilkanHasil() {
 btnJawab.addEventListener("click", cekJawaban);
 btnLanjut.addEventListener("click", lanjutSoal);
 
-// Keluar dari sesi soal → kembali ke daftar paket kategori
+// Keluar dari sesi soal → reset state + balik ke daftar paket kategori
 btnKeluar.addEventListener("click", () => {
+  resetStateSesi();
   if (kategoriAktif) tampilkan(layarPilihPaket);
   else tampilkan(layarPilih);
 });
 
-// Ulangi sesi yang sama
+// Ulangi sesi yang sama (state di-reset ulang di mulaiSesi)
 btnUlangi.addEventListener("click", mulaiSesi);
 
-// Dari hasil → kembali ke daftar paket kategori (bukan ke kategori utama)
+// Dari hasil → reset state + balik ke daftar paket kategori
 btnPaketLain.addEventListener("click", () => {
+  resetStateSesi();
   if (kategoriAktif) tampilkan(layarPilihPaket);
   else tampilkan(layarPilih);
 });
 
-// Kembali dari daftar paket ke daftar kategori
+// Kembali dari daftar paket → reset SEMUA state (termasuk kategori)
 btnKembaliKategori.addEventListener("click", () => {
-  kategoriAktif = null;
+  resetSemuaState();
   tampilkan(layarPilih);
 });
 
@@ -342,6 +370,7 @@ renderDaftarKategori();
    EKSPOSE UNTUK FLASHCARD.JS
    ========================================================= */
 window.kembaliKeDaftarPaket = function () {
+  resetStateSesi();
   if (kategoriAktif) tampilkan(layarPilihPaket);
   else tampilkan(layarPilih);
 };
