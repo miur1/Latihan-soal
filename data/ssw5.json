@@ -1,1 +1,226 @@
-
+{
+  "judul": "Paket Soal 5 - SSW PM + KJ",
+  "soal": [
+    {
+      "id": "p5-01",
+      "pertanyaan": "ポツリヌス菌(きん)では原因(げんいん) になりやすい食品(しょくひん)はどれですか。。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "手や指(ゆび)に傷(きず)のある人が調理(ちょうり)した食品(しょくひ ん)",
+        "B": "野菜(やさい)、食肉(しょくにく)、鶏肉(とりにく)",
+        "C": "缶詰(かんづめ)、びんづめ、真空(しんくう)パック食品(しょくひん)"
+      },
+      "jawaban": "C",
+      "pembahasan": "Clostridium botulinum adalah bakteri anaerob yang tumbuh subur di lingkungan tanpa oksigen, seperti makanan kaleng, makanan dalam botol, dan makanan vakum."
+    },
+    {
+      "id": "p5-02",
+      "pertanyaan": "ウェルシュ菌(きん)では主な(おもな)症状 (しょうじょう)はどれか。。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "吐き気(はきけ)、おうと、腹痛(ふくつう)",
+        "B": "吐き気(はきけ)、おうと、呼吸困難(こきゅうこんなん)",
+        "C": "腹痛(ふくつう)、下痢(げり)"
+      },
+      "jawaban": "C",
+      "pembahasan": "Gejala utama infeksi Clostridium perfringens (ウェルシュ菌) adalah sakit perut dan diare. Mual dan muntah biasanya tidak dominan."
+    },
+    {
+      "id": "p5-03",
+      "pertanyaan": "主な（おもな）予防対策（よぼうたいさく）芽胞 (がほう)について、すぐに 20℃以下(いか)に れいきゃくして保存(ほぞん) します。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "ウェルシュ菌",
+        "B": "ポツリヌス菌",
+        "C": "セレウス菌"
+      },
+      "jawaban": "A",
+      "pembahasan": "Clostridium perfringens (ウェルシュ菌) membentuk spora dan dapat dicegah dengan pendinginan cepat hingga 20°C atau kurang untuk mencegah perkembangbiakannya."
+    },
+    {
+      "id": "p5-04",
+      "pertanyaan": "ノロウイルス主な(おもな)予防対策(よぼうたいさく) について。 まちがっているものはどれですか",
+      "pilihan": {
+        "A": "手洗い(あらい)を 徹底(てってい)します",
+        "B": "85℃～90℃以上(いじょう)、90秒以上(いじょう)加熱(かねつ)します",
+        "C": "80℃以上(いじょう)、30秒(びょう)以上加熱します"
+      },
+      "jawaban": "C",
+      "pembahasan": "Norovirus tidak dapat dibunuh hanya dengan pemanasan 80°C selama 30 detik. Pemanasan yang efektif adalah 85°C-90°C selama minimal 90 detik."
+    },
+    {
+      "id": "p5-05",
+      "pertanyaan": "異常事態(いじょうじたい)の例(れい)はなんですか。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "レバーがぐらぐらします",
+        "B": "赤い(あかい)ランプがついていません",
+        "C": "青い(あおい)ランプがついています"
+      },
+      "jawaban": "A",
+      "pembahasan": "Contoh keadaan abnormal adalah tuas (レバー) yang goyah/tidak stabil. Ini bisa menjadi tanda bahaya pada mesin."
+    },
+    {
+      "id": "p5-06",
+      "pertanyaan": "次(つぎ)を見てみてください！ 1. 保管 (ほかん)管理(かんり)責任者(せきにんしゃ) 2. 保管 (ほかん)温度 (おんど) 3. 保管 (ほかん)期間 (きかん) 4. 保管 (ほかん)場所 (ばしょ) HACCP 原則(げんそく)の「記録(きろく)の維持(いじ)管理(かんり)」をす るときは、記録(きろく)の保管については何(なに)が明確 (めいかく)して おくことが必要 (ひつよう)ですか？",
+      "pilihan": {
+        "A": "1,2,3",
+        "B": "1,3,4",
+        "C": "1,2,4",
+        "D": "2,3,4"
+      },
+      "jawaban": "B",
+      "pembahasan": "Dalam prinsip HACCP 'pemeliharaan dan manajemen catatan', yang perlu diperjelas adalah penanggung jawab penyimpanan, periode penyimpanan, dan tempat penyimpanan. Suhu penyimpanan bukan bagian dari hal yang harus diperjelas untuk penyimpanan catatan."
+    },
+    {
+      "id": "p5-07",
+      "pertanyaan": "化学的 (かがくてき) 危害 (きがい) 要因 (よういん) について間違って(まちがっているものはどれですか？",
+      "pilihan": {
+        "A": "農薬(ゆうやく)、抗生物質(こうせいぶっしつ)、洗浄剤(せんじょうざ い)",
+        "B": "ミネラル、殺菌剤(さっきんざい)、洗浄剤(せんじょうざい)",
+        "C": "抗生物質(こうせいぶっしつ)、農薬(ゆうやく)、殺菌剤(さっきんざい)"
+      },
+      "jawaban": "B",
+      "pembahasan": "Bahaya kimia meliputi pestisida, antibiotik, dan detergen. Mineral (ミネラル) bukanlah bahaya kimia; justru mineral adalah nutrisi yang diperlukan tubuh."
+    },
+    {
+      "id": "p5-08",
+      "pertanyaan": "ただし手洗い(あらい)方法(ほうほう)はどれですか? ただしものをひとつ えらびなさい。",
+      "pilihan": {
+        "A": "Gambar A",
+        "B": "Gambar B",
+        "C": "Gambar C"
+      },
+      "jawaban": "B",
+      "pembahasan": "Berdasarkan gambar, urutan cuci tangan yang benar adalah: basahi tangan, sabun, gosok kedua telapak tangan, bilas, keringkan dengan tisu, lalu tutup kran. Gambar B menunjukkan urutan ini dengan benar."
+    },
+    {
+      "id": "p5-09",
+      "pertanyaan": "ただし服装(ふくそう)着方(きかた)はどれですか。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "3",
+        "B": "1",
+        "C": "2"
+      },
+      "jawaban": "A",
+      "pembahasan": "Berdasarkan gambar, urutan memakai pakaian kerja yang benar adalah: sisir rambut, pakai hair net, pakai topi, pakai masker, dan terakhir pastikan seragam sudah benar. Urutan ini ditunjukkan oleh gambar 3."
+    },
+    {
+      "id": "p5-10",
+      "pertanyaan": "弁当(べんとう)を持ちながら(もちながら)移動(いどう)しようとしたとき、濡れた(ぬれた)床(ゆか)で転倒(てんとう)しそうになった。 転倒(てんとう)の原因(げんいん)について、正しいものはどれですか？",
+      "pilihan": {
+        "A": "滑りにくい靴(すべりにくいくつ)を履いた(はいた)",
+        "B": "頭(あたま)がぐるぐる回った(まわった)",
+        "C": "濡れた(ぬれた)床(ゆか)をきちんと拭き取らなかった(ふきとらなかっ た)"
+      },
+      "jawaban": "C",
+      "pembahasan": "Penyebab terjatuh adalah lantai yang basah dan tidak segera dilap hingga kering."
+    },
+    {
+      "id": "p5-11",
+      "pertanyaan": "整理(せいり)によると労働安全 (ろうどうあんぜん)と関係(かんけい)についてはなんですか。 ただしいものを一つえらびなさい",
+      "pilihan": {
+        "A": "いつでも職場(しょくば)のルールを守ること",
+        "B": "作業効率(さぎょうこうりつ)があがって、転倒(てんとう)などの危険 (きけん)が減る(へる)",
+        "C": "作業(さぎょう)するとき守る(まもる)こと"
+      },
+      "jawaban": "B",
+      "pembahasan": "Seiri (整理) meningkatkan efisiensi kerja dan mengurangi bahaya seperti terpeleset/terjatuh karena area kerja menjadi lebih rapi."
+    },
+    {
+      "id": "p5-12",
+      "pertanyaan": "整頓(せいとん)によると労働安全(ろうどうあんぜん)と関係(かんけい)に ついてはなんですか？ ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "転倒(てんとう)さいがいを起こること",
+        "B": "器具(きぐ)の落下(らっか)などが原因(げんいん)のケガを防ぐ(ふせぐ) ことができる",
+        "C": "酸欠(さんけつ)が起こる(おこる)ことができる"
+      },
+      "jawaban": "B",
+      "pembahasan": "Seiton (整頓) dapat mencegah cedera akibat jatuhnya peralatan karena barang disimpan di tempat yang tepat dan aman."
+    },
+    {
+      "id": "p5-13",
+      "pertanyaan": "清掃(せいそう)による労働安全(ろうどうあんぜん)と関係(かんけい)に ついてはなんですか? ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "いつも体(からだ)を浴びる(あびる)",
+        "B": "職場(しよくば)のルールを守る(まもる)",
+        "C": "機械(きかい)などの機能(きのう)が維持(いじ)されて、転倒(てんとう) などの危険(きけん)が減る(へる)"
+      },
+      "jawaban": "C",
+      "pembahasan": "Seiso (清掃) menjaga fungsi mesin dan mengurangi bahaya seperti terpeleset/terjatuh karena area kerja bersih."
+    },
+    {
+      "id": "p5-14",
+      "pertanyaan": "清潔 (せいけつ) によると労働安全 (ろうどうあんぜん)と関係(かんけい)に ついてはなんですか? ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "作業場(さぎょうじょう)とその周辺(しゅへん)をいつもきれいに掃除 (そうじ)しない",
+        "B": "働く(はたらく)人が感染症(かんせんしょう)などの病気(びょうき)にな る を防ぐ(ふせぐ)",
+        "C": "働く(はたらく)人が経験(けいけん)が少ない(すくない)から"
+      },
+      "jawaban": "B",
+      "pembahasan": "Seiketsu (清潔) menjaga kebersihan diri dan lingkungan kerja, sehingga mencegah pekerja terkena penyakit infeksi."
+    },
+    {
+      "id": "p5-15",
+      "pertanyaan": "習慣 (しゅうかん) によると労働安全(ろうどうあんぜん)と関係(かんけい) についてはなんですか? ただしものを一つえらびなさい",
+      "pilihan": {
+        "A": "働く(はたらく)人が感染症(かんせんしょう)などの病気(びょうき)にな る を防ぐ(ふせぐ)",
+        "B": "機械(きかい)などのすぐに洗浄(せんじょう)します",
+        "C": "繰り返す(くりかえす)ことで、安全(あんぜん)で衛生的(えいせいでき) な行動(こうどう)が自然(しぜん)にできるようになります"
+      },
+      "jawaban": "C",
+      "pembahasan": "Shuukan (習慣) adalah pembiasaan diri. Dengan mengulangi tindakan yang aman dan higienis, perilaku tersebut menjadi kebiasaan alami."
+    },
+    {
+      "id": "p5-16",
+      "pertanyaan": "製品 (せいひん) 由来 (ゆらい) 蛋白質 (たんぱくしつ) 、油脂 (ゆし) 、脂肪 (し ぼう) 、炭水化物 (たんすいかぶつ) などの適した (てきした) 洗剤 (せんざい) はなんですか ? ただしものを一つえらびなさい",
+      "pilihan": {
+        "A": "酸性洗剤(さんせいせんざい)",
+        "B": "アルカリ性洗剤(せいせんざい)",
+        "C": "無機物(むきべつ)"
+      },
+      "jawaban": "B",
+      "pembahasan": "Deterjen alkali (アルカリ性洗剤) cocok untuk menghilangkan kotoran organik seperti protein, lemak, minyak, dan karbohidrat."
+    },
+    {
+      "id": "p5-17",
+      "pertanyaan": "カレシウム、鉄分(てつぶん)、マグネシウム、 ケイ素(ケイソ)適した(てきした)洗剤(せんざい)は なんですか？ ただしいものを一つえらびなさい",
+      "pilihan": {
+        "A": "無機物(むきぶつ)",
+        "B": "アルカリ性洗剤(せいせんざい)",
+        "C": "酸性洗剤(さんせいせんざい)"
+      },
+      "jawaban": "C",
+      "pembahasan": "Deterjen asam (酸性洗剤) cocok untuk menghilangkan kotoran anorganik seperti kalsium, besi, magnesium, dan silikon (kerak air)."
+    },
+    {
+      "id": "p5-18",
+      "pertanyaan": "トイレの清潔(せいけつ)は何のためにですか？ まちがっているものを一つえらびなさい",
+      "pilihan": {
+        "A": "トイレは汚れ(よごれ)たままにして",
+        "B": "トイレのあとは必ず(かならず) 決められた(きめられた)方法(ほうほう) で手洗(てあらい)、消毒(しょうどく)する",
+        "C": "作業場(さぎょうじょう)の中に微生物(びせいぶつ)を持ち込まない(も ちこまない)ために"
+      },
+      "jawaban": "A",
+      "pembahasan": "Toilet harus dijaga kebersihannya, bukan dibiarkan kotor. Membiarkan toilet kotor adalah tindakan yang salah."
+    },
+    {
+      "id": "p5-19",
+      "pertanyaan": "ゴミ箱(ばこ)の取り扱い(とりあつかい)設置(せっち)場所(ばしょ)はどう したらいいですか? まちがっているものを一つえらびなさい",
+      "pilihan": {
+        "A": "ゴミは作業場内(さぎょうじょうない)の決まった(きまった)場所(ばし ょ)にしておく",
+        "B": "ゴミ箱(ばこ)はふたのあるものを使用(しょう)しふたはしっかり閉めま す(しめます)",
+        "C": "ゴミ箱(ばこ)の袋(ふくろ)は床(ゆか)に直接(ちょくせつ)しておく"
+      },
+      "jawaban": "C",
+      "pembahasan": "Kantong sampah tidak boleh diletakkan langsung di lantai karena dapat mencemari area kerja. Tempat sampah harus memiliki tutup dan diletakkan di tempat yang ditentukan."
+    },
+    {
+      "id": "p5-20",
+      "pertanyaan": "工具(こうぐ)や部品箱(ぶひんばこ)の整理整頓 (せいりせいとん)について解説(かいせつ)はどれですか。。 まちがっているものを一つえらびなさい",
+      "pilihan": {
+        "A": "その写真(しゃしん)によって,どこに何があるのかがすぐわかります。",
+        "B": "写真(しゃしん)のようになる前に交換(こうかん)します",
+        "C": "イラストがあるので、工具(こうぐ)が足りない(たりない)時(とき)に はすぐに見つける(みつける)ことができます"
+      },
+      "jawaban": "B",
+      "pembahasan": "Tujuan penataan alat dan kotak suku cadang adalah untuk memudahkan pencarian dan memastikan ketersediaan. 'Menukar sebelum menjadi seperti di foto' bukanlah tujuan dari penataan tersebut."
+    }
+  ]
+}
