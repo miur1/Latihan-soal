@@ -12,21 +12,34 @@
 
   <div id="app">
 
-    <!-- ===== LAYAR 1: PILIH PAKET SOAL ===== -->
+    <!-- ===== LAYAR 1: PILIH KATEGORI ===== -->
     <section id="layar-pilih" class="layar">
       <header class="kop">
         <span class="kop-label">RUANG LATIHAN</span>
-        <h1>Pilih paket soal yang mau kamu kerjakan</h1>
+        <h1>Pilih kategori latihan yang mau kamu kerjakan</h1>
       </header>
 
       <div id="daftar-paket" class="daftar-paket">
-        <!-- diisi otomatis oleh app.js dari config PAKET -->
+        <!-- diisi otomatis oleh app.js dari config KATEGORI -->
       </div>
 
       <p id="status-muat" class="status-muat"></p>
     </section>
 
-    <!-- ===== LAYAR 2: KERJAKAN SOAL ===== -->
+    <!-- ===== LAYAR 2: PILIH PAKET DALAM KATEGORI ===== -->
+    <section id="layar-pilih-paket" class="layar tersembunyi">
+      <header class="kop">
+        <button id="btn-kembali-kategori" class="tautan-kecil" type="button">&larr; Kembali ke kategori</button>
+        <span class="kop-label">DAFTAR PAKET</span>
+        <h1 id="judul-kategori"></h1>
+      </header>
+
+      <div id="daftar-paket-kategori" class="daftar-paket">
+        <!-- diisi otomatis oleh app.js -->
+      </div>
+    </section>
+
+    <!-- ===== LAYAR 3: KERJAKAN SOAL ===== -->
     <section id="layar-soal" class="layar tersembunyi">
       <header class="kop-soal">
         <button id="btn-keluar" class="tautan-kecil" type="button">&larr; Ganti paket</button>
@@ -57,7 +70,7 @@
       </div>
     </section>
 
-    <!-- ===== LAYAR 3: HASIL AKHIR ===== -->
+    <!-- ===== LAYAR 4: HASIL AKHIR ===== -->
     <section id="layar-hasil" class="layar tersembunyi">
       <header class="kop">
         <span class="kop-label">HASIL</span>
