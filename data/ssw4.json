@@ -1,1 +1,245 @@
-
+{
+  "judul": "Paket Soal 4 - SSW PM + KJ",
+  "soal": [
+    {
+      "id": "p4-01",
+      "pertanyaan": "5S 活動(かつどう)について、正しいものはどれですか。",
+      "pilihan": {
+        "A": "しゅんかん",
+        "B": "せんり",
+        "C": "せいとん",
+        "D": "すいとん"
+      },
+      "jawaban": "C",
+      "pembahasan": "5S terdiri dari Seiri (整理), Seiton (整頓), Seiso (清掃), Seiketsu (清潔), dan Shitsuke (躾). 'Seiton' (整頓) adalah salah satu dari 5S."
+    },
+    {
+      "id": "p4-02",
+      "pertanyaan": "表示(ひょうじ)することが望ましい(のぞましい) とされる食品(しょくひん)について、正しいもの はどれですか。",
+      "pilihan": {
+        "A": "おにぎり",
+        "B": "てんぷら",
+        "C": "ゼラチン",
+        "D": "たまご"
+      },
+      "jawaban": "C",
+      "pembahasan": "Gelatin (ゼラチン) adalah salah satu dari 21 bahan pangan yang dianjurkan untuk dicantumkan (表示推奨)."
+    },
+    {
+      "id": "p4-03",
+      "pertanyaan": "異物混入(いぶつこんにゅう)の問題(もんだい) について、最も(もっとも)多く(おおく)の原因 (げんいん)はどれですか。",
+      "pilihan": {
+        "A": "ガラス、金属(きんぞく)",
+        "B": "金属(きんぞく)、虫(むし)",
+        "C": "髪の毛(かみのけ)ガラス",
+        "D": "虫(むし)髪の毛(かみのけ)"
+      },
+      "jawaban": "D",
+      "pembahasan": "Penyebab kontaminasi benda asing yang paling sering terjadi adalah rambut (髪の毛) dan serangga (虫)."
+    },
+    {
+      "id": "p4-04",
+      "pertanyaan": "感染型(かんせんがた)食中毒(しょくちゅうどく)について、正しいものは どれですか。",
+      "pilihan": {
+        "A": "食べた食品(しょくひん)について细菌(さいきん)が増えた(ふえた) 毒素(どくそ)を作り、健康障害(けんこうしょうがい)を起こす(おこ す)もの",
+        "B": "ノロウイルスはもっとも多くの原因(げんいん)となっているもの",
+        "C": "食べた食品(しょくひん)について细菌(さいきん)がヒトのおなか で増え(ふえ)、毒素(どくそ)を作って健康障害(けんこうしょうがい)を 起こす(おこす)もの",
+        "D": "ボツリヌス菌、ウエルシュ菌などは感染型(かんせんがた)食中毒(しょ くちゅうどく)を引き起こす(ひきおこす)もの"
+      },
+      "jawaban": "C",
+      "pembahasan": "Foodborne disease tipe infeksi terjadi ketika bakteri yang tertelan berkembang biak di dalam usus manusia dan menghasilkan toksin, yang kemudian menyebabkan gangguan kesehatan."
+    },
+    {
+      "id": "p4-05",
+      "pertanyaan": "作業場(さぎょうじょう)に持ち込み(もちこみ)は しないようにするものはどれですか。。",
+      "pilihan": {
+        "A": "イヤリング",
+        "B": "マスク",
+        "C": "ヘアーネット",
+        "D": "くつ"
+      },
+      "jawaban": "A",
+      "pembahasan": "Perhiasan seperti anting (イヤリング) tidak boleh dibawa masuk ke area produksi karena berisiko jatuh dan mencemari produk."
+    },
+    {
+      "id": "p4-06",
+      "pertanyaan": "腸管出血性大腸菌(ちょうかんしゅっけつせいだいちょうきん)では主な (おもな)症状(しょうじょう)はどれか。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "腹痛(ふくつう)はげしい下痢(げり)",
+        "B": "腹痛(ふくつう)はげしい下痢(げり)、血便(けっぺん)",
+        "C": "下痢(げり)はげしい下痢(げり)発熱(はつねつ)",
+        "D": "吐き気(はきけ)、おうと、呼吸困難(こきゅうこんなん)"
+      },
+      "jawaban": "B",
+      "pembahasan": "Gejala utama infeksi E. coli O157:H7 (enterohemorrhagic E. coli) adalah sakit perut hebat, diare berdarah (血便), dan diare parah."
+    },
+    {
+      "id": "p4-07",
+      "pertanyaan": "HACCPとは何(なん)の略語(りゃくご)ですか",
+      "pilihan": {
+        "A": "High-frequency Active Climate Control Program",
+        "B": "Health Analysis and Condition Control Principle",
+        "C": "Health And Care Certification Protocol",
+        "D": "Hazard Analysis Critical Control Point"
+      },
+      "jawaban": "D",
+      "pembahasan": "HACCP adalah singkatan dari Hazard Analysis Critical Control Point."
+    },
+    {
+      "id": "p4-08",
+      "pertanyaan": "食品安全(しょくひんあんぜん)はなぜ大切 (たいせつ)かと理由(りゆう)がいくつかあります。 まちがっているものはどれですか",
+      "pilihan": {
+        "A": "食品工場(しょくひんこうじょう)は、消費者(しょくひしゃ)が安心(あ んしん)して、おいしく食べられるものを作らなければなりません",
+        "B": "食品工場(しょくひんこうじょう)は、消費者(しょくひしゃ)が満足(ま んぞく)して、贅沢(ぜいたく)なものを作らなければなりません",
+        "C": "消費者(しょくひしゃ)は、安全(あんぜん)で安心(あんしん)できる食品 (しょくひん)を求めています(もとめています)",
+        "D": "食品工場(しょくひんじょうじょう)は、消費者(しょくひしゃ)の健康 (けんこう)を守る(まもる)ために安全(あんぜん)が確保(かくほ)され たものを作らなければなりません"
+      },
+      "jawaban": "B",
+      "pembahasan": "Tujuan keamanan pangan adalah agar konsumen merasa aman, nyaman, dan terlindungi kesehatannya. Membuat produk yang mewah (贅沢) bukanlah alasan utama keamanan pangan."
+    },
+    {
+      "id": "p4-09",
+      "pertanyaan": "粘着 (ねんちゃく)ローラとエアーシャワーについて正しい(ただしい)もの はどれですか。。",
+      "pilihan": {
+        "A": "作業服(さぎょうふく)から髪(かみ)の毛(け)などを落とす(おとす)ため に使用(しょう)する",
+        "B": "作業服(さぎょうふく)のしわを伸ばす(のばす)ために使用(しよう)する",
+        "C": "作業服(さぎょうふく)の汚れ(よごれ)をなくすために使用(しよう)する",
+        "D": "正しい(ただしい)ものはない"
+      },
+      "jawaban": "A",
+      "pembahasan": "Roller perekat (粘着ローラー) dan air shower (エアーシャワー) digunakan untuk menghilangkan rambut dan debu yang menempel pada pakaian kerja."
+    },
+    {
+      "id": "p4-10",
+      "pertanyaan": "次(つぎ)の画像(がぞう)を見て(みて)ください! 間違って(まちがっているものはどれですか。",
+      "pilihan": {
+        "A": "ヘアーネットをかぶる",
+        "B": "髪(かみ)の毛(け)をよくブラッシングする",
+        "C": "帽子(ぼうし)をきちんとかぶる",
+        "D": "制服(せいふく)が正しい(ただしい)かどうか確認(かくにん)する"
+      },
+      "jawaban": "D",
+      "pembahasan": "Berdasarkan gambar urutan pemakaian APD, langkah 'memastikan seragam sudah benar' bukanlah bagian dari urutan yang ditunjukkan. Urutan yang benar adalah: sisir rambut, pakai hair net, pakai topi, dan seterusnya."
+    },
+    {
+      "id": "p4-11",
+      "pertanyaan": "作業中(さぎょうちゅう)の製品(せいひん)の扱い上(あつかいじょう)の注意 (ちゅうい)事項(じこう)について、どうするのが正しい(ただしい)です か。",
+      "pilihan": {
+        "A": "製品(せいひん)に水(みず)がかからないようにする",
+        "B": "加熱(かねつ)したものを長く(ながく)室温(しつおん)で放置(ほうち)す る",
+        "C": "冷却(れいきゃく)したものを長く(ながく)体温(たいおん)で放置(ほう ち)する",
+        "D": "製品(せいひん)に異常(いじょう)が見つかったら(みつかったら)、決め られた(きめられた)場所(ばしょ)に置いて(おいて)おく"
+      },
+      "jawaban": "D",
+      "pembahasan": "Jika menemukan kelainan pada produk, letakkan di tempat yang telah ditentukan. Makanan yang dipanaskan/didinginkan tidak boleh dibiarkan lama pada suhu ruangan."
+    },
+    {
+      "id": "p4-12",
+      "pertanyaan": "微生物(せいぶつ)が増殖(ぞうしょく)する 10℃~60℃の温度(おんど)にある 時間(じかん)を短く(みじかく)するためには、どうするのが正しい(ただし い)ですか。",
+      "pilihan": {
+        "A": "弱火(よわび)で調理(ちょうり)する",
+        "B": "すぐに水(みず)であらう",
+        "C": "冷凍庫(れいとうこ)で保管(ほかん)する",
+        "D": "室温(しつおん)で保管(ほかん)する"
+      },
+      "jawaban": "C",
+      "pembahasan": "Untuk mempersingkat waktu makanan berada di zona bahaya (10°C-60°C), simpan makanan di freezer (冷凍庫) atau lemari es."
+    },
+    {
+      "id": "p4-13",
+      "pertanyaan": "食肉(しょくにく)、魚介類(ぎょかいるい)などは低温(ていおん)で保管(ほかん)しなければなりません。どうするのが正しい(ただしい)ですか。",
+      "pilihan": {
+        "A": "冷蔵庫(れいぞう)で保管(ほかん)する",
+        "B": "冷凍庫(れいとう)で保管(ほかん)する",
+        "C": "10℃で保管(ほかん)する",
+        "D": "正しい(ただしい)ものはない"
+      },
+      "jawaban": "B",
+      "pembahasan": "Daging dan makanan laut harus disimpan pada suhu rendah, umumnya di freezer (冷凍庫) untuk penyimpanan jangka panjang, atau lemari es (冷蔵庫) untuk jangka pendek. Dalam konteks '低温で保管' (penyimpanan suhu rendah), jawaban yang paling tepat adalah freezer."
+    },
+    {
+      "id": "p4-14",
+      "pertanyaan": "製造（せいぞう）工程(こうてい)の管理(かんり)と注意(ちゅうい)事項(じこう)について間違って(まちがっているものはどれですか。",
+      "pilihan": {
+        "A": "100℃以上(いじょう)でも死滅(しめつ)しない強い(つよい)微生物(びせ いぶつ)がある",
+        "B": "食品(しょくひん)を凍結(とうけつ)すると、低温(ていおん)短時間(たん じかん)で凍結(とうけつ)することが必要(ひつよう)",
+        "C": "X 線(せん) 異物(いぶつ)検出器(けんしゅつき)は金属(きんぞく)の危険 (きけん)異物(いぶつ)を検出(けんしゅつ)することができる",
+        "D": "期限(きげん)表示(ひょうじ)管理(かんり)においてミスが多い(おおい) のは日付(ひづけ)管理(かんり)"
+      },
+      "jawaban": "C",
+      "pembahasan": "Detektor sinar-X (X線異物検出器) dapat mendeteksi benda asing selain logam seperti kaca, batu, dan tulang. Pernyataan bahwa alat ini hanya mendeteksi logam adalah salah."
+    },
+    {
+      "id": "p4-15",
+      "pertanyaan": "包装(ほうそう)工程(こうてい)での重要(じゅうよう)な管理(かんり)事項 (じこう)について正しい(ただしい)ものはどれですか。。",
+      "pilihan": {
+        "A": "金属(きんぞく) 検出器(けんしゅつき)管理(かんり)、X 線(せん)検出器 (けんしゅつき)管理(かんり)、凍結(とうけつ)温度(おんど) 管理(かん り)",
+        "B": "金属(きんぞく)検出器(けんしゅつき)管理(かんり)、X 線(せん)検出器 (けんしゅつき)管理(かんり)、期限(きげん)表示(ひょうじ)管理(かんり)",
+        "C": "金属(きんぞく)検出器(けんしゅつき)管理(かんり)、期限(きげん)表示 (ひょうじ)管理(かんり)、凍結(とうけつ)温度(おんど)管理(かんり)",
+        "D": "X 線(せん)検出器(けんしゅつき)管理(かんり)、凍結(とうけつ)温度(お んど)管理(かんり)、期限(きげ"
+      },
+      "jawaban": "B",
+      "pembahasan": "Manajemen penting dalam proses pengemasan meliputi manajemen detektor logam, detektor sinar-X, dan manajemen tanggal kedaluwarsa (期限表示管理)."
+    },
+    {
+      "id": "p4-16",
+      "pertanyaan": "X線(せん)検出器(けんしゅつき)とは?",
+      "pilihan": {
+        "A": "金属(きんぞく)の危険(きけん)異物(いぶつ)を検出(けんしゅつ)するも の",
+        "B": "危害(がい)を起こす(おこす)異物(いぶつ)である金属(きんぞく)を検出 (けんしゅつ)するもの",
+        "C": "金属(きんぞく)以外(いがい)の危険(きけん)異物(いぶつ)を検(けん)出 (しゅつ)するもの",
+        "D": "加熱(かねつ)に生き残った(いきのこった)微生物(びせいぶつ)の増殖(ぞ うしょく)を防止(ぼうし)するもの"
+      },
+      "jawaban": "C",
+      "pembahasan": "Detektor sinar-X (X線検出器) adalah alat yang mendeteksi benda asing berbahaya selain logam, seperti kaca, batu, tulang, dan plastik keras."
+    },
+    {
+      "id": "p4-17",
+      "pertanyaan": "特定(とくてい)原材料(げんざいりょう)として表示(ひょうじ)する義務(む) がある食品(しょくひん)は何種 類(なんしゅるい)ありますか?",
+      "pilihan": {
+        "A": "5種類(しゅるい)",
+        "B": "7種類(しゅるい)",
+        "C": "14種類(しゅるい)",
+        "D": "21種類(しゅるい)"
+      },
+      "jawaban": "B",
+      "pembahasan": "Bahan pangan yang wajib dicantumkan (特定原材料) ada 7 jenis: udang, kepiting, gandum, soba, telur, susu, dan kacang tanah."
+    },
+    {
+      "id": "p4-18",
+      "pertanyaan": "HACCP 原則 (げんそく)の「検証(けんしょう)方法(ほうほう)の設定(せって い)」をするときは、どうするのが正しい(ただしい)ですか。。",
+      "pilihan": {
+        "A": "危害(きがい)要因(よういん)がどれくらい重要(じゅうよう)か、どのよ うに管理(かんり)して危害(きがい)を防ぐ(ふせぐ)かを決める(きめる)",
+        "B": "製造 (せいぞう)工程(こうてい)で食品(しょくひん)の安全(あんぜん)を 確保(かくほ)する",
+        "C": "HACCP の計画(けいかく)が適切(てきせつ)に作成(さくせい)され、実施 (じっし)されているかどうかを確認(かくにん)する方法(ほうほう)を決 める(きめる)",
+        "D": "適切(てきせつ)に管理(かんり)されているかどうかをモニタリングする 方法(ほうほう)を設定(せってい)する"
+      },
+      "jawaban": "C",
+      "pembahasan": "Prinsip 'penetapan metode verifikasi' dalam HACCP adalah menentukan metode untuk memastikan apakah rencana HACCP telah dibuat dan dilaksanakan dengan tepat."
+    },
+    {
+      "id": "p4-19",
+      "pertanyaan": "次(つぎ)のを見てみてください! 1. HA とは危害(きがい) 要因(よういん)分析 (ぶんせきのこと。 2. CCP とは製造(せいぞう)工程(こうてい)の中(なか)で、ミスすることがで きない重要(じゅうよう)管理点(かんりてん)のこと。 3.HA とは原材料(げんざいりょう)の受入れ(うけいれ)から最終(さいしゅ う)製品(せいひん)の出荷(しゅっか)までの工程(こうてい)のこと。 4.HACCP とは製品(せいひん)の安全(あんぜん)を確保(かくほ)する衛生(え いせい)管理(かんり)手法(しゅほう)のこと。 HACCP について正しい(ただし)ものはどれですか?",
+      "pilihan": {
+        "A": "1,2,3",
+        "B": "2,3,4",
+        "C": "1,3,4",
+        "D": "1,2,4"
+      },
+      "jawaban": "D",
+      "pembahasan": "Pernyataan 1, 2, dan 4 benar. Pernyataan 3 salah karena HA (Hazard Analysis) adalah analisis bahaya, bukan definisi dari keseluruhan proses dari penerimaan bahan baku hingga pengiriman produk."
+    },
+    {
+      "id": "p4-20",
+      "pertanyaan": "作業場(さぎょうじょう)の危険(きけん)について 間違って(まちがっている)ものはどれですか。",
+      "pilihan": {
+        "A": "感電(かんでん)",
+        "B": "腰(こし)を痛める(いためる)",
+        "C": "自分(じぶん)を向き合う(むきあう)",
+        "D": "ガス(がす)中毒(ちゅうどく)になる"
+      },
+      "jawaban": "C",
+      "pembahasan": "Bahaya di tempat kerja meliputi sengatan listrik, cedera punggung, dan keracunan gas. 'Menghadapi diri sendiri' (自分を向き合う) bukanlah bahaya di tempat kerja."
+    }
+  ]
+}
