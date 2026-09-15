@@ -1,16 +1,19 @@
 /* =========================================================
    FLASHCARD MODULE (Kotoba)
-   Dipanggil oleh app.js saat file JSON bertipe "flashcard".
+   Fitur: navigasi kiri-kanan, hafal/belum, statistik, reset
    ========================================================= */
 
 (function () {
   // ---------- ELEMEN DOM ----------
   const layarFlashcard = document.getElementById("layar-flashcard");
-  const layarHasilFc = document.getElementById("layar-hasil-fc");
 
   const judulFcEl = document.getElementById("judul-fc");
   const nomorFcEl = document.getElementById("nomor-fc");
   const isiProgresFcEl = document.getElementById("isi-progres-fc");
+
+  const statHafalEl = document.getElementById("stat-hafal");
+  const statBelumEl = document.getElementById("stat-belum");
+  const statTotalEl = document.getElementById("stat-total");
 
   const kartuFcEl = document.getElementById("kartu-fc");
   const teksKanjiEl = document.getElementById("teks-kanji");
@@ -18,21 +21,18 @@
   const teksArtiEl = document.getElementById("teks-arti");
 
   const btnKeluarFc = document.getElementById("btn-keluar-fc");
-  const btnUlangiFc = document.getElementById("btn-ulangi-fc");
+  const btnPrevFc = document.getElementById("btn-prev-fc");
+  const btnNextFc = document.getElementById("btn-next-fc");
+  const btnBelumFc = document.getElementById("btn-belum-fc");
   const btnHafalFc = document.getElementById("btn-hafal-fc");
-
-  const judulHasilFcEl = document.getElementById("judul-hasil-fc");
-  const skorHafalEl = document.getElementById("skor-hafal");
-  const ringkasanFcEl = document.getElementById("ringkasan-fc");
-  const btnUlangiSesiFc = document.getElementById("btn-ulangi-sesi-fc");
-  const btnPaketLainFc = document.getElementById("btn-paket-lain-fc");
+  const btnResetFc = document.getElementById("btn-reset-fc");
 
   // ---------- STATE ----------
-  let paketFc = null;      // { id, nama, file, judul, kartu: [...] }
-  let antrian = [];        // kartu yang masih harus dilihat
-  let sudahHafal = [];     // kartu yang ditandai hafal
+  let paketFc = null;
+  let daftarKartu = [];      // urutan kartu (sudah diacak sekali di awal)
+  let indexSekarang = 0;
+  let statusKartu = [];      // "hafal" | "belum" | null (belum diputuskan)
   let totalKartu = 0;
-  let kartuSekarang = null;
 
   // ---------- UTIL ----------
   function tampilkanLayar(el) {
@@ -52,9 +52,10 @@
   // ---------- MULAI SESI ----------
   function mulaiFlashcard(data) {
     paketFc = data;
-    antrian = data.kartu.length > 4 ? acak(data.kartu) : [...data.kartu];
-    sudahHafal = [];
-    totalKartu = data.kartu.length;
+    daftarKartu = data.kartu.length > 4 ? acak(data.kartu) : [...data.kartu];
+    statusKartu = new Array(daftarKartu.length).fill(null);
+    indexSekarang = 0;
+    totalKartu = daftarKartu.length;
 
     judulFcEl.textContent = paketFc.judul;
     tampilkanLayar(layarFlashcard);
@@ -63,19 +64,16 @@
 
   // ---------- RENDER KARTU ----------
   function renderKartu() {
-    if (antrian.length === 0) {
-      tampilkanHasil();
-      return;
-    }
+    const kartu = daftarKartu[indexSekarang];
 
-    kartuSekarang = antrian[0];
+    // Reset flip
     kartuFcEl.classList.remove("terbuka");
 
-    // Sisi depan: kanji besar + baca (kalau ada & beda dari kanji)
-    teksKanjiEl.textContent = kartuSekarang.kanji || "";
+    // Sisi depan
+    teksKanjiEl.textContent = kartu.kanji || "";
 
-    const baca = kartuSekarang.baca || "";
-    const kanji = kartuSekarang.kanji || "";
+    const baca = kartu.baca || "";
+    const kanji = kartu.kanji || "";
     if (baca && baca !== kanji) {
       teksBacaEl.textContent = baca;
       teksBacaEl.style.display = "";
@@ -84,82 +82,88 @@
       teksBacaEl.style.display = "none";
     }
 
-    // Sisi belakang: arti
-    teksArtiEl.textContent = kartuSekarang.arti || "";
+    // Sisi belakang
+    teksArtiEl.textContent = kartu.arti || "";
 
-    // Progress
-    const selesai = sudahHafal.length;
-    nomorFcEl.textContent = `${selesai + 1} / ${totalKartu}`;
-    isiProgresFcEl.style.width = `${(selesai / totalKartu) * 100}%`;
+    // Nomor kartu
+    nomorFcEl.textContent = `${indexSekarang + 1} / ${totalKartu}`;
 
-    // Tombol disable sebelum kartu dibuka
-    btnUlangiFc.disabled = true;
-    btnHafalFc.disabled = true;
+    // Tombol aktif/nonaktif
+    btnPrevFc.disabled = indexSekarang === 0;
+    btnNextFc.disabled = indexSekarang === totalKartu - 1;
+
+    // Tandai tombol kalau kartu ini sudah diputuskan
+    const status = statusKartu[indexSekarang];
+    btnHafalFc.classList.toggle("aktif", status === "hafal");
+    btnBelumFc.classList.toggle("aktif", status === "belum");
+
+    updateStatistik();
+  }
+
+  // ---------- STATISTIK & PROGRESS ----------
+  function updateStatistik() {
+    const hafal = statusKartu.filter((s) => s === "hafal").length;
+    const belum = statusKartu.filter((s) => s === "belum").length;
+    const dipelajari = hafal + belum;
+
+    if (statHafalEl) statHafalEl.textContent = hafal;
+    if (statBelumEl) statBelumEl.textContent = belum;
+    if (statTotalEl) statTotalEl.textContent = `${dipelajari} / ${totalKartu}`;
+
+    if (isiProgresFcEl) {
+      isiProgresFcEl.style.width = `${(dipelajari / totalKartu) * 100}%`;
+    }
   }
 
   // ---------- FLIP KARTU ----------
   kartuFcEl.addEventListener("click", () => {
     kartuFcEl.classList.toggle("terbuka");
-    if (kartuFcEl.classList.contains("terbuka")) {
-      btnUlangiFc.disabled = false;
-      btnHafalFc.disabled = false;
+  });
+
+  // ---------- NAVIGASI ----------
+  function keKartuSebelumnya() {
+    if (indexSekarang > 0) {
+      indexSekarang--;
+      renderKartu();
     }
-  });
+  }
 
-  // ---------- AKSI: SUDAH HAFAL ----------
-  btnHafalFc.addEventListener("click", () => {
-    if (!kartuSekarang) return;
-    sudahHafal.push(kartuSekarang);
-    antrian.shift();
-    renderKartu();
-  });
+  function keKartuBerikutnya() {
+    if (indexSekarang < totalKartu - 1) {
+      indexSekarang++;
+      renderKartu();
+    }
+  }
 
-  // ---------- AKSI: ULANGI NANTI ----------
-  btnUlangiFc.addEventListener("click", () => {
-    if (!kartuSekarang) return;
-    const kartu = antrian.shift();
-    antrian.push(kartu);
+  btnPrevFc.addEventListener("click", keKartuSebelumnya);
+  btnNextFc.addEventListener("click", keKartuBerikutnya);
+
+  // ---------- AKSI: HAFAL / BELUM ----------
+  function tandaiKartu(status) {
+    statusKartu[indexSekarang] = status;
     renderKartu();
+    // Auto-lanjut ke kartu berikutnya setelah jeda singkat
+    if (indexSekarang < totalKartu - 1) {
+      setTimeout(() => {
+        keKartuBerikutnya();
+      }, 250);
+    }
+  }
+
+  btnHafalFc.addEventListener("click", () => tandaiKartu("hafal"));
+  btnBelumFc.addEventListener("click", () => tandaiKartu("belum"));
+
+  // ---------- RESET ----------
+  btnResetFc.addEventListener("click", () => {
+    if (confirm("Reset semua progress dan mulai dari awal?")) {
+      statusKartu = new Array(daftarKartu.length).fill(null);
+      indexSekarang = 0;
+      renderKartu();
+    }
   });
 
   // ---------- KELUAR ----------
   btnKeluarFc.addEventListener("click", () => {
-    if (window.kembaliKeDaftarPaket) window.kembaliKeDaftarPaket();
-    else window.location.reload();
-  });
-
-  // ---------- HASIL ----------
-  function tampilkanHasil() {
-    tampilkanLayar(layarHasilFc);
-
-    const jumlahHafal = sudahHafal.length;
-    judulHasilFcEl.textContent = `Selesai: ${paketFc.judul}`;
-    skorHafalEl.textContent = `${jumlahHafal}/${totalKartu}`;
-
-    const persen = Math.round((jumlahHafal / totalKartu) * 100);
-    let pesan;
-    if (persen === 100) pesan = "Sempurna! Semua kartu sudah kamu hafal 🎉";
-    else if (persen >= 70) pesan = "Bagus! Tinggal sedikit lagi.";
-    else if (persen >= 40) pesan = "Lumayan, ayo ulangi lagi biar makin hafal.";
-    else pesan = "Belum apa-apa, wajar. Ulangi terus ya!";
-    ringkasanFcEl.textContent = pesan;
-
-    // Simpan kartu yang belum hafal untuk sesi ulang
-    window._kartuBelumHafal = [...antrian];
-  }
-
-  // ---------- TOMBOL DI LAYAR HASIL ----------
-  btnUlangiSesiFc.addEventListener("click", () => {
-    let kartuUntukDiulang = window._kartuBelumHafal;
-    if (!kartuUntukDiulang || kartuUntukDiulang.length === 0) {
-      // Kalau semua sudah hafal, ulang dari awal
-      kartuUntukDiulang = [...paketFc.kartu];
-    }
-    paketFc = { ...paketFc, kartu: kartuUntukDiulang };
-    mulaiFlashcard(paketFc);
-  });
-
-  btnPaketLainFc.addEventListener("click", () => {
     if (window.kembaliKeDaftarPaket) window.kembaliKeDaftarPaket();
     else window.location.reload();
   });
