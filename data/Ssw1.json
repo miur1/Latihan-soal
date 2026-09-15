@@ -1,0 +1,230 @@
+{
+  "judul": "Paket Soal 1 - SSW PM + KJ",
+  "soal": [
+    {
+      "id": "p1-01",
+      "pertanyaan": "なぜ安全(あんぜん)な食品(しょくひん)を作らなければなりません。 まちがっているものをひとつえらびなさい",
+      "pilihan": {
+        "A": "消費者(しょうひしゃ)が安心(あんしん)するように",
+        "B": "消費者(しょうひしゃ)に健康障害(けんこうしょうがい)がおこらないように",
+        "C": "食(たべやすい)ように"
+      },
+      "jawaban": "C",
+      "pembahasan": "Tujuan utama keamanan pangan adalah agar konsumen merasa aman dan tidak mengalami gangguan kesehatan. 'Agar mudah dimakan' bukanlah alasan utama mengapa pangan harus aman."
+    },
+    {
+      "id": "p1-02",
+      "pertanyaan": "感染(かんせんがた)食中毒(しょくちゅうどく) 原因(げんいん)どれですか。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "黄色(おうしょく) ブドウ球菌 (きゅうきん)、ポツリスス菌、サルモネラ属 菌",
+        "B": "ポツリスス菌、ウエルシュ菌、セレウス菌",
+        "C": "サルモネラ属菌、カンピロバクター属菌、腸炎(ちょうえんビブリオ)"
+      },
+      "jawaban": "C",
+      "pembahasan": "Salmonella, Campylobacter, dan Vibrio parahaemolyticus adalah bakteri penyebab utama infeksi foodborne disease. Bakteri seperti Staphylococcus aureus dan Clostridium botulinum lebih sering menyebabkan intoksikasi (keracunan) karena toksin yang dihasilkan."
+    },
+    {
+      "id": "p1-03",
+      "pertanyaan": "安全(あんぜん)な食品(しょくひん)を作つくるための全体像(ぜんたいぞう) まちがっているものをひとつえらびなさい",
+      "pilihan": {
+        "A": "安全(あんぜん)な原材料(げんざいりょう)の受け入れ(うけいれ)",
+        "B": "製造中(せいぞうちゅう)の服装(ふくそう)の衛生的な取り扱い(えいせいて きなとりあつかい)",
+        "C": "きれいな製造環境(せいぞうかんきょう)",
+        "D": "製造中(せいぞうちゅう)の食品の衛生的な(えいせいてき)取り扱い(と りあつかい)"
+      },
+      "jawaban": "B",
+      "pembahasan": "Gambaran umum pembuatan pangan yang aman mencakup penerimaan bahan baku yang aman, lingkungan produksi yang bersih, dan penanganan produk pangan yang higienis. Penanganan higienis pada pakaian kerja adalah bagian dari manajemen higiene pekerja, bukan bagian dari 'gambaran umum' proses produksi itu sendiri."
+    },
+    {
+      "id": "p1-04",
+      "pertanyaan": "感染(かんせんがた)食中毒(しょくちゅうどく) の主な(おもな)予防対策(よぼうたいさく)どれですか。。 ただしものをひとつえらびなさい。",
+      "pilihan": {
+        "A": "70℃以上(いじょう)、1分以上加熱します",
+        "B": "75℃以上(いじょう)、60秒(びょう)以上加熱します",
+        "C": "80℃以上(いじょう)、30秒(びょう)以上加熱します",
+        "D": "75℃以上(いじょう)、1時間加熱します"
+      },
+      "jawaban": "B",
+      "pembahasan": "Pemanasan pada suhu 75°C selama 1 menit (60 detik) atau lebih adalah standar untuk membunuh sebagian besar bakteri penyebab infeksi foodborne disease."
+    },
+    {
+      "id": "p1-05",
+      "pertanyaan": "保護具(ほごく)使い方(つかいかた)どれですか。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "古い(ふるい)ものと傷(きず)あるものを使用(しようする)",
+        "B": "防護眼鏡(ぼうごめがね)や手袋(てぶくろ)使用(しようする)",
+        "C": "じゃまですから安全(あんぜん)ぐつつかわない"
+      },
+      "jawaban": "B",
+      "pembahasan": "Penggunaan alat pelindung diri (APD) yang benar adalah menggunakan kacamata pelindung dan sarung tangan. APD yang rusak atau tidak digunakan akan meningkatkan risiko kecelakaan kerja."
+    },
+    {
+      "id": "p1-06",
+      "pertanyaan": "サルモネラ属菌(ぞくきん)では原因(げんいん) になりやすい食品(しょくひん)はどれですか。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "野菜(やさい)、食肉(しょくにく)、牛肉(ぎゅうにく)、井戸水など(いどみず など)",
+        "B": "海水(かいすい)にいる魚介類(ぎょかいるい)刺し身(さしみ)、すしなど",
+        "C": "野菜(やさい)、食肉(しょくにく)、鶏肉(とりにく)、鶏卵(けいらん)など"
+      },
+      "jawaban": "C",
+      "pembahasan": "Salmonella sering ditemukan pada daging, unggas, dan telur. Sayuran juga bisa terkontaminasi. Oleh karena itu, pilihan C adalah yang paling tepat."
+    },
+    {
+      "id": "p1-07",
+      "pertanyaan": "腸炎(ちょうえん)ビブリオ主な(おもな)症状(しょうじょう)はどれですか。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "腹痛(ふくつう)はげしい下痢(げり)",
+        "B": "血便(けっぺん)はげしい下痢(げり)腹痛(ふくつう)",
+        "C": "下痢(げり)はげしい下痢(げり)発熱(はつねつ)",
+        "D": "腹痛(ふくつう)下痢(げり)"
+      },
+      "jawaban": "D",
+      "pembahasan": "Gejala utama Vibrio parahaemolyticus adalah sakit perut dan diare. Gejala biasanya muncul dalam 24 jam setelah mengonsumsi makanan laut mentah atau setengah matang."
+    },
+    {
+      "id": "p1-08",
+      "pertanyaan": "カンピロバクター属菌原因(げんいん)になりやすい食品はどれですか。 正しいものをひとつえらびなさい",
+      "pilihan": {
+        "A": "食肉(しょくにく)、鶏肉(とりにく)",
+        "B": "食肉(しょくにく)、牛肉(ぎゅうにく)",
+        "C": "野菜(やさい)、食肉(しょくにく)、鶏肉(とりにく)",
+        "D": "野菜(やさい)、食肉(しょくにく)、鶏肉(といにく)、いどみず"
+      },
+      "jawaban": "A",
+      "pembahasan": "Campylobacter paling sering dikaitkan dengan daging unggas (ayam) dan daging lainnya. Bakteri ini adalah penyebab umum diare bakteri."
+    },
+    {
+      "id": "p1-09",
+      "pertanyaan": "セレウス菌(きん)では原因(げんいん)になりやすい食品(しょくひん)はと ですか。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "米(こめ)や小麦(こむぎ)などを使って(つかって)調理(ちょうり)した食品 (しょくひん)",
+        "B": "缶詰(かんづめ)、びんづめ",
+        "C": "手や指(ゆび)に傷(きず)のある人が調理(ちょうり)した食品(しょくひん)"
+      },
+      "jawaban": "A",
+      "pembahasan": "Bacillus cereus sering ditemukan pada makanan yang dimasak dengan nasi atau gandum, seperti nasi goreng, pasta, dan lain-lain."
+    },
+    {
+      "id": "p1-10",
+      "pertanyaan": "黄色ブドウ(おうしょくブドウ)では主な(おもな) 症状(しょうじょう)はどれか。。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "吐き気(はきけ)、おうと、呼吸困難(こきゅうこんなん)",
+        "B": "吐き気(はきけ)、おうと、腹痛(ふくつう)",
+        "C": "吐き気(はきけ)、おうと、下痢(げり)"
+      },
+      "jawaban": "B",
+      "pembahasan": "Staphylococcus aureus menyebabkan gejala seperti mual, muntah, dan sakit perut. Gejala biasanya muncul dengan cepat, dalam 1-6 jam setelah mengonsumsi makanan yang terkontaminasi."
+    },
+    {
+      "id": "p1-11",
+      "pertanyaan": "食中毒(しょくちゅうどく)予防(よぼう)の3原則 (げんそく)では まちがっているものをひとつえらびなさい",
+      "pilihan": {
+        "A": "つけない",
+        "B": "ころさない",
+        "C": "増やさない(ふやさない)"
+      },
+      "jawaban": "B",
+      "pembahasan": "Tiga prinsip pencegahan keracunan makanan adalah: 1) Jangan menempelkan (bakteri), 2) Jangan menumbuhkan (bakteri), 3) Bunuh (bakteri). 'Korosai' (membunuh) adalah bagian dari prinsip, bukan 'korosanai' (tidak membunuh)."
+    },
+    {
+      "id": "p1-12",
+      "pertanyaan": "微生物(びせいぶつ)が増殖(ぞうしょく)する みっつの要素(ようそ)があります。 まちがっているものをひとつえらびなさい",
+      "pilihan": {
+        "A": "水(みず)",
+        "B": "水分(すいぶん)",
+        "C": "栄養(えいよう)"
+      },
+      "jawaban": "B",
+      "pembahasan": "Tiga elemen utama pertumbuhan mikroba adalah: 1) Air (水), 2) Nutrisi (栄養), 3) Suhu yang sesuai. 'Kadar air' (水分) adalah istilah yang berbeda dan bukan merupakan salah satu dari tiga elemen utama tersebut."
+    },
+    {
+      "id": "p1-13",
+      "pertanyaan": "微生物(びせいぶつ)が増殖(ぞうしょく)しやすい 食品(しょくひん)はなんの食品(しょくひん)ですか。ただしものをひとつ えらびなさい",
+      "pilihan": {
+        "A": "鶏肉(とりにく)",
+        "B": "豚肉(ぶたにく)",
+        "C": "魚(さかな)"
+      },
+      "jawaban": "A",
+      "pembahasan": "Daging unggas (ayam) adalah salah satu makanan yang paling mudah ditumbuhi mikroba karena kandungan nutrisi dan airnya yang tinggi."
+    },
+    {
+      "id": "p1-14",
+      "pertanyaan": "カビを殺す(ころす)ために方方(ほうほう)はどうですか。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "加熱(かねつ)します",
+        "B": "冷却(れいきゃく)します",
+        "C": "破壊(はかい)します"
+      },
+      "jawaban": "A",
+      "pembahasan": "Cara utama untuk membunuh jamur adalah dengan pemanasan (加熱). Pendinginan hanya menghambat pertumbuhan, tidak membunuh."
+    },
+    {
+      "id": "p1-15",
+      "pertanyaan": "微生物(びせいぶつ)はなんど”間(あいだ)で ぞうしょくしますか。。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "30℃-40℃あいだで",
+        "B": "10℃60℃あいだで",
+        "C": "10℃-40℃あいだで"
+      },
+      "jawaban": "C",
+      "pembahasan": "Mikroba umumnya tumbuh subur pada kisaran suhu 10°C hingga 40°C. Suhu ini disebut sebagai zona bahaya (danger zone)."
+    },
+    {
+      "id": "p1-16",
+      "pertanyaan": "腸管出血性大腸菌(ちょうかんしゅっけつせいだいちょうきん)原因(げんい ん)になりやすい食品はどれですか。 正しいものをひとつえらびなさい",
+      "pilihan": {
+        "A": "食肉(しょくにく)、鶏肉(とりにく)、井戸水(いどみず)",
+        "B": "食肉(しょくにく)、牛肉(ぎゅうにく)、井戸水(いどみず)",
+        "C": "食肉(しょくにく)、牛肉(ぎゅうにく)、鶏卵(けいらん)"
+      },
+      "jawaban": "B",
+      "pembahasan": "E. coli O157:H7 (enterohemorrhagic E. coli) sering dikaitkan dengan daging sapi, daging olahan, dan air sumur yang terkontaminasi."
+    },
+    {
+      "id": "p1-17",
+      "pertanyaan": "感染(かんせんがた)食中毒(しょくちゅうどく) の主な(おもな)予防対策(よぼうたいさく)どれですか。。 まちがっているものをひとつえらびなさい",
+      "pilihan": {
+        "A": "75℃以上(いじょう)、1分以上(いじょう)加熱します",
+        "B": "調理器具(ちょうりきぐ)などを洗浄(せんじょう)します",
+        "C": "海水(かいすい)の(魚介類)ぎょかいるい加熱します"
+      },
+      "jawaban": "C",
+      "pembahasan": "Pemanasan makanan laut (seafood) bukanlah tindakan pencegahan universal untuk semua infeksi foodborne disease. Tindakan pencegahan utama adalah pemanasan yang tepat (75°C selama 1 menit) dan sanitasi peralatan."
+    },
+    {
+      "id": "p1-18",
+      "pertanyaan": "もし、温度(おんど)や時間(じかん)に異常(いじょう)があったら どうしたら いですか。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "すぐに同僚(どうりょう)にほうほうこくします",
+        "B": "すぐに責任者(せきにんしゃ)にほうこくします",
+        "C": "すぐにけいさつにほうこくします"
+      },
+      "jawaban": "B",
+      "pembahasan": "Jika terjadi kelainan pada suhu atau waktu, langkah pertama adalah segera melaporkan kepada penanggung jawab (責任者)."
+    },
+    {
+      "id": "p1-19",
+      "pertanyaan": "必要(ひつよう)なものは保管(ほかん)して、 不要(ふよう)なものは捨てる(すてる)これはなんの 意味(いみ)ですか。ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "整頓(せいとん)",
+        "B": "整理(せいり)",
+        "C": "清掃(せいそう)"
+      },
+      "jawaban": "B",
+      "pembahasan": "Menyimpan barang yang diperlukan dan membuang barang yang tidak diperlukan adalah definisi dari 'Seiri' (整理)."
+    },
+    {
+      "id": "p1-20",
+      "pertanyaan": "これは新型(しんがた)コロナウイルス 感染症 (かんせんしよう)予防(よぼう)のために。 どれはまちがっているものをひとつえらびなさい",
+      "pilihan": {
+        "A": "密集(みっしゅう)",
+        "B": "密閉(みっぺい)",
+        "C": "密接(みっせつ)",
+        "D": "密殺(みっさつ)"
+      },
+      "jawaban": "D",
+      "pembahasan": "Tiga hal yang harus dihindari untuk mencegah COVID-19 adalah '3C': 密集 (kerumunan), 密閉 (ruangan tertutup), 密接 (kontak dekat). '密殺' bukanlah istilah yang digunakan."
+    }
+  ]
+}
