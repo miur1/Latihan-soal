@@ -100,10 +100,14 @@ function acak(array) {
   return hasil;
 }
 
+/**
+ * Sembunyikan SEMUA layar, tampilkan yang dituju.
+ * Pakai querySelectorAll biar otomatis include layar flashcard juga.
+ */
 function tampilkan(layar) {
-  [layarPilih, layarPilihPaket, layarSoal, layarHasil].forEach((el) =>
-    el.classList.add("tersembunyi")
-  );
+  document.querySelectorAll(".layar").forEach((el) => {
+    el.classList.add("tersembunyi");
+  });
   layar.classList.remove("tersembunyi");
 }
 
@@ -131,6 +135,15 @@ function resetStateSesi() {
 function resetSemuaState() {
   resetStateSesi();
   kategoriAktif = null;
+}
+
+/**
+ * Reset flashcard kalau modul flashcard.js aktif.
+ */
+function resetFlashcardJikaAda() {
+  if (typeof window.resetFlashcard === "function") {
+    window.resetFlashcard();
+  }
 }
 
 /* =========================================================
@@ -355,8 +368,9 @@ btnPaketLain.addEventListener("click", () => {
   else tampilkan(layarPilih);
 });
 
-// Kembali dari daftar paket → reset SEMUA state (termasuk kategori)
+// Kembali dari daftar paket → reset SEMUA state (termasuk flashcard)
 btnKembaliKategori.addEventListener("click", () => {
+  resetFlashcardJikaAda();
   resetSemuaState();
   tampilkan(layarPilih);
 });
@@ -370,6 +384,7 @@ renderDaftarKategori();
    EKSPOSE UNTUK FLASHCARD.JS
    ========================================================= */
 window.kembaliKeDaftarPaket = function () {
+  resetFlashcardJikaAda();
   resetStateSesi();
   if (kategoriAktif) tampilkan(layarPilihPaket);
   else tampilkan(layarPilih);
