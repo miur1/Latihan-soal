@@ -33,9 +33,9 @@ const KATEGORI = [
     nama: "Kotoba",
     ikon: "📚",
     paket: [
-      { id: "kotoba-1", nama: "Bab 1", file: "data/kotoba/bab1.json" },
-      { id: "kotoba-2", nama: "Bab 2", file: "data/kotoba/bab2.json" },
-      { id: "kotoba-3", nama: "Bab 3", file: "data/kotoba/bab3.json" },
+      { id: "kotoba-1", nama: "Bab 1", file: "data/Kotoba/bab1.json" },
+      { id: "kotoba-2", nama: "Bab 2", file: "data/Kotoba/bab2.json" },
+      { id: "kotoba-3", nama: "Bab 3", file: "data/Kotoba/bab3.json" },
     ],
   },
 ];
