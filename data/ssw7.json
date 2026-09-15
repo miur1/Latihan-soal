@@ -1,1 +1,225 @@
-
+{
+  "judul": "Paket Soal 7 - SSW PM + KJ",
+  "soal": [
+    {
+      "id": "p7-01",
+      "pertanyaan": "安全(あんぜん)な食品(しょくひん)を作つくるための全体像(ぜんたいぞ う)まちがっているものをひとつえらびなさい",
+      "pilihan": {
+        "A": "製造中(せいぞうちゅう)の服装(ふくそう)の衛生的な取り扱い(えいせ いてきなとりあつかい)",
+        "B": "安全(あんぜん)な原材料(げんざいりょう)の受け入れ(うけいれ)",
+        "C": "製造中(せいぞうちゅう)の食品の衛生的な(えいせいてき)取り扱い (とりあつかい)"
+      },
+      "jawaban": "A",
+      "pembahasan": "Gambaran umum pembuatan pangan aman mencakup penerimaan bahan baku aman, lingkungan produksi bersih, dan penanganan produk higienis. Penanganan higienis pada pakaian kerja termasuk higiene pekerja, bukan bagian dari gambaran umum proses produksi."
+    },
+    {
+      "id": "p7-02",
+      "pertanyaan": "感染型(かんせんがた)食中毒(しょくちゅうどく)について、正しいものは どれですか。。",
+      "pilihan": {
+        "A": "食べた食品(しょくひん)についていた細菌(さいきん)がヒトのおなか で増え(ふえ)、毒素(どくそ)を作って健康障害(けんこうしょうがい)を 起こす(おこす)もの",
+        "B": "食べた食品(しょくひん)についていた細菌(さいきん)が増えた(ふえた) 毒素(どくそ)を作り、健康障害(けんこうしょうがい)を起こす(おこ す)もの",
+        "C": "ポツリヌス菌、ウエルシュ菌などは感染型(かんせんがた)食中毒(しょ くちゅうどく)を引き起こす(ひきおこす)もの"
+      },
+      "jawaban": "A",
+      "pembahasan": "Foodborne disease tipe infeksi terjadi ketika bakteri yang tertelan berkembang biak di dalam usus manusia dan menghasilkan toksin, yang kemudian menyebabkan gangguan kesehatan."
+    },
+    {
+      "id": "p7-03",
+      "pertanyaan": "カンピロバクター主な(おもな)症状(しょうじょう)はどれですか。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "発熱(はつねつ)、腹痛(ふくつう)、下痢(げり)",
+        "B": "発熱(はつねつ)、腹痛(ふくつう)、げしいて痢(げり)",
+        "C": "吐き気(はきけ)、おうと、腹痛(ふくつう)"
+      },
+      "jawaban": "A",
+      "pembahasan": "Gejala infeksi Campylobacter meliputi demam, sakit perut, dan diare."
+    },
+    {
+      "id": "p7-04",
+      "pertanyaan": "黄色ブドウ(おうしょくブドウ)は原因(げんいん) になりやすい食品(しょくひん)はどれですか。。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "手(て)や指(ゆび)に傷(きず)、おにぎり、すし、弁当(べんとう)など",
+        "B": "米(こめ)や小麦(こむぎ)などを使って(つかって)調理(ちょうり)した食 品(しょくひん)",
+        "C": "缶詰(かんづめ)、びんづめ"
+      },
+      "jawaban": "A",
+      "pembahasan": "Staphylococcus aureus sering ditemukan pada tangan/luka yang terinfeksi, dan makanan yang diolah dengan tangan seperti onigiri, sushi, dan bento."
+    },
+    {
+      "id": "p7-05",
+      "pertanyaan": "作業場(さぎょうじょう)に持ち込み(もちこみ)は しないようにするものはどれですか。。",
+      "pilihan": {
+        "A": "イヤリング",
+        "B": "マスク",
+        "C": "くつ"
+      },
+      "jawaban": "A",
+      "pembahasan": "Perhiasan seperti anting (イヤリング) tidak boleh dibawa masuk ke area produksi karena berisiko jatuh dan mencemari produk."
+    },
+    {
+      "id": "p7-06",
+      "pertanyaan": "ノロウイルス主な(おもな)予防対策(よぼうたいさく) について。 まちがっているものはどれですか",
+      "pilihan": {
+        "A": "85℃～90℃以上(いじょう)、90秒以上(いじょう)加熱(かねつ)します",
+        "B": "手洗い(あらい)を徹底(てってい)します",
+        "C": "80℃以上(いじょう)、30秒(びょう)以上加熱します"
+      },
+      "jawaban": "C",
+      "pembahasan": "Norovirus tidak dapat dibunuh hanya dengan pemanasan 80°C selama 30 detik. Pemanasan yang efektif adalah 85°C-90°C selama minimal 90 detik."
+    },
+    {
+      "id": "p7-07",
+      "pertanyaan": "化学的(かがくてき)危害(きがい)要因(よういん) について間違って(まちがっているものはどれですか?",
+      "pilihan": {
+        "A": "ミネラル、殺菌剤(さっきんざい)、洗浄剤(せんじょうざい)",
+        "B": "農薬(ゆうやく)、抗生物質(こうせいぶっしつ)、洗浄剤(せんじょうざ い)",
+        "C": "抗生物質(こうせいぶっしつ)、農薬(ゆうやく)、殺菌剤(さっきんざい)"
+      },
+      "jawaban": "A",
+      "pembahasan": "Bahaya kimia meliputi pestisida, antibiotik, dan detergen. Mineral (ミネラル) bukanlah bahaya kimia; justru mineral adalah nutrisi yang diperlukan tubuh."
+    },
+    {
+      "id": "p7-08",
+      "pertanyaan": "異物混入いぶつこんにゅうでとくに多いのはなんですか 正しいものを一つえらびなさい",
+      "pilihan": {
+        "A": "ガラス",
+        "B": "金属(きんぞく)",
+        "C": "毛髪(もうはつ)と虫(むし)"
+      },
+      "jawaban": "C",
+      "pembahasan": "Kontaminasi benda asing yang paling sering terjadi adalah rambut (毛髪) dan serangga (虫)."
+    },
+    {
+      "id": "p7-09",
+      "pertanyaan": "食品安全(しょくひんあんぜん)はなぜ大切 (たいせつ)かと理由(りゆう)がいくつかあります。 まちがっているものはどれですか",
+      "pilihan": {
+        "A": "食品工場(しょくひんこうじょう)は、消費者(しょくひしゃ)が満足(ま んぞく)して、贅沢(ぜいたく)なものを作らなければなりません",
+        "B": "食品工場(しょくひんこうじょう)は、消費者(しょくひしゃ)が安心(あ んしん)して、おいしく食べられるものを作らなければなりません",
+        "C": "消費者(しょくひしゃ)は、安全(あんぜん)で安心(あんしん)できる食品 (しょくひん)を求めています(もとめています)"
+      },
+      "jawaban": "A",
+      "pembahasan": "Tujuan keamanan pangan adalah agar konsumen merasa aman, nyaman, dan terlindungi kesehatannya. Membuat produk yang mewah (贅沢) bukanlah alasan utama keamanan pangan."
+    },
+    {
+      "id": "p7-10",
+      "pertanyaan": "原材料(げんざいりょう)の受入(うけいれ)のけっかは、その後(ご)の製造工 程(せいぞうこうてい)でどのように対応(たいおう)するかを判断(はんだん) するための じゅうようなデータになりますなんですか。 正しいものを一つえらびなさい",
+      "pilihan": {
+        "A": "原材料(げんざいりょう)の管理(かんり)",
+        "B": "受入(うけいれ)検査(けんさ)",
+        "C": "健康(けんこう)の管理(かんり)"
+      },
+      "jawaban": "B",
+      "pembahasan": "Hasil penerimaan bahan baku merupakan data penting dari pemeriksaan penerimaan (受入検査) untuk menentukan penanganan pada proses produksi selanjutnya."
+    },
+    {
+      "id": "p7-11",
+      "pertanyaan": "転倒(てんとう)防止(ぼうし)のためにはなんですか。。 ただしものをひとつえらびなさい",
+      "pilihan": {
+        "A": "床(ゆか)が濡れて(ぬれて)いたら、きちんと拭き取ります(ふきとりま す)",
+        "B": "床(ゆか)が濡れて(ぬれて)いたらすぐに 機会(きかい)を止めます(とめ ます)",
+        "C": "足元(あしもと)気をつけて走ります(はしります)"
+      },
+      "jawaban": "A",
+      "pembahasan": "Untuk mencegah terpeleset/terjatuh, lantai yang basah harus segera dilap hingga kering. Berlari di area kerja justru meningkatkan risiko terjatuh."
+    },
+    {
+      "id": "p7-12",
+      "pertanyaan": "作業中(さぎょうちゅう)の製品(せいひん)の扱い上(あつかいじょう)の仕 (ちゅうい)事項(じこう)について、どうするのが正しい(ただしい)です か。",
+      "pilihan": {
+        "A": "冷却(れいきゃく)したものを長く(ながく)体温(たいおん)で放置(ほう ち)する",
+        "B": "製品(せいひん)に異常(いじょう)が見つかったら(みつかったら)、決め られた(きめられた)場所(ばしょ)に置いて(おいて)おく",
+        "C": "加熱(かねつ)したものを長く(ながく)室温(しつおん)で放置(ほうち)す る"
+      },
+      "jawaban": "B",
+      "pembahasan": "Jika menemukan kelainan pada produk, letakkan di tempat yang telah ditentukan. Makanan yang dipanaskan/didinginkan tidak boleh dibiarkan lama pada suhu ruangan."
+    },
+    {
+      "id": "p7-13",
+      "pertanyaan": "期限表示(きげんひょうじ)について ケアレスミスをしたためになんですか まちがっているものを一つえらんでください",
+      "pilihan": {
+        "A": "ロットナンバーを包装(ほうそう)ラインに掲示(けいじ)する",
+        "B": "その日の賞味期限(しょうみきげん)記録(きろく)としてのこしておく",
+        "C": "消費期限(しょうひきげん)や賞味期限(しょうみきげん)の期限表示(き げんひょうじ)のミスでけです"
+      },
+      "jawaban": "C",
+      "pembahasan": "Untuk mencegah kesalahan penulisan tanggal kedaluwarsa, langkah yang benar adalah menampilkan nomor lot di lini pengemasan dan mencatat tanggal kedaluwarsa harian. 'Kesalahan penulisan tanggal' bukanlah tindakan pencegahan, melainkan masalah yang harus dicegah."
+    },
+    {
+      "id": "p7-14",
+      "pertanyaan": "保管(ほかん)サンプルの管理(かんり)はどれですか ただしいものを一つえらびなさい",
+      "pilihan": {
+        "A": "定期的(ていきてき)に温度(おんど)かくにんします",
+        "B": "クレームが発生(はっせい)した場合(ばあい)に備(そな)えて、製造した 製品の中から、一定(いってい)の割合(わりあい)",
+        "C": "無機物(むきぶつ)保管(ほかん)します"
+      },
+      "jawaban": "B",
+      "pembahasan": "Sampel simpan (保管サンプル) disimpan untuk berjaga-jaga jika terjadi keluhan (klaim) dari konsumen, dengan mengambil sebagian produk yang diproduksi."
+    },
+    {
+      "id": "p7-15",
+      "pertanyaan": "製品(せいひん)由来(ゆらい)蛋白質(たんぱくしつ)、油脂(ゆし)、脂肪(し ぼう)、炭水化物(たんすいかぶつ)などの適した(てきした)洗剤(せんざい) はなんですか? ただしいものを一つえらびなさい",
+      "pilihan": {
+        "A": "酸性洗剤(さんせいせんざい)",
+        "B": "アルカリ性洗剤(せいせんざい)",
+        "C": "無機物(むきぶつ)"
+      },
+      "jawaban": "B",
+      "pembahasan": "Deterjen alkali (アルカリ性洗剤) cocok untuk menghilangkan kotoran organik seperti protein, lemak, minyak, dan karbohidrat."
+    },
+    {
+      "id": "p7-16",
+      "pertanyaan": "X線(せん)検出器(けんしゅつき)とは?",
+      "pilihan": {
+        "A": "加熱(かねつ)に生き残った(いきのこった)微生物(びせいぶつ)の増殖(ぞ うしょく)を防止(ぼうし)するもの",
+        "B": "金属(きんぞく)以外(いがい)の危険(きけん)異物(いぶつ)を検(けん)出 (しゅつ)するもの",
+        "C": "危害(がい)を起こす(おこす)異物(いぶつ)である金属(きんぞく)を検出 (けんしゅつ)するもの"
+      },
+      "jawaban": "B",
+      "pembahasan": "Detektor sinar-X (X線検出器) adalah alat yang mendeteksi benda asing berbahaya selain logam, seperti kaca, batu, tulang, dan plastik keras."
+    },
+    {
+      "id": "p7-17",
+      "pertanyaan": "HACCP原則(げんそく)の「検証(けんしょう)方法(ほうほう)の設定(せって い)」をするときは、どうするのが正しい(ただし)ですか。",
+      "pilihan": {
+        "A": "危害(きがい)要因(よういん)がどれくらい重要(じゅうよう)か、どのよ うに管理(かんり)して危害(きがい)を防ぐ(ふせぐ)かを決める(きめる)",
+        "B": "製造 (せいぞう)工程(こうてい)で食品(しょくひん)の安全(あんぜん)を 確保(かくほ)する",
+        "C": "HACCP の計画(けいかく)が適切(てきせつ)に作成(さくせい)され、実施 (じっし)されているかどうかを確認(かくにん)する方法(ほうほう)を決 める(きめる)"
+      },
+      "jawaban": "C",
+      "pembahasan": "Prinsip 'penetapan metode verifikasi' dalam HACCP adalah menentukan metode untuk memastikan apakah rencana HACCP telah dibuat dan dilaksanakan dengan tepat."
+    },
+    {
+      "id": "p7-18",
+      "pertanyaan": "次(つぎ)のを見てみてください! 1. HA とは危害(きがい)要因(よういん)分析(ぶんせきのこと。 2. CCP とは製造(せいぞう)工程(こうてい)の中(なか)で、ミスすることがで きない重要(じゅうよう)管理点(かんりてん)のこと。 3.HA とは原材料(げんざいりょう)の受入れ(うけいれ)から最終(さいしゅ う)製品(せいひん)の出荷(しゅっか)までの工程(こうてい)のこと。 4. HACCP とは製品(せいひん)の安全(あんぜん)を確保(かくほ)する衛生(え いせい)管理(かんり)手法(しゅほう)のこと。 HACCP について正しい(ただし)ものはどれですか?",
+      "pilihan": {
+        "A": "1,2,4",
+        "B": "1,2,3",
+        "C": "1,3,4"
+      },
+      "jawaban": "A",
+      "pembahasan": "Pernyataan 1, 2, dan 4 benar. Pernyataan 3 salah karena HA (Hazard Analysis) adalah analisis bahaya, bukan definisi dari keseluruhan proses dari penerimaan bahan baku hingga pengiriman produk."
+    },
+    {
+      "id": "p7-19",
+      "pertanyaan": "事業者(じぎょうしゃ)についてはどれですか。 正しいものを一つえらびなさい",
+      "pilihan": {
+        "A": "器具(きぐ)の使い(つかい)分け(わけ)",
+        "B": "原材料(げんざいりょう)の区分(くぶん)と保管(ほかん)",
+        "C": "働(はたらく)人達(ひとたち)の安全(あんぜん)と健康(けんこう)を守(ま も)ります"
+      },
+      "jawaban": "C",
+      "pembahasan": "Tanggung jawab pengusaha (事業者) adalah melindungi keselamatan dan kesehatan para pekerja."
+    },
+    {
+      "id": "p7-20",
+      "pertanyaan": "安全(あんぜん)のための正(ただし)はどれですか。 まちがっているものを一つえらんでください",
+      "pilihan": {
+        "A": "正しい服装(ふくそう)",
+        "B": "ヘルメットを着用(ちゃくよう)しないでください",
+        "C": "保護具はごく使います"
+      },
+      "jawaban": "B",
+      "pembahasan": "Untuk keselamatan, pekerja harus memakai helm (helmet) di area yang membutuhkannya. 'Jangan memakai helm' adalah pernyataan yang salah."
+    }
+  ]
+}
