@@ -102,6 +102,12 @@
         <div id="isi-progres-fc" class="isi-progres"></div>
       </div>
 
+      <div class="stat-fc">
+        <span class="stat-item stat-hafal-item">✅ Hafal: <strong id="stat-hafal">0</strong></span>
+        <span class="stat-item stat-belum-item">❌ Belum: <strong id="stat-belum">0</strong></span>
+        <span class="stat-item stat-total-item">📚 <strong id="stat-total">0 / 0</strong></span>
+      </div>
+
       <div id="kartu-fc" class="kartu-fc">
         <div class="kartu-fc-inner">
           <div class="kartu-fc-depan">
@@ -116,10 +122,17 @@
 
       <p class="petunjuk-fc">Ketuk kartu untuk lihat arti</p>
 
-      <div class="aksi-bawah">
-        <button id="btn-ulangi-fc" class="btn btn-sekunder" type="button" disabled>🔁 Ulangi nanti</button>
-        <button id="btn-hafal-fc" class="btn btn-utama" type="button" disabled>✓ Sudah hafal</button>
+      <div class="aksi-fc">
+        <button id="btn-belum-fc" class="btn btn-belum" type="button">✗ Belum</button>
+        <button id="btn-hafal-fc" class="btn btn-hafal" type="button">✓ Hafal</button>
       </div>
+
+      <div class="aksi-fc-nav">
+        <button id="btn-prev-fc" class="btn btn-nav" type="button">← Sebelumnya</button>
+        <button id="btn-next-fc" class="btn btn-nav" type="button">Selanjutnya →</button>
+      </div>
+
+      <button id="btn-reset-fc" class="tautan-kecil tautan-reset" type="button">↻ Balik ke awal (reset progress)</button>
     </section>
 
     <!-- ===== LAYAR 6: HASIL FLASHCARD ===== -->
