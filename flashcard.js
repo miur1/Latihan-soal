@@ -162,11 +162,25 @@
     }
   });
 
-  // ---------- KELUAR ----------
-  btnKeluarFc.addEventListener("click", () => {
-    if (window.kembaliKeDaftarPaket) window.kembaliKeDaftarPaket();
-    else window.location.reload();
-  });
+// ---------- KELUAR ----------
+btnKeluarFc.addEventListener("click", () => {
+  // Reset semua state sebelum keluar
+  paketFc = null;
+  daftarKartu = [];
+  statusKartu = [];
+  indexSekarang = 0;
+  totalKartu = 0;
+
+  // Reset tampilan kartu (biar nggak ada sisa flip)
+  kartuFcEl.classList.remove("terbuka");
+  teksKanjiEl.textContent = "";
+  teksBacaEl.textContent = "";
+  teksArtiEl.textContent = "";
+
+  // Kembali ke daftar paket
+  if (window.kembaliKeDaftarPaket) window.kembaliKeDaftarPaket();
+  else window.location.reload();
+});
 
   // ---------- EXPORT ----------
   window.mulaiFlashcard = mulaiFlashcard;
