@@ -334,3 +334,101 @@ body {
   .kop h1 { font-size: 22px; }
   .pertanyaan { font-size: 17.5px; }
 }
+
+
+/* ---------- Flashcard (Kotoba) ---------- */
+.kartu-fc {
+  width: 100%;
+  max-width: 480px;
+  height: 320px;
+  margin: 24px auto;
+  perspective: 1200px;
+  cursor: pointer;
+}
+
+.kartu-fc-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+
+.kartu-fc.terbuka .kartu-fc-inner {
+  transform: rotateY(180deg);
+}
+
+.kartu-fc-depan,
+.kartu-fc-belakang {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: var(--radius);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  text-align: center;
+  line-height: 1.4;
+  box-sizing: border-box;
+}
+
+.kartu-fc-depan {
+  background: var(--kertas);
+  border: 1px solid var(--garis);
+}
+
+.kartu-fc-belakang {
+  background: var(--hijau-lembut);
+  border: 1px solid var(--hijau);
+  transform: rotateY(180deg);
+}
+
+/* Kanji besar, furigana kecil di bawahnya */
+.teks-kanji {
+  font-family: 'Lora', serif;
+  font-size: 64px;
+  font-weight: 600;
+  color: var(--tinta);
+  line-height: 1.2;
+}
+
+.teks-baca {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 18px;
+  color: var(--tinta-pudar);
+  margin-top: 12px;
+  letter-spacing: 0.05em;
+}
+
+.teks-arti {
+  font-family: 'Lora', serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--hijau);
+}
+
+.petunjuk-fc {
+  text-align: center;
+  color: var(--tinta-pudar);
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  margin-top: -8px;
+}
+
+.ringkasan-fc {
+  text-align: center;
+  color: var(--tinta-pudar);
+  font-size: 15px;
+  margin: 16px 0;
+}
+
+@media (max-width: 480px) {
+  .kartu-fc { height: 260px; }
+  .teks-kanji { font-size: 52px; }
+  .teks-baca { font-size: 16px; }
+  .teks-arti { font-size: 26px; }
+}
