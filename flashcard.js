@@ -186,3 +186,5 @@ btnKeluarFc.addEventListener("click", () => {
 
 // Ekspos ke global supaya app.js bisa panggil
 window.resetFlashcard = resetFlashcard;
+window.mulaiFlashcard = mulaiFlashcard;
+})();
