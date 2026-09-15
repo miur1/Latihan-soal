@@ -4,8 +4,7 @@
    dan menaruh file JSON-nya di folder /data
    ========================================================= */
 const PAKET = [
-  { id: "ssw1", nama: "ssw 1", file: "data/ssw1.json" },
-  { id: "ssw2", nama: "ssw 2", file: "data/ssw2.json" },
+  { id: "paket-1", nama: "ssw 1", file: "data/ssw1.json" },
 ];
 
 /* =========================================================
