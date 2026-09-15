@@ -8,6 +8,10 @@ const PAKET = [
   { id: "paket-2", nama: "ssw 2", file: "data/ssw2.json" },
   { id: "paket-3", nama: "ssw 3", file: "data/ssw3.json" },
   { id: "paket-4", nama: "ssw 4", file: "data/ssw4.json" },
+  { id: "paket-5", nama: "ssw 5", file: "data/ssw5.json" },
+  { id: "paket-6", nama: "ssw 6", file: "data/ssw6.json" },
+  { id: "paket-7", nama: "ssw 7", file: "data/ssw7.json" },
+  { id: "paket-8", nama: "ssw 8", file: "data/ssw8.json" },
 ];
 
 /* =========================================================
