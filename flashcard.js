@@ -153,35 +153,36 @@
   btnHafalFc.addEventListener("click", () => tandaiKartu("hafal"));
   btnBelumFc.addEventListener("click", () => tandaiKartu("belum"));
 
-  // ---------- RESET ----------
-  btnResetFc.addEventListener("click", () => {
-    if (confirm("Reset semua progress dan mulai dari awal?")) {
-      statusKartu = new Array(daftarKartu.length).fill(null);
-      indexSekarang = 0;
-      renderKartu();
-    }
-  });
-
-// ---------- KELUAR ----------
-btnKeluarFc.addEventListener("click", () => {
-  // Reset semua state sebelum keluar
+// ---------- RESET FLASHCARD ----------
+function resetFlashcard() {
+  // Reset state
   paketFc = null;
   daftarKartu = [];
   statusKartu = [];
   indexSekarang = 0;
   totalKartu = 0;
 
-  // Reset tampilan kartu (biar nggak ada sisa flip)
-  kartuFcEl.classList.remove("terbuka");
-  teksKanjiEl.textContent = "";
-  teksBacaEl.textContent = "";
-  teksArtiEl.textContent = "";
+  // Reset tampilan kartu
+  if (kartuFcEl) kartuFcEl.classList.remove("terbuka");
+  if (teksKanjiEl) teksKanjiEl.textContent = "";
+  if (teksBacaEl) teksBacaEl.textContent = "";
+  if (teksArtiEl) teksArtiEl.textContent = "";
+  if (nomorFcEl) nomorFcEl.textContent = "";
+  if (isiProgresFcEl) isiProgresFcEl.style.width = "0%";
+  if (statHafalEl) statHafalEl.textContent = "0";
+  if (statBelumEl) statBelumEl.textContent = "0";
+  if (statTotalEl) statTotalEl.textContent = "0 / 0";
 
-  // Kembali ke daftar paket
+  // PAKSA sembunyikan layar flashcard
+  if (layarFlashcard) layarFlashcard.classList.add("tersembunyi");
+}
+
+// ---------- KELUAR ----------
+btnKeluarFc.addEventListener("click", () => {
+  resetFlashcard();
   if (window.kembaliKeDaftarPaket) window.kembaliKeDaftarPaket();
   else window.location.reload();
 });
 
-  // ---------- EXPORT ----------
-  window.mulaiFlashcard = mulaiFlashcard;
-})();
+// Ekspos ke global supaya app.js bisa panggil
+window.resetFlashcard = resetFlashcard;
