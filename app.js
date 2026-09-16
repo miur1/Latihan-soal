@@ -1,22 +1,37 @@
 /* =========================================================
    KONFIGURASI KATEGORI & PAKET SOAL
-   Tambah kategori / paket baru cukup di sini.
-   File JSON ditaruh di folder /data/<kategori>/
    ========================================================= */
 const KATEGORI = [
   {
     id: "ssw",
     nama: "SSW",
     ikon: "🍜",
-    paket: [
-      { id: "ssw-1", nama: "ssw 1", file: "data/Ssw/ssw1.json" },
-      { id: "ssw-2", nama: "ssw 2", file: "data/Ssw/ssw2.json" },
-      { id: "ssw-3", nama: "ssw 3", file: "data/Ssw/ssw3.json" },
-      { id: "ssw-4", nama: "ssw 4", file: "data/Ssw/ssw4.json" },
-      { id: "ssw-5", nama: "ssw 5", file: "data/Ssw/ssw5.json" },
-      { id: "ssw-6", nama: "ssw 6", file: "data/Ssw/ssw6.json" },
-      { id: "ssw-7", nama: "ssw 7", file: "data/Ssw/ssw7.json" },
-      { id: "ssw-8", nama: "ssw 8", file: "data/Ssw/ssw8.json" },
+    sub: [
+      {
+        id: "ssw-latsol",
+        nama: "Latsol",
+        ikon: "📝",
+        paket: [
+          { id: "ssw-1", nama: "ssw 1", file: "data/Ssw/latsol/ssw1.json" },
+          { id: "ssw-2", nama: "ssw 2", file: "data/Ssw/latsol/ssw2.json" },
+          { id: "ssw-3", nama: "ssw 3", file: "data/Ssw/latsol/ssw3.json" },
+          { id: "ssw-4", nama: "ssw 4", file: "data/Ssw/latsol/ssw4.json" },
+          { id: "ssw-5", nama: "ssw 5", file: "data/Ssw/latsol/ssw5.json" },
+          { id: "ssw-6", nama: "ssw 6", file: "data/Ssw/latsol/ssw6.json" },
+          { id: "ssw-7", nama: "ssw 7", file: "data/Ssw/latsol/ssw7.json" },
+          { id: "ssw-8", nama: "ssw 8", file: "data/Ssw/latsol/ssw8.json" },
+        ],
+      },
+      {
+        id: "ssw-kotoba",
+        nama: "Kotoba",
+        ikon: "📚",
+        paket: [
+          { id: "ssw-kotoba-1", nama: "Bab 1", file: "data/Ssw/kotoba/bab1.json" },
+          { id: "ssw-kotoba-2", nama: "Bab 2", file: "data/Ssw/kotoba/bab2.json" },
+          { id: "ssw-kotoba-3", nama: "Bab 3", file: "data/Ssw/kotoba/bab3.json" },
+        ],
+      },
     ],
   },
   {
@@ -28,53 +43,37 @@ const KATEGORI = [
       { id: "jft-2", nama: "jft 2", file: "data/jft/jft2.json" },
     ],
   },
-  {
-    id: "kotoba",
-    nama: "Kotoba",
-    ikon: "📚",
-    paket: [
-      { id: "kotoba-1", nama: "Bab 1", file: "data/Kotoba/bab1.json" },
-      { id: "kotoba-2", nama: "Bab 2", file: "data/Kotoba/bab2.json" },
-      { id: "kotoba-3", nama: "Bab 3", file: "data/Kotoba/bab3.json" },
-      { id: "kotoba-4", nama: "Bab 4", file: "data/Kotoba/bab4.json" },
-      { id: "kotoba-5", nama: "Bab 5", file: "data/Kotoba/bab5.json" },
-      { id: "kotoba-6", nama: "Bab 6", file: "data/Kotoba/bab6.json" },
-      { id: "kotoba-7", nama: "Bab 7", file: "data/Kotoba/bab7.json" },
-      { id: "kotoba-8", nama: "Bab 8", file: "data/Kotoba/bab8.json" },
-      { id: "kotoba-9", nama: "Bab 9", file: "data/Kotoba/bab9.json" },
-      { id: "kotoba-10", nama: "Bab 10", file: "data/Kotoba/bab10.json" },
-      { id: "kotoba-11", nama: "Bab 11", file: "data/Kotoba/bab11.json" },
-      { id: "kotoba-12", nama: "Bab 12", file: "data/Kotoba/bab12.json" },
-    ],
-  },
 ];
 
 /* =========================================================
    STATE
    ========================================================= */
-let kategoriAktif = null;   // { id, nama, ikon, paket: [...] }
-let paketAktif = null;      // { id, nama, file, judul, soal: [...] }
-let soalAcak = [];          // urutan soal ter-acak untuk sesi berjalan
+let kategoriAktif = null;
+let subAktif = null;
+let paketAktif = null;
+let soalAcak = [];
 let indexSoal = 0;
-let jawabanUser = [];       // { pertanyaan, dipilih, jawabanBenar, benar }
+let jawabanUser = [];
 let sudahDijawab = false;
 let pilihanTerpilih = null;
 
 /* =========================================================
    ELEMEN DOM
    ========================================================= */
-// Layar 1: pilih kategori
 const layarPilih = document.getElementById("layar-pilih");
 const daftarPaketEl = document.getElementById("daftar-paket");
 const statusMuatEl = document.getElementById("status-muat");
 
-// Layar 2: pilih paket dalam kategori
 const layarPilihPaket = document.getElementById("layar-pilih-paket");
 const judulKategoriEl = document.getElementById("judul-kategori");
 const daftarPaketKategoriEl = document.getElementById("daftar-paket-kategori");
 const btnKembaliKategori = document.getElementById("btn-kembali-kategori");
 
-// Layar 3: sesi soal
+const layarPilihSub = document.getElementById("layar-pilih-sub");
+const judulKategoriSubEl = document.getElementById("judul-kategori-sub");
+const daftarSubEl = document.getElementById("daftar-sub");
+const btnKembaliDariSub = document.getElementById("btn-kembali-dari-sub");
+
 const layarSoal = document.getElementById("layar-soal");
 const judulPaketAktifEl = document.getElementById("judul-paket-aktif");
 const nomorProgresEl = document.getElementById("nomor-progres");
@@ -89,7 +88,6 @@ const btnJawab = document.getElementById("btn-jawab");
 const btnLanjut = document.getElementById("btn-lanjut");
 const btnKeluar = document.getElementById("btn-keluar");
 
-// Layar 4: hasil
 const layarHasil = document.getElementById("layar-hasil");
 const judulHasilEl = document.getElementById("judul-hasil");
 const skorAngkaEl = document.getElementById("skor-angka");
@@ -109,10 +107,6 @@ function acak(array) {
   return hasil;
 }
 
-/**
- * Sembunyikan SEMUA layar, tampilkan yang dituju.
- * Pakai querySelectorAll biar otomatis include layar flashcard juga.
- */
 function tampilkan(layar) {
   document.querySelectorAll(".layar").forEach((el) => {
     el.classList.add("tersembunyi");
@@ -120,9 +114,6 @@ function tampilkan(layar) {
   layar.classList.remove("tersembunyi");
 }
 
-/**
- * Reset semua state sesi soal (dipakai saat keluar).
- */
 function resetStateSesi() {
   paketAktif = null;
   soalAcak = [];
@@ -131,24 +122,18 @@ function resetStateSesi() {
   sudahDijawab = false;
   pilihanTerpilih = null;
 
-  // Bersihkan tampilan (biar nggak ada sisa render lama)
   if (daftarPilihanEl) daftarPilihanEl.innerHTML = "";
   if (teksPertanyaanEl) teksPertanyaanEl.textContent = "";
   if (pembahasanEl) pembahasanEl.classList.add("tersembunyi");
   if (isiProgresEl) isiProgresEl.style.width = "0%";
 }
 
-/**
- * Reset semua state termasuk kategori yang sedang dibuka.
- */
 function resetSemuaState() {
   resetStateSesi();
   kategoriAktif = null;
+  subAktif = null;
 }
 
-/**
- * Reset flashcard kalau modul flashcard.js aktif.
- */
 function resetFlashcardJikaAda() {
   if (typeof window.resetFlashcard === "function") {
     window.resetFlashcard();
@@ -164,10 +149,22 @@ function renderDaftarKategori() {
     const kartu = document.createElement("button");
     kartu.type = "button";
     kartu.className = "kartu-paket";
+
+    let jumlahPaket = 0;
+    if (k.sub) {
+      k.sub.forEach((s) => { jumlahPaket += s.paket.length; });
+    } else if (k.paket) {
+      jumlahPaket = k.paket.length;
+    }
+
+    const infoText = k.sub
+      ? `${k.sub.length} jenis · ${jumlahPaket} paket`
+      : `${jumlahPaket} paket soal`;
+
     kartu.innerHTML = `
       <span>
         <span class="kp-nama">${k.ikon || "📁"} ${k.nama}</span>
-        <span class="kp-info">${k.paket.length} paket soal</span>
+        <span class="kp-info">${infoText}</span>
       </span>
       <span class="kp-panah">&rarr;</span>
     `;
@@ -177,13 +174,55 @@ function renderDaftarKategori() {
 }
 
 /* =========================================================
-   LAYAR 2: DAFTAR PAKET DALAM KATEGORI
+   LAYAR 2: BUKA KATEGORI
    ========================================================= */
 function bukaKategori(k) {
   kategoriAktif = k;
-  judulKategoriEl.textContent = `${k.ikon || "📁"} ${k.nama}`;
+
+  if (k.sub && k.sub.length > 0) {
+    judulKategoriSubEl.textContent = `${k.ikon || "📁"} ${k.nama}`;
+    daftarSubEl.innerHTML = "";
+    k.sub.forEach((s) => {
+      const kartu = document.createElement("button");
+      kartu.type = "button";
+      kartu.className = "kartu-paket";
+      kartu.innerHTML = `
+        <span>
+          <span class="kp-nama">${s.ikon || "📁"} ${s.nama}</span>
+          <span class="kp-info">${s.paket.length} paket</span>
+        </span>
+        <span class="kp-panah">&rarr;</span>
+      `;
+      kartu.addEventListener("click", () => bukaSub(s));
+      daftarSubEl.appendChild(kartu);
+    });
+    tampilkan(layarPilihSub);
+  } else {
+    tampilkanDaftarPaket(k, null);
+  }
+}
+
+/* =========================================================
+   LAYAR 2B: BUKA SUB-KATEGORI
+   ========================================================= */
+function bukaSub(s) {
+  subAktif = s;
+  tampilkanDaftarPaket(kategoriAktif, s);
+}
+
+/* =========================================================
+   TAMPILKAN DAFTAR PAKET
+   ========================================================= */
+function tampilkanDaftarPaket(kategori, sub) {
+  const paketList = sub ? sub.paket : kategori.paket;
+  const judul = sub
+    ? `${kategori.ikon || "📁"} ${kategori.nama} — ${sub.ikon || ""} ${sub.nama}`
+    : `${kategori.ikon || "📁"} ${kategori.nama}`;
+
+  judulKategoriEl.textContent = judul;
   daftarPaketKategoriEl.innerHTML = "";
-  k.paket.forEach((p) => {
+
+  paketList.forEach((p) => {
     const kartu = document.createElement("button");
     kartu.type = "button";
     kartu.className = "kartu-paket";
@@ -197,11 +236,12 @@ function bukaKategori(k) {
     kartu.addEventListener("click", () => mulaiPaket(p));
     daftarPaketKategoriEl.appendChild(kartu);
   });
+
   tampilkan(layarPilihPaket);
 }
 
 /* =========================================================
-   FUNGSI MULAI PAKET (deteksi kuis vs flashcard)
+   FUNGSI MULAI PAKET
    ========================================================= */
 async function mulaiPaket(p) {
   statusMuatEl.textContent = `Memuat ${p.nama}...`;
@@ -211,7 +251,6 @@ async function mulaiPaket(p) {
     const data = await res.json();
     statusMuatEl.textContent = "";
 
-    // Kalau tipe flashcard, oper ke flashcard.js
     if (data.tipe === "flashcard") {
       window.mulaiFlashcard({
         ...p,
@@ -221,11 +260,10 @@ async function mulaiPaket(p) {
       return;
     }
 
-    // Default: kuis pilihan ganda
     paketAktif = { ...p, judul: data.judul || p.nama, soal: data.soal };
     mulaiSesi();
   } catch (err) {
-    statusMuatEl.textContent = `Gagal memuat soal (${err.message}). Pastikan file ${p.file} ada dan halaman ini dibuka lewat server (bukan dibuka langsung dari file explorer).`;
+    statusMuatEl.textContent = `Gagal memuat soal (${err.message}). Pastikan file ${p.file} ada.`;
   }
 }
 
@@ -250,7 +288,6 @@ function renderSoal() {
   nomorSoalStempelEl.textContent = `SOAL ${String(indexSoal + 1).padStart(2, "0")}`;
   nomorProgresEl.textContent = `${indexSoal + 1} / ${soalAcak.length}`;
   isiProgresEl.style.width = `${(indexSoal / soalAcak.length) * 100}%`;
-
   teksPertanyaanEl.textContent = soal.pertanyaan;
 
   daftarPilihanEl.innerHTML = "";
@@ -360,25 +397,33 @@ function tampilkanHasil() {
 btnJawab.addEventListener("click", cekJawaban);
 btnLanjut.addEventListener("click", lanjutSoal);
 
-// Keluar dari sesi soal → reset state + balik ke daftar paket kategori
 btnKeluar.addEventListener("click", () => {
   resetStateSesi();
   if (kategoriAktif) tampilkan(layarPilihPaket);
   else tampilkan(layarPilih);
 });
 
-// Ulangi sesi yang sama (state di-reset ulang di mulaiSesi)
 btnUlangi.addEventListener("click", mulaiSesi);
 
-// Dari hasil → reset state + balik ke daftar paket kategori
 btnPaketLain.addEventListener("click", () => {
   resetStateSesi();
   if (kategoriAktif) tampilkan(layarPilihPaket);
   else tampilkan(layarPilih);
 });
 
-// Kembali dari daftar paket → reset SEMUA state (termasuk flashcard)
 btnKembaliKategori.addEventListener("click", () => {
+  resetFlashcardJikaAda();
+  resetStateSesi();
+  if (subAktif && kategoriAktif && kategoriAktif.sub) {
+    subAktif = null;
+    tampilkan(layarPilihSub);
+  } else {
+    resetSemuaState();
+    tampilkan(layarPilih);
+  }
+});
+
+btnKembaliDariSub.addEventListener("click", () => {
   resetFlashcardJikaAda();
   resetSemuaState();
   tampilkan(layarPilih);
