@@ -30,6 +30,15 @@ const KATEGORI = [
           { id: "ssw-kotoba-1", nama: "Bab 1", file: "data/Ssw/kotoba/bab1.json" },
           { id: "ssw-kotoba-2", nama: "Bab 2", file: "data/Ssw/kotoba/bab2.json" },
           { id: "ssw-kotoba-3", nama: "Bab 3", file: "data/Ssw/kotoba/bab3.json" },
+          { id: "ssw-kotoba-4", nama: "Bab 4", file: "data/Ssw/kotoba/bab4.json" },
+          { id: "ssw-kotoba-5", nama: "Bab 5", file: "data/Ssw/kotoba/bab5.json" },
+          { id: "ssw-kotoba-6", nama: "Bab 6", file: "data/Ssw/kotoba/bab6.json" },
+          { id: "ssw-kotoba-7", nama: "Bab 7", file: "data/Ssw/kotoba/bab7.json" },
+          { id: "ssw-kotoba-8", nama: "Bab 8", file: "data/Ssw/kotoba/bab8.json" },
+          { id: "ssw-kotoba-9", nama: "Bab 9", file: "data/Ssw/kotoba/bab9.json" },
+          { id: "ssw-kotoba-10", nama: "Bab 10", file: "data/Ssw/kotoba/bab10.json" },
+          { id: "ssw-kotoba-11", nama: "Bab 11", file: "data/Ssw/kotoba/bab11.json" },
+          { id: "ssw-kotoba-12", nama: "Bab 12", file: "data/Ssw/kotoba/bab12.json" },
         ],
       },
     ],
@@ -60,20 +69,24 @@ let pilihanTerpilih = null;
 /* =========================================================
    ELEMEN DOM
    ========================================================= */
+// Layar 1: pilih kategori
 const layarPilih = document.getElementById("layar-pilih");
 const daftarPaketEl = document.getElementById("daftar-paket");
 const statusMuatEl = document.getElementById("status-muat");
 
+// Layar 2: pilih paket dalam kategori
 const layarPilihPaket = document.getElementById("layar-pilih-paket");
 const judulKategoriEl = document.getElementById("judul-kategori");
 const daftarPaketKategoriEl = document.getElementById("daftar-paket-kategori");
 const btnKembaliKategori = document.getElementById("btn-kembali-kategori");
 
+// Layar 2B: pilih sub-kategori
 const layarPilihSub = document.getElementById("layar-pilih-sub");
 const judulKategoriSubEl = document.getElementById("judul-kategori-sub");
 const daftarSubEl = document.getElementById("daftar-sub");
 const btnKembaliDariSub = document.getElementById("btn-kembali-dari-sub");
 
+// Layar 3: sesi soal
 const layarSoal = document.getElementById("layar-soal");
 const judulPaketAktifEl = document.getElementById("judul-paket-aktif");
 const nomorProgresEl = document.getElementById("nomor-progres");
@@ -88,6 +101,7 @@ const btnJawab = document.getElementById("btn-jawab");
 const btnLanjut = document.getElementById("btn-lanjut");
 const btnKeluar = document.getElementById("btn-keluar");
 
+// Layar 4: hasil
 const layarHasil = document.getElementById("layar-hasil");
 const judulHasilEl = document.getElementById("judul-hasil");
 const skorAngkaEl = document.getElementById("skor-angka");
@@ -241,7 +255,7 @@ function tampilkanDaftarPaket(kategori, sub) {
 }
 
 /* =========================================================
-   FUNGSI MULAI PAKET
+   FUNGSI MULAI PAKET (deteksi kuis vs flashcard)
    ========================================================= */
 async function mulaiPaket(p) {
   statusMuatEl.textContent = `Memuat ${p.nama}...`;
@@ -251,6 +265,7 @@ async function mulaiPaket(p) {
     const data = await res.json();
     statusMuatEl.textContent = "";
 
+    // Kalau tipe flashcard, oper ke flashcard.js
     if (data.tipe === "flashcard") {
       window.mulaiFlashcard({
         ...p,
@@ -260,6 +275,7 @@ async function mulaiPaket(p) {
       return;
     }
 
+    // Default: kuis pilihan ganda
     paketAktif = { ...p, judul: data.judul || p.nama, soal: data.soal };
     mulaiSesi();
   } catch (err) {
@@ -397,20 +413,24 @@ function tampilkanHasil() {
 btnJawab.addEventListener("click", cekJawaban);
 btnLanjut.addEventListener("click", lanjutSoal);
 
+// Keluar dari sesi soal
 btnKeluar.addEventListener("click", () => {
   resetStateSesi();
   if (kategoriAktif) tampilkan(layarPilihPaket);
   else tampilkan(layarPilih);
 });
 
+// Ulangi sesi yang sama
 btnUlangi.addEventListener("click", mulaiSesi);
 
+// Dari hasil → balik ke daftar paket
 btnPaketLain.addEventListener("click", () => {
   resetStateSesi();
   if (kategoriAktif) tampilkan(layarPilihPaket);
   else tampilkan(layarPilih);
 });
 
+// Kembali dari daftar paket
 btnKembaliKategori.addEventListener("click", () => {
   resetFlashcardJikaAda();
   resetStateSesi();
@@ -423,6 +443,7 @@ btnKembaliKategori.addEventListener("click", () => {
   }
 });
 
+// Kembali dari daftar sub → ke kategori
 btnKembaliDariSub.addEventListener("click", () => {
   resetFlashcardJikaAda();
   resetSemuaState();
