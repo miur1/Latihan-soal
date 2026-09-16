@@ -153,6 +153,19 @@
   btnHafalFc.addEventListener("click", () => tandaiKartu("hafal"));
   btnBelumFc.addEventListener("click", () => tandaiKartu("belum"));
 
+   // ---------- RESET PROGRESS (tombol di dalam flashcard) ----------
+btnResetFc.addEventListener("click", () => {
+  const konfirmasi = confirm("Reset semua progress dan mulai dari awal?");
+  if (!konfirmasi) return;
+
+  // Reset status semua kartu jadi null (belum diputuskan)
+  statusKartu = new Array(daftarKartu.length).fill(null);
+  indexSekarang = 0;
+
+  // Render ulang dari kartu pertama
+  renderKartu();
+});
+
 // ---------- RESET FLASHCARD ----------
 function resetFlashcard() {
   // Reset state
