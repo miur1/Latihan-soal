@@ -168,9 +168,44 @@
       </div>
     </section>
 
+    <!-- ===== LAYAR 7: MODUL (PDF) ===== -->
+    <section id="layar-modul" class="layar tersembunyi">
+      <header class="kop-soal">
+        <button id="btn-keluar-modul" class="tautan-kecil" type="button">&larr; Ganti paket</button>
+        <span id="judul-modul" class="judul-paket-aktif"></span>
+      </header>
+
+      <div class="modul-wrap">
+        <iframe
+          id="pdf-frame"
+          class="pdf-frame"
+          src=""
+          title="Modul PDF"
+        ></iframe>
+      </div>
+
+      <div class="aksi-bawah">
+        <a
+          id="btn-buka-tab-baru"
+          class="btn btn-utama"
+          href="#"
+          target="_blank"
+          rel="noopener"
+          style="display:block;text-align:center;text-decoration:none;"
+        >
+          🔍 Buka PDF di layar penuh
+        </a>
+      </div>
+
+      <p class="petunjuk-modul">
+        Tips: kalau PDF nggak muncul di HP, klik tombol di atas untuk buka di tab baru.
+      </p>
+    </section>
+
   </div>
 
 <script src="app.js"></script>
 <script src="flashcard.js"></script>
+<script src="modul.js"></script>
 </body>
 </html>
