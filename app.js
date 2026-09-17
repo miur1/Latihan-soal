@@ -53,14 +53,43 @@ const KATEGORI = [
       },
     ],
   },
-  // ↓↓↓ KATEGORI N3 BARU ↓↓↓
   {
     id: "n3",
     nama: "N3",
     ikon: "🇯🇵",
-    paket: [
-      { id: "n3-1", nama: "N3 1", file: "data/n3/n3-1.json" },
-      { id: "n3-2", nama: "N3 2", file: "data/n3/n3-2.json" },
+    sub: [
+      {
+        id: "n3-kotoba",
+        nama: "Kotoba",
+        ikon: "📚",
+        paket: [
+          { id: "n3-kotoba-1", nama: "Bab 1", file: "data/N3/Kotoba/bab1.json" },
+          { id: "n3-kotoba-2", nama: "Bab 2", file: "data/N3/Kotoba/bab2.json" },
+          { id: "n3-kotoba-3", nama: "Bab 3", file: "data/N3/Kotoba/bab3.json" },
+          { id: "n3-kotoba-4", nama: "Bab 4", file: "data/N3/Kotoba/bab4.json" },
+          { id: "n3-kotoba-5", nama: "Bab 5", file: "data/N3/Kotoba/bab5.json" },
+          { id: "n3-kotoba-6", nama: "Bab 6", file: "data/N3/Kotoba/bab6.json" },
+          { id: "n3-kotoba-7", nama: "Bab 7", file: "data/N3/Kotoba/bab7.json" },
+          { id: "n3-kotoba-8", nama: "Bab 8", file: "data/N3/Kotoba/bab8.json" },
+          { id: "n3-kotoba-9", nama: "Bab 9", file: "data/N3/Kotoba/bab9.json" },
+          { id: "n3-kotoba-10", nama: "Bab 10", file: "data/N3/Kotoba/bab10.json" },
+          { id: "n3-kotoba-11", nama: "Bab 11", file: "data/N3/Kotoba/bab11.json" },
+          { id: "n3-kotoba-12", nama: "Bab 12", file: "data/N3/Kotoba/bab12.json" },
+          { id: "n3-kotoba-13", nama: "Bab 13", file: "data/N3/Kotoba/bab13.json" },
+          { id: "n3-kotoba-14", nama: "Bab 14", file: "data/N3/Kotoba/bab14.json" },
+          { id: "n3-kotoba-15", nama: "Bab 15", file: "data/N3/Kotoba/bab15.json" },
+          { id: "n3-kotoba-16", nama: "Bab 16", file: "data/N3/Kotoba/bab16.json" },
+          { id: "n3-kotoba-17", nama: "Bab 17", file: "data/N3/Kotoba/bab17.json" },
+          { id: "n3-kotoba-18", nama: "Bab 18", file: "data/N3/Kotoba/bab18.json" },
+          { id: "n3-kotoba-19", nama: "Bab 19", file: "data/N3/Kotoba/bab19.json" },
+          { id: "n3-kotoba-20", nama: "Bab 20", file: "data/N3/Kotoba/bab20.json" },
+          { id: "n3-kotoba-21", nama: "Bab 21", file: "data/N3/Kotoba/bab21.json" },
+          { id: "n3-kotoba-22", nama: "Bab 22", file: "data/N3/Kotoba/bab22.json" },
+          { id: "n3-kotoba-23", nama: "Bab 23", file: "data/N3/Kotoba/bab23.json" },
+          { id: "n3-kotoba-24", nama: "Bab 24", file: "data/N3/Kotoba/bab24.json" },
+          { id: "n3-kotoba-25", nama: "Bab 25", file: "data/N3/Kotoba/bab25.json" },
+        ],
+      },
     ],
   },
   {
@@ -89,24 +118,20 @@ let pilihanTerpilih = null;
 /* =========================================================
    ELEMEN DOM
    ========================================================= */
-// Layar 1: pilih kategori
 const layarPilih = document.getElementById("layar-pilih");
 const daftarPaketEl = document.getElementById("daftar-paket");
 const statusMuatEl = document.getElementById("status-muat");
 
-// Layar 2: pilih paket dalam kategori
 const layarPilihPaket = document.getElementById("layar-pilih-paket");
 const judulKategoriEl = document.getElementById("judul-kategori");
 const daftarPaketKategoriEl = document.getElementById("daftar-paket-kategori");
 const btnKembaliKategori = document.getElementById("btn-kembali-kategori");
 
-// Layar 2B: pilih sub-kategori
 const layarPilihSub = document.getElementById("layar-pilih-sub");
 const judulKategoriSubEl = document.getElementById("judul-kategori-sub");
 const daftarSubEl = document.getElementById("daftar-sub");
 const btnKembaliDariSub = document.getElementById("btn-kembali-dari-sub");
 
-// Layar 3: sesi soal
 const layarSoal = document.getElementById("layar-soal");
 const judulPaketAktifEl = document.getElementById("judul-paket-aktif");
 const nomorProgresEl = document.getElementById("nomor-progres");
@@ -121,7 +146,6 @@ const btnJawab = document.getElementById("btn-jawab");
 const btnLanjut = document.getElementById("btn-lanjut");
 const btnKeluar = document.getElementById("btn-keluar");
 
-// Layar 4: hasil
 const layarHasil = document.getElementById("layar-hasil");
 const judulHasilEl = document.getElementById("judul-hasil");
 const skorAngkaEl = document.getElementById("skor-angka");
