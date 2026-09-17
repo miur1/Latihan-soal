@@ -1,0 +1,25 @@
+{
+  "judul": "Kanji N3 - Minggu 6 (Tambahan)",
+  "tipe": "flashcard",
+  "kartu": [
+    { "kanji": "死亡", "baca": "しぼう", "arti": "mati" },
+    { "kanji": "亡くなる", "baca": "なくなる", "arti": "meninggal" },
+    { "kanji": "多忙な", "baca": "たぼうな", "arti": "sibuk" },
+    { "kanji": "忙しい", "baca": "いそがしい", "arti": "sibuk" },
+    { "kanji": "忘年会", "baca": "ぼうねんかい", "arti": "pesta akhir tahun" },
+    { "kanji": "忘れる", "baca": "わすれる", "arti": "lupa; melupakan" },
+    { "kanji": "忘れ物", "baca": "わすれもの", "arti": "barang tertinggal" },
+    { "kanji": "文化祭", "baca": "ぶんかさい", "arti": "festival budaya" },
+    { "kanji": "お祭り", "baca": "おまつり", "arti": "festival; perayaan" },
+    { "kanji": "苦労", "baca": "くろう", "arti": "kesulitan" },
+    { "kanji": "労働者", "baca": "ろうどうしゃ", "arti": "tenaga kerja; buruh" },
+    { "kanji": "参加", "baca": "さんか", "arti": "berpartisipasi" },
+    { "kanji": "増加", "baca": "ぞうか", "arti": "bertambah" },
+    { "kanji": "加える", "baca": "くわえる", "arti": "menambahkan" },
+    { "kanji": "情報", "baca": "じょうほう", "arti": "informasi" },
+    { "kanji": "表情", "baca": "ひょうじょう", "arti": "ekspresi" },
+    { "kanji": "事情", "baca": "じじょう", "arti": "situasi; masalah" },
+    { "kanji": "感情", "baca": "かんじょう", "arti": "emosi" },
+    { "kanji": "反対", "baca": "はんたい", "arti": "menentang" }
+  ]
+}

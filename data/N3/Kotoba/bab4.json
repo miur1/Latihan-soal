@@ -1,0 +1,26 @@
+{
+  "judul": "Kanji N3 - Minggu 1 (Tambahan)",
+  "tipe": "flashcard",
+  "kartu": [
+    { "kanji": "未定", "baca": "みてい", "arti": "belum ditetapkan" },
+    { "kanji": "未来", "baca": "みらい", "arti": "masa depan" },
+    { "kanji": "～未満", "baca": "～みまん", "arti": "belum cukup... / di bawah..." },
+    { "kanji": "週末", "baca": "しゅうまつ", "arti": "akhir pekan" },
+    { "kanji": "年末", "baca": "ねんまつ", "arti": "akhir tahun" },
+    { "kanji": "月末", "baca": "げつまつ", "arti": "akhir bulan" },
+    { "kanji": "若い", "baca": "わかい", "arti": "muda" },
+    { "kanji": "晩", "baca": "ばん", "arti": "malam" },
+    { "kanji": "晩ご飯", "baca": "ばんごはん", "arti": "makan malam" },
+    { "kanji": "今晩", "baca": "こんばん", "arti": "malam ini" },
+    { "kanji": "毎晩", "baca": "まいばん", "arti": "setiap malam" },
+    { "kanji": "～島", "baca": "～とう", "arti": "pulau ~" },
+    { "kanji": "島", "baca": "～しま", "arti": "pulau" },
+    { "kanji": "皿", "baca": "さら", "arti": "piring" },
+    { "kanji": "灰皿", "baca": "はいざら", "arti": "asbak" },
+    { "kanji": "出血", "baca": "しゅっけつ", "arti": "berdarah" },
+    { "kanji": "血", "baca": "ち", "arti": "darah" },
+    { "kanji": "救助", "baca": "きゅうじょ", "arti": "menyelamatkan" },
+    { "kanji": "助ける", "baca": "たすける", "arti": "menolong" },
+    { "kanji": "助かる", "baca": "たすかる", "arti": "tertolong" }
+  ]
+}

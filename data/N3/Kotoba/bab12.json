@@ -1,0 +1,24 @@
+{
+  "judul": "Kanji N3 - Minggu 3 (Tambahan)",
+  "tipe": "flashcard",
+  "kartu": [
+    { "kanji": "教育", "baca": "きょういく", "arti": "pendidikan" },
+    { "kanji": "育てる", "baca": "そだてる", "arti": "merawat; membesarkan" },
+    { "kanji": "育つ", "baca": "そだつ", "arti": "dirawat; dibesarkan" },
+    { "kanji": "種類", "baca": "しゅるい", "arti": "jenis" },
+    { "kanji": "種", "baca": "たね", "arti": "biji; bibit" },
+    { "kanji": "書類", "baca": "しょるい", "arti": "dokumen" },
+    { "kanji": "分類", "baca": "ぶんるい", "arti": "klasifikasi" },
+    { "kanji": "人類", "baca": "じんるい", "arti": "umat manusia" },
+    { "kanji": "教師", "baca": "きょうし", "arti": "guru; pengajar" },
+    { "kanji": "医師", "baca": "いし", "arti": "dokter" },
+    { "kanji": "看護師", "baca": "かんごし", "arti": "perawat" },
+    { "kanji": "夫妻", "baca": "ふうふ", "arti": "suami istri" },
+    { "kanji": "妻", "baca": "つま", "arti": "istri" },
+    { "kanji": "馬", "baca": "うま", "arti": "kuda" },
+    { "kanji": "乗馬", "baca": "じょうば", "arti": "naik kuda" },
+    { "kanji": "石けん", "baca": "せっけん", "arti": "sabun" },
+    { "kanji": "石油", "baca": "せきゆ", "arti": "minyak bumi" },
+    { "kanji": "石", "baca": "いし", "arti": "batu" }
+  ]
+}

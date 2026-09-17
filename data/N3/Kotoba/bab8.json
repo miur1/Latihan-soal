@@ -1,0 +1,22 @@
+{
+  "judul": "Kanji N3 - Minggu 2 (Tambahan)",
+  "tipe": "flashcard",
+  "kartu": [
+    { "kanji": "黄色", "baca": "きいろ", "arti": "(warna) kuning" },
+    { "kanji": "絵画", "baca": "かいが", "arti": "lukisan" },
+    { "kanji": "絵", "baca": "え", "arti": "gambar; lukisan" },
+    { "kanji": "絵本", "baca": "えほん", "arti": "buku bergambar" },
+    { "kanji": "～組", "baca": "～くみ", "arti": "grup; kelompok; set" },
+    { "kanji": "組む", "baca": "くむ", "arti": "menggabungkan; merakit" },
+    { "kanji": "番組", "baca": "ばんぐみ", "arti": "program TV" },
+    { "kanji": "組み立てる", "baca": "くみたてる", "arti": "merakit" },
+    { "kanji": "約束", "baca": "やくそく", "arti": "janji" },
+    { "kanji": "～束", "baca": "～たば", "arti": "seikat …" },
+    { "kanji": "花束", "baca": "はなたば", "arti": "buket bunga" },
+    { "kanji": "授業", "baca": "じゅぎょう", "arti": "pelajaran; kelas" },
+    { "kanji": "教授", "baca": "きょうじゅ", "arti": "dosen; profesor" },
+    { "kanji": "渡る", "baca": "わたる", "arti": "menyeberang" },
+    { "kanji": "渡す", "baca": "わたす", "arti": "menyerahkan" },
+    { "kanji": "昔", "baca": "むかし", "arti": "jaman dahulu" }
+  ]
+}

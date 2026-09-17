@@ -1,0 +1,27 @@
+{
+  "judul": "Kanji N3 - Minggu 4 (Tambahan)",
+  "tipe": "flashcard",
+  "kartu": [
+    { "kanji": "細い", "baca": "ほそい", "arti": "tipis; kurus; kecil" },
+    { "kanji": "細かい", "baca": "こまかい", "arti": "kecil-kecil; detail" },
+    { "kanji": "戸", "baca": "と", "arti": "pintu" },
+    { "kanji": "戸棚", "baca": "とだな", "arti": "lemari; kabinet" },
+    { "kanji": "雨戸", "baca": "あまど", "arti": "pintu pelindung hujan" },
+    { "kanji": "びわ湖", "baca": "びわこ", "arti": "danau Biwa" },
+    { "kanji": "湖", "baca": "みずうみ", "arti": "danau" },
+    { "kanji": "風船", "baca": "ふうせん", "arti": "balon" },
+    { "kanji": "船", "baca": "ふね", "arti": "kapal" },
+    { "kanji": "船長", "baca": "せんちょう", "arti": "kapten kapal" },
+    { "kanji": "船便", "baca": "ふなびん", "arti": "pos laut" },
+    { "kanji": "角度", "baca": "かくど", "arti": "sudut; angle" },
+    { "kanji": "四角い", "baca": "しかくい", "arti": "segi empat" },
+    { "kanji": "三角い", "baca": "さんかくい", "arti": "segi tiga" },
+    { "kanji": "夫妻", "baca": "ふさい", "arti": "pasangan suami istri" },
+    { "kanji": "夫婦", "baca": "ふうふ", "arti": "pasangan suami istri" },
+    { "kanji": "夫", "baca": "おっと", "arti": "suami (saya)" },
+    { "kanji": "苦労", "baca": "くろう", "arti": "kesulitan; sakit" },
+    { "kanji": "苦い", "baca": "にがい", "arti": "pahit" },
+    { "kanji": "苦しい", "baca": "くるしい", "arti": "sulit; susah; sakit" },
+    { "kanji": "苦手な", "baca": "にがてな", "arti": "lemah; tidak pandai" }
+  ]
+}

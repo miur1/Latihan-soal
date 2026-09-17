@@ -1,0 +1,20 @@
+{
+  "judul": "Kanji N3 - Minggu 5 (Tambahan)",
+  "tipe": "flashcard",
+  "kartu": [
+    { "kanji": "厚い", "baca": "あつい", "arti": "tebal" },
+    { "kanji": "泣く", "baca": "なく", "arti": "menangis" },
+    { "kanji": "鳴く", "baca": "なく", "arti": "berkicau; mengeong; mengeluarkan bunyi" },
+    { "kanji": "鳴る", "baca": "なる", "arti": "berdering; berbunyi" },
+    { "kanji": "最初", "baca": "さいしょ", "arti": "pertama-tama" },
+    { "kanji": "初め", "baca": "はじめ", "arti": "pertama-tama" },
+    { "kanji": "初級", "baca": "しょきゅう", "arti": "level dasar" },
+    { "kanji": "初めて", "baca": "はじめて", "arti": "pertama kali" },
+    { "kanji": "宿泊", "baca": "しゅくはく", "arti": "menginap" },
+    { "kanji": "泊まる", "baca": "とまる", "arti": "menginap" },
+    { "kanji": "泊める", "baca": "とめる", "arti": "memberikan penginapan" },
+    { "kanji": "紅葉", "baca": "こうよう", "arti": "daun merah" },
+    { "kanji": "葉", "baca": "は", "arti": "daun" },
+    { "kanji": "言葉", "baca": "ことば", "arti": "kata-kata; bahasa" }
+  ]
+}
