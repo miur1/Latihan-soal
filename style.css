@@ -655,3 +655,98 @@ body {
     padding: 8px;
   }
 }
+
+/* ---------- Full Screen Mode untuk PDF ---------- */
+#layar-modul:fullscreen {
+  background: #1a1a1a;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+#layar-modul:-webkit-full-screen {
+  background: #1a1a1a;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header di full screen — kecilin */
+#layar-modul:fullscreen .kop-soal,
+#layar-modul:-webkit-full-screen .kop-soal {
+  padding: 8px 12px;
+  margin-bottom: 0;
+  background: #1a1a1a;
+}
+
+#layar-modul:fullscreen .tautan-kecil,
+#layar-modul:-webkit-full-screen .tautan-kecil {
+  color: #ddd;
+}
+
+#layar-modul:fullscreen .judul-paket-aktif,
+#layar-modul:-webkit-full-screen .judul-paket-aktif {
+  color: #ddd;
+}
+
+/* PDF wrap full screen — full tinggi */
+#layar-modul:fullscreen .pdf-wrap,
+#layar-modul:-webkit-full-screen .pdf-wrap {
+  flex: 1;
+  max-height: none;
+  min-height: 0;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  background: #1a1a1a;
+  overflow: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/* Canvas full screen — lebih besar */
+#layar-modul:fullscreen .pdf-canvas,
+#layar-modul:-webkit-full-screen .pdf-canvas {
+  box-shadow: none;
+  max-width: 100%;
+}
+
+/* Kontrol full screen — overlay di bawah */
+#layar-modul:fullscreen .pdf-kontrol,
+#layar-modul:-webkit-full-screen .pdf-kontrol {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 10px 12px;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(8px);
+  z-index: 9999;
+}
+
+#layar-modul:fullscreen .pdf-nomor,
+#layar-modul:-webkit-full-screen .pdf-nomor {
+  color: #fff;
+}
+
+#layar-modul:fullscreen .pdf-nav .btn-nav,
+#layar-modul:-webkit-full-screen .pdf-nav .btn-nav,
+#layar-modul:fullscreen .pdf-zoom .btn-nav,
+#layar-modul:-webkit-full-screen .pdf-zoom .btn-nav {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
+
+#layar-modul:fullscreen .pdf-nav .btn-nav:hover:not(:disabled),
+#layar-modul:-webkit-full-screen .pdf-nav .btn-nav:hover:not(:disabled),
+#layar-modul:fullscreen .pdf-zoom .btn-nav:hover,
+#layar-modul:-webkit-full-screen .pdf-zoom .btn-nav:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #fff;
+}
