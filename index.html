@@ -168,44 +168,51 @@
       </div>
     </section>
 
-    <!-- ===== LAYAR 7: MODUL (PDF) ===== -->
+    <!-- ===== LAYAR 7: MODUL (PDF Viewer pakai PDF.js) ===== -->
     <section id="layar-modul" class="layar tersembunyi">
       <header class="kop-soal">
         <button id="btn-keluar-modul" class="tautan-kecil" type="button">&larr; Ganti paket</button>
         <span id="judul-modul" class="judul-paket-aktif"></span>
       </header>
 
-      <div class="modul-wrap">
-        <iframe
-          id="pdf-frame"
-          class="pdf-frame"
-          src=""
-          title="Modul PDF"
-        ></iframe>
+      <div class="pdf-wrap">
+        <!-- Status loading -->
+        <div id="pdf-loading" class="pdf-status tersembunyi">
+          <p>⏳ Memuat PDF...</p>
+        </div>
+
+        <!-- Status error -->
+        <div id="pdf-error" class="pdf-status pdf-error tersembunyi">
+          <p>Gagal memuat PDF.</p>
+        </div>
+
+        <!-- Canvas tempat PDF di-render -->
+        <canvas id="pdf-canvas" class="pdf-canvas tersembunyi"></canvas>
       </div>
 
-      <div class="aksi-bawah">
-        <a
-          id="btn-buka-tab-baru"
-          class="btn btn-utama"
-          href="#"
-          target="_blank"
-          rel="noopener"
-          style="display:block;text-align:center;text-decoration:none;"
-        >
-          🔍 Buka PDF di layar penuh
-        </a>
+      <!-- Kontrol navigasi + zoom -->
+      <div id="pdf-kontrol" class="pdf-kontrol tersembunyi">
+        <div class="pdf-nav">
+          <button id="btn-prev-pdf" class="btn-nav" type="button">← Sebelumnya</button>
+          <span id="pdf-nomor" class="pdf-nomor">1 / 1</span>
+          <button id="btn-next-pdf" class="btn-nav" type="button">Selanjutnya →</button>
+        </div>
+        <div class="pdf-zoom">
+          <button id="btn-zoom-out" class="btn-nav" type="button">− Zoom</button>
+          <button id="btn-zoom-in" class="btn-nav" type="button">+ Zoom</button>
+        </div>
       </div>
-
-      <p class="petunjuk-modul">
-        Tips: kalau PDF nggak muncul di HP, klik tombol di atas untuk buka di tab baru.
-      </p>
     </section>
 
   </div>
 
 <script src="app.js"></script>
 <script src="flashcard.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>
+  // Set worker PDF.js — wajib, biar PDF bisa di-render
+  pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+</script>
 <script src="modul.js"></script>
 </body>
 </html>
