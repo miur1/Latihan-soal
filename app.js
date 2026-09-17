@@ -47,6 +47,8 @@ const KATEGORI = [
           ikon: "📖",
           paket: [
              {id: "ssw-modul", nama: "modul1", file: "data/modul/b.indo.json"},
+             ],
+         },
     ],
   },
   {
