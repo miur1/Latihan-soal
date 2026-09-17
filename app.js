@@ -47,6 +47,8 @@ const KATEGORI = [
           ikon: "📖",
           paket: [
             { id: "ssw-modul-indo", nama: "modul ssw pm 2024 bahasa Indonesia", file: "data/modul/bindo.json" },
+            { id: "ssw-modul-2024", nama: "modul ssw pm 2024 bahasa jepang", file: "data/modul/modul2024.json" },
+            { id: "ssw-modul-2022", nama: "modul ssw pm 2022 bahasa jepang", file: "data/modul/modul2022.json" }
        ],
       },
     ],
