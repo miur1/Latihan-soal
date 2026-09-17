@@ -87,7 +87,6 @@ const KATEGORI = [
           { id: "n3-kotoba-22", nama: "Bab 22", file: "data/N3/Kotoba/bab22.json" },
           { id: "n3-kotoba-23", nama: "Bab 23", file: "data/N3/Kotoba/bab23.json" },
           { id: "n3-kotoba-24", nama: "Bab 24", file: "data/N3/Kotoba/bab24.json" },
-          { id: "n3-kotoba-25", nama: "Bab 25", file: "data/N3/Kotoba/bab25.json" },
         ],
       },
     ],
