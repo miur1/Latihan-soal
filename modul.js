@@ -1,6 +1,7 @@
 /* =========================================================
    MODUL MODULE (PDF Viewer pakai PDF.js)
    Render PDF langsung di browser tanpa download.
+   + Fitur Full Screen
    ========================================================= */
 
 (function () {
@@ -17,12 +18,13 @@
   const btnNextPdf = document.getElementById("btn-next-pdf");
   const btnZoomIn = document.getElementById("btn-zoom-in");
   const btnZoomOut = document.getElementById("btn-zoom-out");
+  const btnFullscreen = document.getElementById("btn-fullscreen");
 
   // ---------- STATE ----------
-  let pdfDoc = null;        // objek PDFDocumentProxy dari pdf.js
+  let pdfDoc = null;
   let halamanSekarang = 1;
   let totalHalaman = 0;
-  let skala = 1.0;          // zoom factor
+  let skala = 1.0;
   let sedangRender = false;
 
   // ---------- UTIL ----------
@@ -32,7 +34,6 @@
   }
 
   function tampilkanStatus(status) {
-    // status: "loading" | "error" | "ok"
     if (pdfLoadingEl) pdfLoadingEl.classList.toggle("tersembunyi", status !== "loading");
     if (pdfErrorEl) pdfErrorEl.classList.toggle("tersembunyi", status !== "error");
     if (pdfCanvasEl) pdfCanvasEl.classList.toggle("tersembunyi", status !== "ok");
@@ -44,7 +45,6 @@
     tampilkanLayar(layarModul);
     judulModulEl.textContent = data.judul || "Modul";
 
-    // Reset state
     pdfDoc = null;
     halamanSekarang = 1;
     totalHalaman = 0;
@@ -53,10 +53,7 @@
     tampilkanStatus("loading");
 
     try {
-      // Bikin URL absolute
       const pdfUrl = new URL(data.filePdf, window.location.href).href;
-
-      // Load PDF pakai pdf.js
       const loadingTask = pdfjsLib.getDocument(pdfUrl);
       pdfDoc = await loadingTask.promise;
       totalHalaman = pdfDoc.numPages;
@@ -87,9 +84,17 @@
 
     try {
       const halaman = await pdfDoc.getPage(nomor);
-      const viewport = halaman.getViewport({ scale: skala });
 
-      // Set ukuran canvas
+      // Di mode full screen, otomatis hitung skala biar pas lebar layar
+      let skalaPakai = skala;
+      if (document.fullscreenElement || document.webkitFullscreenElement) {
+        const lebarLayar = window.innerWidth;
+        const viewportAsli = halaman.getViewport({ scale: 1 });
+        const skalaFit = lebarLayar / viewportAsli.width;
+        skalaPakai = skalaFit * skala;
+      }
+
+      const viewport = halaman.getViewport({ scale: skalaPakai });
       const canvas = pdfCanvasEl;
       const ctx = canvas.getContext("2d");
       canvas.width = viewport.width;
@@ -100,12 +105,10 @@
         viewport: viewport,
       }).promise;
 
-      // Update nomor
       if (pdfNomorEl) {
         pdfNomorEl.textContent = `${halamanSekarang} / ${totalHalaman}`;
       }
 
-      // Update tombol prev/next
       if (btnPrevPdf) btnPrevPdf.disabled = halamanSekarang <= 1;
       if (btnNextPdf) btnNextPdf.disabled = halamanSekarang >= totalHalaman;
     } catch (err) {
@@ -143,8 +146,60 @@
     });
   }
 
+  // ---------- FULL SCREEN ----------
+  if (btnFullscreen) {
+    btnFullscreen.addEventListener("click", () => {
+      const wrap = layarModul;
+      if (!document.fullscreenElement && !document.webkitFullscreenElement) {
+        // Masuk full screen
+        if (wrap.requestFullscreen) {
+          wrap.requestFullscreen().catch((err) => {
+            console.warn("Fullscreen error:", err);
+            alert("Full screen tidak didukung di browser ini.");
+          });
+        } else if (wrap.webkitRequestFullscreen) {
+          wrap.webkitRequestFullscreen();
+        } else {
+          alert("Full screen tidak didukung di browser ini.");
+        }
+      } else {
+        // Keluar full screen
+        if (document.exitFullscreen) {
+          document.exitFullscreen();
+        } else if (document.webkitExitFullscreen) {
+          document.webkitExitFullscreen();
+        }
+      }
+    });
+  }
+
+  // Update label tombol + re-render saat masuk/keluar full screen
+  function handleFullscreenChange() {
+    const isFullscreen = !!(document.fullscreenElement || document.webkitFullscreenElement);
+
+    if (btnFullscreen) {
+      btnFullscreen.textContent = isFullscreen ? "✕ Keluar Full Screen" : "⛶ Full Screen";
+    }
+
+    // Re-render halaman biar ukurannya nyesuaikan
+    if (pdfDoc) {
+      setTimeout(() => {
+        renderHalaman(halamanSekarang);
+      }, 300);
+    }
+  }
+
+  document.addEventListener("fullscreenchange", handleFullscreenChange);
+  document.addEventListener("webkitfullscreenchange", handleFullscreenChange);
+
   // ---------- RESET ----------
   function resetModul() {
+    // Keluar dari full screen kalau masih aktif
+    if (document.fullscreenElement || document.webkitFullscreenElement) {
+      if (document.exitFullscreen) document.exitFullscreen();
+      else if (document.webkitExitFullscreen) document.webkitExitFullscreen();
+    }
+
     pdfDoc = null;
     halamanSekarang = 1;
     totalHalaman = 0;
@@ -158,6 +213,9 @@
     }
     if (judulModulEl) judulModulEl.textContent = "";
     if (layarModul) layarModul.classList.add("tersembunyi");
+
+    // Reset label tombol full screen
+    if (btnFullscreen) btnFullscreen.textContent = "⛶ Full Screen";
   }
 
   // ---------- KELUAR ----------
