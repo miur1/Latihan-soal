@@ -283,6 +283,16 @@ async function mulaiPaket(p) {
       return;
     }
 
+    // Kalau tipe pdf, oper ke modul.js (BARU)
+    if (data.tipe === "pdf") {
+      window.mulaiModul({
+        ...p,
+        judul: data.judul || p.nama,
+        filePdf: data.file,
+      });
+      return;
+    }
+
     // Default: kuis pilihan ganda
     paketAktif = { ...p, judul: data.judul || p.nama, soal: data.soal };
     mulaiSesi();
