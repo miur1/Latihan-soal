@@ -41,16 +41,26 @@ const KATEGORI = [
           { id: "ssw-kotoba-12", nama: "Bab 12", file: "data/Kotoba/bab12.json" },
         ],
       },
-       {
-          id: "ssw-modul",
-          nama: "Modul",
-          ikon: "📖",
-          paket: [
-            { id: "ssw-modul-indo", nama: "modul ssw pm 2024 bahasa Indonesia", file: "data/modul/bindo.json" },
-            { id: "ssw-modul-2024", nama: "modul ssw pm 2024 bahasa jepang", file: "data/modul/modul2024.json" },
-            { id: "ssw-modul-2022", nama: "modul ssw pm 2022 bahasa jepang", file: "data/modul/modul2022.json" }
-       ],
+      {
+        id: "ssw-modul",
+        nama: "Modul",
+        ikon: "📖",
+        paket: [
+          { id: "ssw-modul-indo", nama: "modul ssw pm 2024 bahasa Indonesia", file: "data/modul/bindo.json" },
+          { id: "ssw-modul-2024", nama: "modul ssw pm 2024 bahasa jepang", file: "data/modul/modul2024.json" },
+          { id: "ssw-modul-2022", nama: "modul ssw pm 2022 bahasa jepang", file: "data/modul/modul2022.json" }
+        ],
       },
+    ],
+  },
+  // ↓↓↓ KATEGORI N3 BARU ↓↓↓
+  {
+    id: "n3",
+    nama: "N3",
+    ikon: "🇯🇵",
+    paket: [
+      { id: "n3-1", nama: "N3 1", file: "data/n3/n3-1.json" },
+      { id: "n3-2", nama: "N3 2", file: "data/n3/n3-2.json" },
     ],
   },
   {
@@ -275,7 +285,6 @@ async function mulaiPaket(p) {
     const data = await res.json();
     statusMuatEl.textContent = "";
 
-    // Kalau tipe flashcard, oper ke flashcard.js
     if (data.tipe === "flashcard") {
       window.mulaiFlashcard({
         ...p,
@@ -285,7 +294,6 @@ async function mulaiPaket(p) {
       return;
     }
 
-    // Kalau tipe pdf, oper ke modul.js (BARU)
     if (data.tipe === "pdf") {
       window.mulaiModul({
         ...p,
@@ -295,7 +303,6 @@ async function mulaiPaket(p) {
       return;
     }
 
-    // Default: kuis pilihan ganda
     paketAktif = { ...p, judul: data.judul || p.nama, soal: data.soal };
     mulaiSesi();
   } catch (err) {
@@ -433,24 +440,20 @@ function tampilkanHasil() {
 btnJawab.addEventListener("click", cekJawaban);
 btnLanjut.addEventListener("click", lanjutSoal);
 
-// Keluar dari sesi soal
 btnKeluar.addEventListener("click", () => {
   resetStateSesi();
   if (kategoriAktif) tampilkan(layarPilihPaket);
   else tampilkan(layarPilih);
 });
 
-// Ulangi sesi yang sama
 btnUlangi.addEventListener("click", mulaiSesi);
 
-// Dari hasil → balik ke daftar paket
 btnPaketLain.addEventListener("click", () => {
   resetStateSesi();
   if (kategoriAktif) tampilkan(layarPilihPaket);
   else tampilkan(layarPilih);
 });
 
-// Kembali dari daftar paket
 btnKembaliKategori.addEventListener("click", () => {
   resetFlashcardJikaAda();
   resetStateSesi();
@@ -463,7 +466,6 @@ btnKembaliKategori.addEventListener("click", () => {
   }
 });
 
-// Kembali dari daftar sub → ke kategori
 btnKembaliDariSub.addEventListener("click", () => {
   resetFlashcardJikaAda();
   resetSemuaState();
