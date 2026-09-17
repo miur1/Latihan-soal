@@ -1,18 +1,29 @@
 /* =========================================================
-   MODUL MODULE (PDF Viewer)
-   Dipanggil oleh app.js saat file JSON bertipe "pdf".
+   MODUL MODULE (PDF Viewer pakai PDF.js)
+   Render PDF langsung di browser tanpa download.
    ========================================================= */
 
 (function () {
   // ---------- ELEMEN DOM ----------
   const layarModul = document.getElementById("layar-modul");
   const judulModulEl = document.getElementById("judul-modul");
-  const pdfFrameEl = document.getElementById("pdf-frame");
+  const pdfCanvasEl = document.getElementById("pdf-canvas");
+  const pdfLoadingEl = document.getElementById("pdf-loading");
+  const pdfErrorEl = document.getElementById("pdf-error");
+  const pdfKontrolEl = document.getElementById("pdf-kontrol");
+  const pdfNomorEl = document.getElementById("pdf-nomor");
   const btnKeluarModul = document.getElementById("btn-keluar-modul");
-  const btnBukaTabBaru = document.getElementById("btn-buka-tab-baru");
+  const btnPrevPdf = document.getElementById("btn-prev-pdf");
+  const btnNextPdf = document.getElementById("btn-next-pdf");
+  const btnZoomIn = document.getElementById("btn-zoom-in");
+  const btnZoomOut = document.getElementById("btn-zoom-out");
 
   // ---------- STATE ----------
-  let paketModul = null;
+  let pdfDoc = null;        // objek PDFDocumentProxy dari pdf.js
+  let halamanSekarang = 1;
+  let totalHalaman = 0;
+  let skala = 1.0;          // zoom factor
+  let sedangRender = false;
 
   // ---------- UTIL ----------
   function tampilkanLayar(el) {
@@ -20,24 +31,131 @@
     el.classList.remove("tersembunyi");
   }
 
+  function tampilkanStatus(status) {
+    // status: "loading" | "error" | "ok"
+    if (pdfLoadingEl) pdfLoadingEl.classList.toggle("tersembunyi", status !== "loading");
+    if (pdfErrorEl) pdfErrorEl.classList.toggle("tersembunyi", status !== "error");
+    if (pdfCanvasEl) pdfCanvasEl.classList.toggle("tersembunyi", status !== "ok");
+    if (pdfKontrolEl) pdfKontrolEl.classList.toggle("tersembunyi", status !== "ok");
+  }
+
   // ---------- MULAI MODUL ----------
-  function mulaiModul(data) {
-    paketModul = data;
+  async function mulaiModul(data) {
+    tampilkanLayar(layarModul);
     judulModulEl.textContent = data.judul || "Modul";
 
-    // Set PDF ke iframe
-    pdfFrameEl.src = data.filePdf;
+    // Reset state
+    pdfDoc = null;
+    halamanSekarang = 1;
+    totalHalaman = 0;
+    skala = 1.0;
 
-    // Set link "Buka di tab baru" (biar bisa full-screen kalau HP)
-    btnBukaTabBaru.href = data.filePdf;
+    tampilkanStatus("loading");
 
-    tampilkanLayar(layarModul);
+    try {
+      // Bikin URL absolute
+      const pdfUrl = new URL(data.filePdf, window.location.href).href;
+
+      // Load PDF pakai pdf.js
+      const loadingTask = pdfjsLib.getDocument(pdfUrl);
+      pdfDoc = await loadingTask.promise;
+      totalHalaman = pdfDoc.numPages;
+
+      tampilkanStatus("ok");
+      await renderHalaman(1);
+    } catch (err) {
+      console.error("PDF load error:", err);
+      tampilkanStatus("error");
+      if (pdfErrorEl) {
+        pdfErrorEl.innerHTML = `
+          <p><strong>Gagal memuat PDF.</strong></p>
+          <p>File: ${data.filePdf}</p>
+          <p>Cek: pastikan file PDF ada dan nama file-nya benar (huruf besar/kecil).</p>
+          <p style="font-size:12px;color:#888;">${err.message}</p>
+        `;
+      }
+    }
+  }
+
+  // ---------- RENDER HALAMAN ----------
+  async function renderHalaman(nomor) {
+    if (!pdfDoc || sedangRender) return;
+    if (nomor < 1 || nomor > totalHalaman) return;
+
+    sedangRender = true;
+    halamanSekarang = nomor;
+
+    try {
+      const halaman = await pdfDoc.getPage(nomor);
+      const viewport = halaman.getViewport({ scale: skala });
+
+      // Set ukuran canvas
+      const canvas = pdfCanvasEl;
+      const ctx = canvas.getContext("2d");
+      canvas.width = viewport.width;
+      canvas.height = viewport.height;
+
+      await halaman.render({
+        canvasContext: ctx,
+        viewport: viewport,
+      }).promise;
+
+      // Update nomor
+      if (pdfNomorEl) {
+        pdfNomorEl.textContent = `${halamanSekarang} / ${totalHalaman}`;
+      }
+
+      // Update tombol prev/next
+      if (btnPrevPdf) btnPrevPdf.disabled = halamanSekarang <= 1;
+      if (btnNextPdf) btnNextPdf.disabled = halamanSekarang >= totalHalaman;
+    } catch (err) {
+      console.error("Render error:", err);
+    } finally {
+      sedangRender = false;
+    }
+  }
+
+  // ---------- NAVIGASI HALAMAN ----------
+  if (btnPrevPdf) {
+    btnPrevPdf.addEventListener("click", () => {
+      if (halamanSekarang > 1) renderHalaman(halamanSekarang - 1);
+    });
+  }
+
+  if (btnNextPdf) {
+    btnNextPdf.addEventListener("click", () => {
+      if (halamanSekarang < totalHalaman) renderHalaman(halamanSekarang + 1);
+    });
+  }
+
+  // ---------- ZOOM ----------
+  if (btnZoomIn) {
+    btnZoomIn.addEventListener("click", () => {
+      skala = Math.min(skala + 0.25, 3.0);
+      renderHalaman(halamanSekarang);
+    });
+  }
+
+  if (btnZoomOut) {
+    btnZoomOut.addEventListener("click", () => {
+      skala = Math.max(skala - 0.25, 0.5);
+      renderHalaman(halamanSekarang);
+    });
   }
 
   // ---------- RESET ----------
   function resetModul() {
-    paketModul = null;
-    if (pdfFrameEl) pdfFrameEl.src = "";
+    pdfDoc = null;
+    halamanSekarang = 1;
+    totalHalaman = 0;
+    skala = 1.0;
+
+    if (pdfCanvasEl) {
+      const ctx = pdfCanvasEl.getContext("2d");
+      ctx.clearRect(0, 0, pdfCanvasEl.width, pdfCanvasEl.height);
+      pdfCanvasEl.width = 0;
+      pdfCanvasEl.height = 0;
+    }
     if (judulModulEl) judulModulEl.textContent = "";
     if (layarModul) layarModul.classList.add("tersembunyi");
   }
@@ -45,8 +163,13 @@
   // ---------- KELUAR ----------
   btnKeluarModul.addEventListener("click", () => {
     resetModul();
-    if (window.kembaliKeDaftarPaket) window.kembaliKeDaftarPaket();
-    else window.location.reload();
+    if (typeof history !== "undefined" && history.length > 1) {
+      history.back();
+    } else if (window.kembaliKeDaftarPaket) {
+      window.kembaliKeDaftarPaket();
+    } else {
+      window.location.reload();
+    }
   });
 
   // ---------- EXPORT KE GLOBAL ----------
