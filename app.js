@@ -41,6 +41,12 @@ const KATEGORI = [
           { id: "ssw-kotoba-12", nama: "Bab 12", file: "data/Kotoba/bab12.json" },
         ],
       },
+       {
+          id: "ssw-modul",
+          nama: "Modul",
+          ikon: "📖",
+          paket: [
+             {id: "ssw-modul", nama: "modul1", file: "data/modul/b.indo.json"},
     ],
   },
   {
