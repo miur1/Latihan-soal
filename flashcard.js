@@ -2,6 +2,9 @@
    FLASHCARD MODULE (Kotoba)
    Fitur: navigasi kiri-kanan, hafal/belum, statistik, reset
    + Latihan yang Belum Hafal
+   + Support 2 format kartu:
+     - Standar: { kanji, baca, arti }
+     - Berpasangan: { depan_kata, depan_arti, belakang_kata, belakang_arti }
    ========================================================= */
 
 (function () {
@@ -31,11 +34,11 @@
 
   // ---------- STATE ----------
   let paketFc = null;
-  let daftarKartu = [];      // urutan kartu (sudah diacak sekali di awal)
+  let daftarKartu = [];
   let indexSekarang = 0;
-  let statusKartu = [];      // "hafal" | "belum" | null (belum diputuskan)
+  let statusKartu = [];
   let totalKartu = 0;
-  let modeLatihanBelum = false; // nandain kalau sedang di mode "latihan yang belum"
+  let modeLatihanBelum = false;
 
   // ---------- UTIL ----------
   function tampilkanLayar(el) {
@@ -50,6 +53,50 @@
       [hasil[i], hasil[j]] = [hasil[j], hasil[i]];
     }
     return hasil;
+  }
+
+  /**
+   * Deteksi tipe kartu.
+   * Return: "pasangan" | "standar"
+   */
+  function tipeKartu(kartu) {
+    if (kartu.depan_kata || kartu.belakang_kata) return "pasangan";
+    return "standar";
+  }
+
+  /**
+   * Render isi kartu ke elemen DOM (depan + belakang).
+   */
+  function renderIsiKartu(kartu) {
+    const tipe = tipeKartu(kartu);
+
+    if (tipe === "pasangan") {
+      // Format berpasangan (Jidoushi/Tadoushi)
+      // Depan: kata utama (besar) + arti (kecil)
+      teksKanjiEl.textContent = kartu.depan_kata || "";
+      teksBacaEl.textContent = kartu.depan_arti || "";
+
+      // Belakang: pasangan kata + arti
+      teksArtiEl.innerHTML = `
+        <span class="teks-pasangan-kata">${kartu.belakang_kata || ""}</span>
+        <span class="teks-pasangan-arti">${kartu.belakang_arti || ""}</span>
+      `;
+    } else {
+      // Format standar (kanji/baca/arti)
+      teksKanjiEl.textContent = kartu.kanji || "";
+
+      const baca = kartu.baca || "";
+      const kanji = kartu.kanji || "";
+      if (baca && baca !== kanji) {
+        teksBacaEl.textContent = baca;
+        teksBacaEl.style.display = "";
+      } else {
+        teksBacaEl.textContent = "";
+        teksBacaEl.style.display = "none";
+      }
+
+      teksArtiEl.textContent = kartu.arti || "";
+    }
   }
 
   // ---------- MULAI SESI ----------
@@ -73,21 +120,8 @@
     // Reset flip
     kartuFcEl.classList.remove("terbuka");
 
-    // Sisi depan
-    teksKanjiEl.textContent = kartu.kanji || "";
-
-    const baca = kartu.baca || "";
-    const kanji = kartu.kanji || "";
-    if (baca && baca !== kanji) {
-      teksBacaEl.textContent = baca;
-      teksBacaEl.style.display = "";
-    } else {
-      teksBacaEl.textContent = "";
-      teksBacaEl.style.display = "none";
-    }
-
-    // Sisi belakang
-    teksArtiEl.textContent = kartu.arti || "";
+    // Render isi kartu (depan + belakang)
+    renderIsiKartu(kartu);
 
     // Nomor kartu
     nomorFcEl.textContent = `${indexSekarang + 1} / ${totalKartu}`;
@@ -146,7 +180,6 @@
   function tandaiKartu(status) {
     statusKartu[indexSekarang] = status;
     renderKartu();
-    // Auto-lanjut ke kartu berikutnya setelah jeda singkat
     if (indexSekarang < totalKartu - 1) {
       setTimeout(() => {
         keKartuBerikutnya();
@@ -159,7 +192,6 @@
 
   // ---------- LATIHAN YANG BELUM HAFAL ----------
   function latihanYangBelum() {
-    // Kumpulin kartu yang ditandai "belum"
     const kartuBelum = daftarKartu.filter((kartu, i) => statusKartu[i] === "belum");
 
     if (kartuBelum.length === 0) {
@@ -171,21 +203,18 @@
       return;
     }
 
-    // Konfirmasi ke user
     const konfirmasi = confirm(
       `Latihan ${kartuBelum.length} kartu yang belum hafal?\n\n` +
       `Progress kartu "hafal" tetap disimpan.`
     );
     if (!konfirmasi) return;
 
-    // Ganti daftar kartu → cuma yang "belum"
     daftarKartu = [...kartuBelum];
     statusKartu = new Array(daftarKartu.length).fill(null);
     indexSekarang = 0;
     totalKartu = daftarKartu.length;
     modeLatihanBelum = true;
 
-    // Update judul
     judulFcEl.textContent = (paketFc?.judul || "Kotoba") + " — Latihan yang Belum";
 
     renderKartu();
@@ -195,7 +224,7 @@
     btnUlangBelumFc.addEventListener("click", latihanYangBelum);
   }
 
-  // ---------- RESET PROGRESS (tombol di dalam flashcard) ----------
+  // ---------- RESET PROGRESS ----------
   btnResetFc.addEventListener("click", () => {
     const konfirmasi = confirm(
       "Reset semua progress dan mulai dari awal?\n\n" +
@@ -203,7 +232,6 @@
     );
     if (!konfirmasi) return;
 
-    // Kalau sedang di mode "latihan yang belum", balik ke daftar kartu asli
     if (paketFc && paketFc.kartu) {
       daftarKartu = [...paketFc.kartu];
       totalKartu = daftarKartu.length;
@@ -213,7 +241,6 @@
     indexSekarang = 0;
     modeLatihanBelum = false;
 
-    // Balikin judul asli
     judulFcEl.textContent = paketFc?.judul || "Kotoba";
 
     renderKartu();
@@ -221,7 +248,6 @@
 
   // ---------- RESET FLASHCARD ----------
   function resetFlashcard() {
-    // Reset state
     paketFc = null;
     daftarKartu = [];
     statusKartu = [];
@@ -229,7 +255,6 @@
     totalKartu = 0;
     modeLatihanBelum = false;
 
-    // Reset tampilan kartu
     if (kartuFcEl) kartuFcEl.classList.remove("terbuka");
     if (teksKanjiEl) teksKanjiEl.textContent = "";
     if (teksBacaEl) teksBacaEl.textContent = "";
@@ -240,7 +265,6 @@
     if (statBelumEl) statBelumEl.textContent = "0";
     if (statTotalEl) statTotalEl.textContent = "0 / 0";
 
-    // PAKSA sembunyikan layar flashcard
     if (layarFlashcard) layarFlashcard.classList.add("tersembunyi");
   }
 
