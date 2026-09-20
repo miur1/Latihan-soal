@@ -479,6 +479,37 @@ body {
   box-shadow: 0 0 0 3px rgba(167, 58, 44, 0.25);
 }
 
+/* ---------- Tombol Latihan yang Belum ---------- */
+.btn-ulang-belum {
+  display: block;
+  width: 100%;
+  margin-top: 12px;
+  padding: 12px 16px;
+  background: transparent;
+  border: 1px dashed var(--merah);
+  color: var(--merah);
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.btn-ulang-belum:hover {
+  background: var(--merah-lembut);
+}
+
+.btn-ulang-belum:active {
+  transform: translateY(1px);
+}
+
+@media (max-width: 480px) {
+  .btn-ulang-belum {
+    font-size: 12px;
+    padding: 11px 12px;
+  }
+}
+
 /* ---------- Navigasi Prev / Next ---------- */
 .aksi-fc-nav {
   display: flex;
