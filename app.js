@@ -95,7 +95,7 @@ const KATEGORI = [
         nama: "Bunpou",
         ikon: "📐",
         paket: [
-          { id: "n3-bunpou-jidoushi", nama: "Jidoushi & Tadoushi", file: "data/N3/Bunpou/jidoushi_tadoushi.json" },
+          { id: "n3-bunpou-jidoushi", nama: "Jidoushi & Tadoushi", file: "data/N3/Kotoba/jidoushi_tadoushi.json" },
         ],
       },
     ],
