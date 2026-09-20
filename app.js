@@ -89,6 +89,15 @@ const KATEGORI = [
           { id: "n3-kotoba-24", nama: "Bab 24", file: "data/N3/Kotoba/bab24.json" },
         ],
       },
+      // ↓↓↓ SUB BARU: Bunpou ↓↓↓
+      {
+        id: "n3-bunpou",
+        nama: "Bunpou",
+        ikon: "📐",
+        paket: [
+          { id: "n3-bunpou-jidoushi", nama: "Jidoushi & Tadoushi", file: "data/N3/Bunpou/jidoushi_tadoushi.json" },
+        ],
+      },
     ],
   },
   {
