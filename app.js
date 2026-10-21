@@ -56,7 +56,9 @@ const KATEGORI = [
           nama: "2022",
           ikon: "📚",
           paket: [
-             { id: "2022-1", nama: "pertemuan 1", file: "data/
+             { id: "2022-1", nama: "pertemuan 1", file: "data/Kotoba/pertemuan1.json" },
+          ],
+       },    
     ],
   },
   {
