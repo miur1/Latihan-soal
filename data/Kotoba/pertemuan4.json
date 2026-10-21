@@ -1,0 +1,606 @@
+{
+  "judul": "Kotoba PM 22-1 - Pertemuan 4",
+  "tipe": "flashcard",
+  "kartu": [
+    {
+      "kanji": "事項",
+      "baca": "じこう",
+      "arti": "Hal"
+    },
+    {
+      "kanji": "手順",
+      "baca": "てじゅん",
+      "arti": "Prosedur"
+    },
+    {
+      "kanji": "守る",
+      "baca": "まもる",
+      "arti": "Mematuhi"
+    },
+    {
+      "kanji": "指差呼称",
+      "baca": "しさこしょう",
+      "arti": "Tunjuk Sebut"
+    },
+    {
+      "kanji": "共同",
+      "baca": "きょうどう",
+      "arti": "Bersama"
+    },
+    {
+      "kanji": "連絡",
+      "baca": "れんらく",
+      "arti": "Menghubungi"
+    },
+    {
+      "kanji": "合図",
+      "baca": "あいず",
+      "arti": "Isyarat"
+    },
+    {
+      "kanji": "確実",
+      "baca": "かくじつ",
+      "arti": "Pasti, Dengan Benar"
+    },
+    {
+      "kanji": "行う",
+      "baca": "おこなう",
+      "arti": "Melakukan"
+    },
+    {
+      "kanji": "よそ見",
+      "baca": "よそみ",
+      "arti": "Berpaling"
+    },
+    {
+      "kanji": "ムダ話",
+      "baca": "むだはなし",
+      "arti": "Omong Kosong"
+    },
+    {
+      "kanji": "走る",
+      "baca": "はしる",
+      "arti": "Berlari"
+    },
+    {
+      "kanji": "箇所",
+      "baca": "かしょ",
+      "arti": "Titik, Lokasi"
+    },
+    {
+      "kanji": "見つかる",
+      "baca": "みつかる",
+      "arti": "Ditemukan"
+    },
+    {
+      "kanji": "声をかける",
+      "baca": "こえをかける",
+      "arti": "Memanggil"
+    },
+    {
+      "kanji": "離れる",
+      "baca": "はなれる",
+      "arti": "Meninggalkan"
+    },
+    {
+      "kanji": "目的",
+      "baca": "もくてき",
+      "arti": "Tujuan"
+    },
+    {
+      "kanji": "信号",
+      "baca": "しんごう",
+      "arti": "Lampu Sinyal"
+    },
+    {
+      "kanji": "標識",
+      "baca": "ひょうしき",
+      "arti": "Rambu, Tanda"
+    },
+    {
+      "kanji": "計器",
+      "baca": "けいき",
+      "arti": "Alat Ukur"
+    },
+    {
+      "kanji": "作業対象",
+      "baca": "さぎょうたいしょう",
+      "arti": "Target Kerja"
+    },
+    {
+      "kanji": "指す",
+      "baca": "さす",
+      "arti": "Menunjuk"
+    },
+    {
+      "kanji": "名称",
+      "baca": "めいしょう",
+      "arti": "Nama"
+    },
+    {
+      "kanji": "操作",
+      "baca": "そうさ",
+      "arti": "Pengoperasian"
+    },
+    {
+      "kanji": "動いている",
+      "baca": "うごいている",
+      "arti": "Sedang Beroperasi"
+    },
+    {
+      "kanji": "絶対",
+      "baca": "ぜったい",
+      "arti": "Pasti"
+    },
+    {
+      "kanji": "運転",
+      "baca": "うんてん",
+      "arti": "Pengoperasian"
+    },
+    {
+      "kanji": "潜る",
+      "baca": "くぐる",
+      "arti": "Menyelinap"
+    },
+    {
+      "kanji": "発見",
+      "baca": "はっけん",
+      "arti": "Menemukan"
+    },
+    {
+      "kanji": "停電",
+      "baca": "ていでん",
+      "arti": "Mati Listrik"
+    },
+    {
+      "kanji": "電源",
+      "baca": "でんげん",
+      "arti": "Sumber Listrik"
+    },
+    {
+      "kanji": "スイッチ",
+      "baca": "すいっち",
+      "arti": "Sakelar"
+    },
+    {
+      "kanji": "架かる",
+      "baca": "かかる",
+      "arti": "Mengenai"
+    },
+    {
+      "kanji": "放置",
+      "baca": "ほうち",
+      "arti": "Membiarkan"
+    },
+    {
+      "kanji": "触る",
+      "baca": "さわる",
+      "arti": "Menyentuh"
+    },
+    {
+      "kanji": "置く",
+      "baca": "おく",
+      "arti": "Meletakan"
+    },
+    {
+      "kanji": "はっきり",
+      "baca": "はっきり",
+      "arti": "Dengan Jelas"
+    },
+    {
+      "kanji": "区別",
+      "baca": "くべつ",
+      "arti": "Membedakan"
+    },
+    {
+      "kanji": "鼻",
+      "baca": "はな",
+      "arti": "Hidung"
+    },
+    {
+      "kanji": "トイレ",
+      "baca": "といれ",
+      "arti": "Toilet"
+    },
+    {
+      "kanji": "片付ける",
+      "baca": "かたづける",
+      "arti": "Membereskan"
+    },
+    {
+      "kanji": "清掃",
+      "baca": "せいそう",
+      "arti": "Resik"
+    },
+    {
+      "kanji": "シフト",
+      "baca": "しふと",
+      "arti": "Shift Kerja"
+    },
+    {
+      "kanji": "交代",
+      "baca": "こうたい",
+      "arti": "Pergantian"
+    },
+    {
+      "kanji": "伝える",
+      "baca": "つたえる",
+      "arti": "Menyampaikan"
+    },
+    {
+      "kanji": "整理",
+      "baca": "せいり",
+      "arti": "Ringkas"
+    },
+    {
+      "kanji": "整頓",
+      "baca": "せいとん",
+      "arti": "Rapi"
+    },
+    {
+      "kanji": "清掃",
+      "baca": "せいそう",
+      "arti": "Resik"
+    },
+    {
+      "kanji": "清潔",
+      "baca": "せいけつ",
+      "arti": "Rawat"
+    },
+    {
+      "kanji": "習慣",
+      "baca": "しゅうかん",
+      "arti": "Rutinitas"
+    },
+    {
+      "kanji": "品質保持",
+      "baca": "ひんしつほじ",
+      "arti": "Menjaga Kualitas"
+    },
+    {
+      "kanji": "繋がる",
+      "baca": "つながる",
+      "arti": "Berhubungan"
+    },
+    {
+      "kanji": "不要",
+      "baca": "ふよう",
+      "arti": "Tidak Diperlukan"
+    },
+    {
+      "kanji": "捨てる",
+      "baca": "すてる",
+      "arti": "Membuang"
+    },
+    {
+      "kanji": "取り出す",
+      "baca": "とりだす",
+      "arti": "Mengeluarkan"
+    },
+    {
+      "kanji": "同じ",
+      "baca": "おなじ",
+      "arti": "Sama"
+    },
+    {
+      "kanji": "周辺",
+      "baca": "しゅうへん",
+      "arti": "Area Sekitar"
+    },
+    {
+      "kanji": "掃除",
+      "baca": "そうじ",
+      "arti": "Membersihkan"
+    },
+    {
+      "kanji": "ルール",
+      "baca": "るーる",
+      "arti": "Aturan"
+    },
+    {
+      "kanji": "考える",
+      "baca": "かんがえる",
+      "arti": "Berpikir"
+    },
+    {
+      "kanji": "行動",
+      "baca": "こうどう",
+      "arti": "Tindakan"
+    },
+    {
+      "kanji": "合う",
+      "baca": "あう",
+      "arti": "Sesuai, Cocok"
+    },
+    {
+      "kanji": "自然",
+      "baca": "しぜん",
+      "arti": "Alami"
+    },
+    {
+      "kanji": "替わりに",
+      "baca": "かわりに",
+      "arti": "Sebagai Gantinya"
+    },
+    {
+      "kanji": "躾け",
+      "baca": "しつけ",
+      "arti": "Rajin"
+    },
+    {
+      "kanji": "混入",
+      "baca": "こんにゅう",
+      "arti": "Tercampur"
+    },
+    {
+      "kanji": "問題",
+      "baca": "もんだい",
+      "arti": "Masalah"
+    },
+    {
+      "kanji": "金属",
+      "baca": "きんぞく",
+      "arti": "Logam"
+    },
+    {
+      "kanji": "ガラス",
+      "baca": "がらす",
+      "arti": "Kaca"
+    },
+    {
+      "kanji": "虫",
+      "baca": "むし",
+      "arti": "Serangga"
+    },
+    {
+      "kanji": "不安感",
+      "baca": "ふあんかん",
+      "arti": "Rasa Cemas"
+    },
+    {
+      "kanji": "不快感",
+      "baca": "ふかいかん",
+      "arti": "Rasa tidak nyaman"
+    },
+    {
+      "kanji": "損害賠償",
+      "baca": "そんがいばいしょう",
+      "arti": "Ganti Rugi"
+    },
+    {
+      "kanji": "検査",
+      "baca": "けんさ",
+      "arti": "Pemerik5"
+    },
+    {
+      "kanji": "注意深く",
+      "baca": "ちゅいぶかく",
+      "arti": "Teliti"
+    },
+    {
+      "kanji": "意図的",
+      "baca": "いとてき",
+      "arti": "Disengaja"
+    },
+    {
+      "kanji": "関係",
+      "baca": "かんけい",
+      "arti": "Hubungan"
+    },
+    {
+      "kanji": "フード",
+      "baca": "ふーど",
+      "arti": "Makanan"
+    },
+    {
+      "kanji": "ディフェンス",
+      "baca": "でィふぇんす",
+      "arti": "Pertahanan"
+    },
+    {
+      "kanji": "出入り",
+      "baca": "でいり",
+      "arti": "Keluar Masuk"
+    },
+    {
+      "kanji": "記録",
+      "baca": "きろく",
+      "arti": "Pencatatan"
+    },
+    {
+      "kanji": "時刻",
+      "baca": "じこく",
+      "arti": "Waktu"
+    },
+    {
+      "kanji": "ICカード",
+      "baca": "ICかーど",
+      "arti": "Kartu IC"
+    },
+    {
+      "kanji": "IT技術",
+      "baca": "ITぎじゅつ",
+      "arti": "Teknologi IT"
+    },
+    {
+      "kanji": "変更",
+      "baca": "へんこう",
+      "arti": "Perubahan"
+    },
+    {
+      "kanji": "カメラ",
+      "baca": "かめら",
+      "arti": "Kamera"
+    },
+    {
+      "kanji": "設置",
+      "baca": "せっち",
+      "arti": "Pemasangan"
+    },
+    {
+      "kanji": "食品事故",
+      "baca": "しょくひんじこ",
+      "arti": "Kecelakaan Makanan"
+    },
+    {
+      "kanji": "労働災害",
+      "baca": "ろうどうさいがい",
+      "arti": "Kecelakaan Kerja"
+    },
+    {
+      "kanji": "調査",
+      "baca": "ちょうさ",
+      "arti": "Penyelidikan"
+    },
+    {
+      "kanji": "倉庫",
+      "baca": "そうこ",
+      "arti": "Gudang"
+    },
+    {
+      "kanji": "映像",
+      "baca": "えいぞう",
+      "arti": "Rekaman"
+    },
+    {
+      "kanji": "クレーム",
+      "baca": "くれーむ",
+      "arti": "Keluhan"
+    },
+    {
+      "kanji": "人達",
+      "baca": "ひとたち",
+      "arti": "Orang-orang"
+    },
+    {
+      "kanji": "証明",
+      "baca": "しょうめい",
+      "arti": "Bukti"
+    },
+    {
+      "kanji": "薬剤",
+      "baca": "やくざい",
+      "arti": "Bahan Kimia"
+    },
+    {
+      "kanji": "専用",
+      "baca": "せんよう",
+      "arti": "Khusus untuk"
+    },
+    {
+      "kanji": "保管庫",
+      "baca": "ほかんこ",
+      "arti": "Lemari Penyimpan"
+    },
+    {
+      "kanji": "新型",
+      "baca": "しんがた",
+      "arti": "Jenis Bari"
+    },
+    {
+      "kanji": "コロナウイルス",
+      "baca": "ころなういるす",
+      "arti": "Coronavirus"
+    },
+    {
+      "kanji": "感染症",
+      "baca": "かんせんしょう",
+      "arti": "Penyakit Menular"
+    },
+    {
+      "kanji": "流行",
+      "baca": "りゅうこう",
+      "arti": "Wabah, Penyebaran"
+    },
+    {
+      "kanji": "息",
+      "baca": "いき",
+      "arti": "Napas"
+    },
+    {
+      "kanji": "苦しい",
+      "baca": "くるしい",
+      "arti": "Sesak, Sulit"
+    },
+    {
+      "kanji": "住む",
+      "baca": "すむ",
+      "arti": "Tinggal"
+    },
+    {
+      "kanji": "食堂",
+      "baca": "しょくどう",
+      "arti": "Kantin"
+    },
+    {
+      "kanji": "事務室",
+      "baca": "じむしつ",
+      "arti": "Ruang Kantor"
+    },
+    {
+      "kanji": "更衣室",
+      "baca": "こういしつ",
+      "arti": "Ruang Ganti"
+    },
+    {
+      "kanji": "定期的",
+      "baca": "ていきてき",
+      "arti": "Secara Berkala, Rutin"
+    },
+    {
+      "kanji": "空気",
+      "baca": "くうき",
+      "arti": "Udara"
+    },
+    {
+      "kanji": "入れ換える",
+      "baca": "いれかえる",
+      "arti": "Bertukar (Udara)"
+    },
+    {
+      "kanji": "普段",
+      "baca": "ふだん",
+      "arti": "Sehari-hari"
+    },
+    {
+      "kanji": "密閉",
+      "baca": "みっぺい",
+      "arti": "Tertutup (Rapat)"
+    },
+    {
+      "kanji": "密集",
+      "baca": "みっしゅう",
+      "arti": "Berkerumun (Padat)"
+    },
+    {
+      "kanji": "密接",
+      "baca": "みっせつ",
+      "arti": "Berdekatan (Dekat)"
+    },
+    {
+      "kanji": "狭い",
+      "baca": "せまい",
+      "arti": "Sempit"
+    },
+    {
+      "kanji": "集まる",
+      "baca": "あつまる",
+      "arti": "Berkumpul"
+    },
+    {
+      "kanji": "距離",
+      "baca": "きょり",
+      "arti": "Jarak"
+    },
+    {
+      "kanji": "食事",
+      "baca": "しょくじ",
+      "arti": "Makanan"
+    },
+    {
+      "kanji": "石鹸",
+      "baca": "せっけん",
+      "arti": "Sabun"
+    }
+  ]
+}

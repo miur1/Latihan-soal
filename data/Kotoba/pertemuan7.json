@@ -1,0 +1,566 @@
+{
+  "judul": "Kotoba PM 22-1 - Pertemuan 7",
+  "tipe": "flashcard",
+  "kartu": [
+    {
+      "kanji": "労働安全",
+      "baca": "ろうどうあんぜん",
+      "arti": "Keselamatan Kerja"
+    },
+    {
+      "kanji": "健康",
+      "baca": "けんこう",
+      "arti": "Kesehatan"
+    },
+    {
+      "kanji": "事業者",
+      "baca": "じぎょうしゃ",
+      "arti": "Operator"
+    },
+    {
+      "kanji": "法律",
+      "baca": "ほうりつ",
+      "arti": "Undang-undang"
+    },
+    {
+      "kanji": "労働災害",
+      "baca": "ろうどうさいがい",
+      "arti": "Kecelakaan Kerja"
+    },
+    {
+      "kanji": "取組み",
+      "baca": "とりくみ",
+      "arti": "Upaya"
+    },
+    {
+      "kanji": "協力",
+      "baca": "きょうりょく",
+      "arti": "Kerja Sama"
+    },
+    {
+      "kanji": "安全管理者",
+      "baca": "あんぜんかんりしゃ",
+      "arti": "Pengawas Keselamatan"
+    },
+    {
+      "kanji": "衛生管理者",
+      "baca": "えいせいかんりしゃ",
+      "arti": "Pengawas Kebersihan"
+    },
+    {
+      "kanji": "服装",
+      "baca": "ふくそう",
+      "arti": "Pakaian"
+    },
+    {
+      "kanji": "重なる",
+      "baca": "かさなる",
+      "arti": "Melewati"
+    },
+    {
+      "kanji": "もう一度",
+      "baca": "もういちど",
+      "arti": "Sekali Lagi"
+    },
+    {
+      "kanji": "定められる",
+      "baca": "さだめられる",
+      "arti": "Ditetapkan"
+    },
+    {
+      "kanji": "着用",
+      "baca": "ちゃくよう",
+      "arti": "Mengenakan"
+    },
+    {
+      "kanji": "長袖",
+      "baca": "ながそで",
+      "arti": "Lengan Panjang"
+    },
+    {
+      "kanji": "袖口",
+      "baca": "そでぐち",
+      "arti": "Ujung Lengan"
+    },
+    {
+      "kanji": "絞る",
+      "baca": "しぼる",
+      "arti": "Mengencangkan"
+    },
+    {
+      "kanji": "上着",
+      "baca": "うわぎ",
+      "arti": "Baju Atasan"
+    },
+    {
+      "kanji": "裾",
+      "baca": "すそ",
+      "arti": "Ujung Pakaian"
+    },
+    {
+      "kanji": "ズボン",
+      "baca": "ずぼん",
+      "arti": "Celana Panjang"
+    },
+    {
+      "kanji": "入れる",
+      "baca": "いれる",
+      "arti": "Memasukan"
+    },
+    {
+      "kanji": "刃物",
+      "baca": "はもの",
+      "arti": "Benda Tajam"
+    },
+    {
+      "kanji": "ドライバー",
+      "baca": "どらいばー",
+      "arti": "Obeng"
+    },
+    {
+      "kanji": "ポケット",
+      "baca": "ぽけっと",
+      "arti": "Saku"
+    },
+    {
+      "kanji": "タオル",
+      "baca": "たおる",
+      "arti": "Handuk"
+    },
+    {
+      "kanji": "巻く",
+      "baca": "まく",
+      "arti": "Melilitkan"
+    },
+    {
+      "kanji": "ネクタイ",
+      "baca": "ねくたい",
+      "arti": "Dasi"
+    },
+    {
+      "kanji": "巻き込まれる",
+      "baca": "まきこまれる",
+      "arti": "Terlilit"
+    },
+    {
+      "kanji": "保護具",
+      "baca": "ほごぐ",
+      "arti": "Alat Pelindung (APD)"
+    },
+    {
+      "kanji": "保護帽",
+      "baca": "ほごぼう",
+      "arti": "Helm Pelindung"
+    },
+    {
+      "kanji": "ヘルメット",
+      "baca": "へるめっと",
+      "arti": "Helm"
+    },
+    {
+      "kanji": "耳栓",
+      "baca": "みみせん",
+      "arti": "Penyumbat Telinga"
+    },
+    {
+      "kanji": "安全靴",
+      "baca": "あんぜんぐつ",
+      "arti": "Sepatu Keselamatan"
+    },
+    {
+      "kanji": "顎紐",
+      "baca": "あごひも",
+      "arti": "Tali Dagu"
+    },
+    {
+      "kanji": "緩み",
+      "baca": "ゆるみ",
+      "arti": "Kendur"
+    },
+    {
+      "kanji": "調整",
+      "baca": "ちょうせい",
+      "arti": "Penyesuaian"
+    },
+    {
+      "kanji": "防護眼鏡",
+      "baca": "ぼうごめがね",
+      "arti": "Kacamata Pelindung"
+    },
+    {
+      "kanji": "作業手順",
+      "baca": "さぎょうてじゅん",
+      "arti": "Prosedur Kerja"
+    },
+    {
+      "kanji": "避ける",
+      "baca": "さける",
+      "arti": "Menghindari, Menjauhi"
+    },
+    {
+      "kanji": "繰り返す",
+      "baca": "くりかえす",
+      "arti": "Mengulangi"
+    },
+    {
+      "kanji": "練習",
+      "baca": "れんしゅう",
+      "arti": "Latihan"
+    },
+    {
+      "kanji": "覚える",
+      "baca": "おぼえる",
+      "arti": "Menghafal"
+    },
+    {
+      "kanji": "以外",
+      "baca": "いがい",
+      "arti": "Selain, Kecuali"
+    },
+    {
+      "kanji": "理解",
+      "baca": "りかい",
+      "arti": "Paham"
+    },
+    {
+      "kanji": "操作",
+      "baca": "そうさ",
+      "arti": "Pengoperasian"
+    },
+    {
+      "kanji": "外す",
+      "baca": "はずす",
+      "arti": "Melepas"
+    },
+    {
+      "kanji": "無効",
+      "baca": "むこう",
+      "arti": "Tidak Efektif"
+    },
+    {
+      "kanji": "慣れる",
+      "baca": "なれる",
+      "arti": "Terbiasa"
+    },
+    {
+      "kanji": "足りる",
+      "baca": "たりる",
+      "arti": "Cukup"
+    },
+    {
+      "kanji": "力",
+      "baca": "ちから",
+      "arti": "Tenaga, Kekuatan"
+    },
+    {
+      "kanji": "強引",
+      "baca": "ごういん",
+      "arti": "Memaksa"
+    },
+    {
+      "kanji": "経験",
+      "baca": "けいけん",
+      "arti": "Pengalaman"
+    },
+    {
+      "kanji": "様々",
+      "baca": "さまざま",
+      "arti": "Beragam"
+    },
+    {
+      "kanji": "挟まれ",
+      "baca": "はさまれ",
+      "arti": "Terjepit"
+    },
+    {
+      "kanji": "巻き込まれ",
+      "baca": "まきこまれ",
+      "arti": "Terlilit, Tertarik Masuk"
+    },
+    {
+      "kanji": "転倒",
+      "baca": "てんとう",
+      "arti": "Terjatuh"
+    },
+    {
+      "kanji": "切れ",
+      "baca": "きれ",
+      "arti": "Teriris, Terpotong"
+    },
+    {
+      "kanji": "切り傷",
+      "baca": "きりきず",
+      "arti": "Luka Sayat"
+    },
+    {
+      "kanji": "擦れ",
+      "baca": "こすれ",
+      "arti": "Tergores, Gesekan"
+    },
+    {
+      "kanji": "擦り傷",
+      "baca": "すりきず",
+      "arti": "Lecet"
+    },
+    {
+      "kanji": "熱中症",
+      "baca": "ねっちゅうしょ",
+      "arti": "Sengatan Panas"
+    },
+    {
+      "kanji": "気温",
+      "baca": "きおん",
+      "arti": "Suhu Udara"
+    },
+    {
+      "kanji": "湿度",
+      "baca": "しつど",
+      "arti": "Kelembapan"
+    },
+    {
+      "kanji": "続ける",
+      "baca": "つづける",
+      "arti": "Melanjutkan, Terus"
+    },
+    {
+      "kanji": "体温",
+      "baca": "たいおん",
+      "arti": "Suhu Tubuh"
+    },
+    {
+      "kanji": "体内",
+      "baca": "たいない",
+      "arti": "Dalam Tubuh"
+    },
+    {
+      "kanji": "水分",
+      "baca": "すいぶん",
+      "arti": "Cairan, Kadar Air"
+    },
+    {
+      "kanji": "塩分",
+      "baca": "えんぶん",
+      "arti": "Kadar Garam"
+    },
+    {
+      "kanji": "バランス",
+      "baca": "ばらんす",
+      "arti": "Keseimbangan"
+    },
+    {
+      "kanji": "崩れる",
+      "baca": "くずれる",
+      "arti": "Runtuh, Terganggu"
+    },
+    {
+      "kanji": "調節",
+      "baca": "ちょうせつ",
+      "arti": "Pengaturan, Penyesuaian"
+    },
+    {
+      "kanji": "不調",
+      "baca": "ふちょう",
+      "arti": "Kondisi Buruk, Tidak Fit"
+    },
+    {
+      "kanji": "腰痛症",
+      "baca": "ようつうしょう",
+      "arti": "Sakit Pinggang"
+    },
+    {
+      "kanji": "持ち上げる",
+      "baca": "もちあげる",
+      "arti": "Mengangkat"
+    },
+    {
+      "kanji": "姿勢",
+      "baca": "しせい",
+      "arti": "Postur, Sikap Tubuh"
+    },
+    {
+      "kanji": "背中",
+      "baca": "せなか",
+      "arti": "Punggung"
+    },
+    {
+      "kanji": "腰",
+      "baca": "こし",
+      "arti": "Pinggang"
+    },
+    {
+      "kanji": "骨",
+      "baca": "ほね",
+      "arti": "Tulang"
+    },
+    {
+      "kanji": "筋肉",
+      "baca": "きんにく",
+      "arti": "Otot"
+    },
+    {
+      "kanji": "異常",
+      "baca": "いじょう",
+      "arti": "Kelainan, Abnormal"
+    },
+    {
+      "kanji": "清掃",
+      "baca": "せいそう",
+      "arti": "Pembersihan"
+    },
+    {
+      "kanji": "調整",
+      "baca": "ちょうせい",
+      "arti": "Penyesuaian"
+    },
+    {
+      "kanji": "修理",
+      "baca": "しゅうり",
+      "arti": "Perbaikan"
+    },
+    {
+      "kanji": "ベルトコンベア",
+      "baca": "べるとこんべあ",
+      "arti": "Ban Berjalan (Konveyor)"
+    },
+    {
+      "kanji": "ロール",
+      "baca": "ろーる",
+      "arti": "Rol, Gulungan"
+    },
+    {
+      "kanji": "止める",
+      "baca": "とめる",
+      "arti": "Menghentikan"
+    },
+    {
+      "kanji": "標識",
+      "baca": "ひょうしき",
+      "arti": "Rambu, Tanda"
+    },
+    {
+      "kanji": "囲い",
+      "baca": "かこい",
+      "arti": "Pagar, Penutup"
+    },
+    {
+      "kanji": "点検",
+      "baca": "てんけん",
+      "arti": "Inspeksi"
+    },
+    {
+      "kanji": "整備",
+      "baca": "せいび",
+      "arti": "Perawatan, Pemeliharaan"
+    },
+    {
+      "kanji": "床",
+      "baca": "ゆか",
+      "arti": "Lantai"
+    },
+    {
+      "kanji": "濡れる",
+      "baca": "ぬれる",
+      "arti": "Basah"
+    },
+    {
+      "kanji": "滑る",
+      "baca": "すべる",
+      "arti": "Tergelincir, Licin"
+    },
+    {
+      "kanji": "拭き取る",
+      "baca": "ふきとる",
+      "arti": "Mengelap"
+    },
+    {
+      "kanji": "急ぐ",
+      "baca": "いそぐ",
+      "arti": "Terburu-buru"
+    },
+    {
+      "kanji": "運ぶ",
+      "baca": "はこぶ",
+      "arti": "Mengangkut, Membawa"
+    },
+    {
+      "kanji": "台車",
+      "baca": "だいしゃ",
+      "arti": "Troli"
+    },
+    {
+      "kanji": "不要",
+      "baca": "ふよう",
+      "arti": "Tidak Diperlukan"
+    },
+    {
+      "kanji": "足元",
+      "baca": "あしもと",
+      "arti": "Dekat Kaki, Pijakan"
+    },
+    {
+      "kanji": "暗い",
+      "baca": "くらい",
+      "arti": "Gelap"
+    },
+    {
+      "kanji": "明るい",
+      "baca": "あかるい",
+      "arti": "Terang"
+    },
+    {
+      "kanji": "照明器具",
+      "baca": "しょうめいきぐ",
+      "arti": "Alat Penerangan"
+    },
+    {
+      "kanji": "刃部",
+      "baca": "はぶ",
+      "arti": "Bagian Mata Pisau"
+    },
+    {
+      "kanji": "発生",
+      "baca": "はっせい",
+      "arti": "Terjadi"
+    },
+    {
+      "kanji": "掃除",
+      "baca": "そうじ",
+      "arti": "Membersihkan"
+    },
+    {
+      "kanji": "機械",
+      "baca": "きかい",
+      "arti": "Mesin"
+    },
+    {
+      "kanji": "停止",
+      "baca": "ていし",
+      "arti": "Berhenti"
+    },
+    {
+      "kanji": "完全",
+      "baca": "かんぜん",
+      "arti": "Sepenuhnya"
+    },
+    {
+      "kanji": "止まる",
+      "baca": "とまる",
+      "arti": "Berhenti"
+    },
+    {
+      "kanji": "包丁",
+      "baca": "ほうちょう",
+      "arti": "Pisau Dapur"
+    },
+    {
+      "kanji": "徹底",
+      "baca": "てってい",
+      "arti": "Menyeluruh"
+    },
+    {
+      "kanji": "片付ける",
+      "baca": "かたづける",
+      "arti": "Membereskan"
+    }
+  ]
+}

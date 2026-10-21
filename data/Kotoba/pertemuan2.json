@@ -1,0 +1,456 @@
+{
+  "judul": "Kotoba PM 22-1 - Pertemuan 2",
+  "tipe": "flashcard",
+  "kartu": [
+    {
+      "kanji": "引き起こす",
+      "baca": "ひきおこす",
+      "arti": "Menimbulkan"
+    },
+    {
+      "kanji": "纏め",
+      "baca": "まとめ",
+      "arti": "Rangkuman"
+    },
+    {
+      "kanji": "食材",
+      "baca": "しょくざい",
+      "arti": "Bahan Makanan"
+    },
+    {
+      "kanji": "加熱",
+      "baca": "かねつ",
+      "arti": "Pemanasan"
+    },
+    {
+      "kanji": "傷",
+      "baca": "きず",
+      "arti": "Luka"
+    },
+    {
+      "kanji": "分解",
+      "baca": "ぶんかい",
+      "arti": "Penguraian"
+    },
+    {
+      "kanji": "保つ",
+      "baca": "たもつ",
+      "arti": "Menjaga"
+    },
+    {
+      "kanji": "残る",
+      "baca": "のこる",
+      "arti": "Tersisa"
+    },
+    {
+      "kanji": "以下",
+      "baca": "いか",
+      "arti": "Di bawah"
+    },
+    {
+      "kanji": "米",
+      "baca": "こめ",
+      "arti": "Beras"
+    },
+    {
+      "kanji": "小麦",
+      "baca": "こむぎ",
+      "arti": "Gandum"
+    },
+    {
+      "kanji": "起こす",
+      "baca": "おこす",
+      "arti": "Menyebabkan"
+    },
+    {
+      "kanji": "通じる",
+      "baca": "つうじる",
+      "arti": "Melalui"
+    },
+    {
+      "kanji": "秒",
+      "baca": "びょう",
+      "arti": "Detik"
+    },
+    {
+      "kanji": "付けない",
+      "baca": "つけない",
+      "arti": "Menjauhkan"
+    },
+    {
+      "kanji": "清潔",
+      "baca": "せいけつ",
+      "arti": "Bersih"
+    },
+    {
+      "kanji": "汚染",
+      "baca": "おせん",
+      "arti": "Kontaminasi"
+    },
+    {
+      "kanji": "健康管理",
+      "baca": "けんこうかんり",
+      "arti": "Kontrol Kesehatan"
+    },
+    {
+      "kanji": "作業場",
+      "baca": "さぎょうじょう",
+      "arti": "Tempat Kerja"
+    },
+    {
+      "kanji": "責任者",
+      "baca": "せきにんしゃ",
+      "arti": "Penanggung jawab"
+    },
+    {
+      "kanji": "報告",
+      "baca": "ほうこく",
+      "arti": "Laporan"
+    },
+    {
+      "kanji": "ノロウイルス",
+      "baca": "のろういるす",
+      "arti": "Norovirus"
+    },
+    {
+      "kanji": "危険",
+      "baca": "きけん",
+      "arti": "Bahaya"
+    },
+    {
+      "kanji": "接触",
+      "baca": "せっしょく",
+      "arti": "Bersentuhan"
+    },
+    {
+      "kanji": "分ける",
+      "baca": "わける",
+      "arti": "Membagi"
+    },
+    {
+      "kanji": "増やさない",
+      "baca": "ふやさない",
+      "arti": "Mencegah"
+    },
+    {
+      "kanji": "温度",
+      "baca": "おんど",
+      "arti": "Suhu"
+    },
+    {
+      "kanji": "水分",
+      "baca": "すいぶん",
+      "arti": "Kelembaban"
+    },
+    {
+      "kanji": "栄養分",
+      "baca": "えいようぶん",
+      "arti": "Nutrisi"
+    },
+    {
+      "kanji": "器具",
+      "baca": "きぐ",
+      "arti": "Peralatan"
+    },
+    {
+      "kanji": "装置",
+      "baca": "そうち",
+      "arti": "Perangkat, Alat"
+    },
+    {
+      "kanji": "機械",
+      "baca": "きかい",
+      "arti": "Mesin"
+    },
+    {
+      "kanji": "冷凍",
+      "baca": "れいとう",
+      "arti": "Pembekuan"
+    },
+    {
+      "kanji": "冷蔵",
+      "baca": "れいぞう",
+      "arti": "Pendinginan"
+    },
+    {
+      "kanji": "乾燥",
+      "baca": "かんそう",
+      "arti": "Kering"
+    },
+    {
+      "kanji": "方法",
+      "baca": "ほうほう",
+      "arti": "Metode"
+    },
+    {
+      "kanji": "適切",
+      "baca": "てきせつ",
+      "arti": "Sesuai"
+    },
+    {
+      "kanji": "保管",
+      "baca": "ほかん",
+      "arti": "Penyimpanan"
+    },
+    {
+      "kanji": "汚れ",
+      "baca": "よごれ",
+      "arti": "Kotoran"
+    },
+    {
+      "kanji": "落とす",
+      "baca": "おとす",
+      "arti": "Menghilangkan"
+    },
+    {
+      "kanji": "殺す",
+      "baca": "ころす",
+      "arti": "Membunuh"
+    },
+    {
+      "kanji": "遣っ付ける",
+      "baca": "やっつける",
+      "arti": "Memberantas"
+    },
+    {
+      "kanji": "最も",
+      "baca": "もっとも",
+      "arti": "Paling"
+    },
+    {
+      "kanji": "効果",
+      "baca": "こうか",
+      "arti": "Efek, Manfaat"
+    },
+    {
+      "kanji": "殺菌剤",
+      "baca": "さっきんざい",
+      "arti": "Disinfektan"
+    },
+    {
+      "kanji": "知識",
+      "baca": "ちしき",
+      "arti": "Pengetahuan"
+    },
+    {
+      "kanji": "身につける",
+      "baca": "みにつける",
+      "arti": "Menguasai"
+    },
+    {
+      "kanji": "要素",
+      "baca": "ようそ",
+      "arti": "Faktor"
+    },
+    {
+      "kanji": "注意",
+      "baca": "ちゅい",
+      "arti": "Perhatian"
+    },
+    {
+      "kanji": "急に",
+      "baca": "きゅうに",
+      "arti": "Cepat"
+    },
+    {
+      "kanji": "一方",
+      "baca": "いっぽう",
+      "arti": "Di sisi lain"
+    },
+    {
+      "kanji": "高温",
+      "baca": "こうおん",
+      "arti": "Suhu Tinggi"
+    },
+    {
+      "kanji": "たんぱく質",
+      "baca": "たんぱくしつ",
+      "arti": "Protein"
+    },
+    {
+      "kanji": "水産物",
+      "baca": "すいさんぶつ",
+      "arti": "Produk Laut"
+    },
+    {
+      "kanji": "一定",
+      "baca": "いってい",
+      "arti": "Tertentu, Tetap"
+    },
+    {
+      "kanji": "時間が経つ",
+      "baca": "じかんがたつ",
+      "arti": "Waktu Berlalu"
+    },
+    {
+      "kanji": "~倍",
+      "baca": "~ばい",
+      "arti": "~Kali Lipat"
+    },
+    {
+      "kanji": "数",
+      "baca": "かず",
+      "arti": "Jumlah"
+    },
+    {
+      "kanji": "最初",
+      "baca": "さいしょ",
+      "arti": "Awal, Pertama"
+    },
+    {
+      "kanji": "世代交代",
+      "baca": "せだいこうたい",
+      "arti": "Pergantian Generasi"
+    },
+    {
+      "kanji": "防ぐ",
+      "baca": "ふせぐ",
+      "arti": "Mencegah"
+    },
+    {
+      "kanji": "種類",
+      "baca": "しゅるい",
+      "arti": "Jenis"
+    },
+    {
+      "kanji": "異なる",
+      "baca": "ことなる",
+      "arti": "Berbeda"
+    },
+    {
+      "kanji": "決められる",
+      "baca": "きめられる",
+      "arti": "Ditentukan"
+    },
+    {
+      "kanji": "必ず",
+      "baca": "かならず",
+      "arti": "Pasti"
+    },
+    {
+      "kanji": "出来るだけ",
+      "baca": "できるだけ",
+      "arti": "Sebisa Mungkin"
+    },
+    {
+      "kanji": "殆ど",
+      "baca": "ほとんど",
+      "arti": "Hampir Tidak"
+    },
+    {
+      "kanji": "完全",
+      "baca": "かんぜん",
+      "arti": "Sepenuhnya"
+    },
+    {
+      "kanji": "上がる",
+      "baca": "あがる",
+      "arti": "Meningkat"
+    },
+    {
+      "kanji": "冷蔵庫",
+      "baca": "れいぞうこ",
+      "arti": "Kulkas"
+    },
+    {
+      "kanji": "開ける",
+      "baca": "あける",
+      "arti": "Membuka"
+    },
+    {
+      "kanji": "短く",
+      "baca": "みじかく",
+      "arti": "Memendekkan"
+    },
+    {
+      "kanji": "カビ",
+      "baca": "かび",
+      "arti": "Jamur"
+    },
+    {
+      "kanji": "胞子",
+      "baca": "ほうし",
+      "arti": "Spora"
+    },
+    {
+      "kanji": "反対",
+      "baca": "はんたい",
+      "arti": "Berlawanan"
+    },
+    {
+      "kanji": "豆",
+      "baca": "まめ",
+      "arti": "Kacang"
+    },
+    {
+      "kanji": "穀類",
+      "baca": "こくるい",
+      "arti": "Serelia, Biji-bijian"
+    },
+    {
+      "kanji": "果物",
+      "baca": "くだもの",
+      "arti": "Buah"
+    },
+    {
+      "kanji": "湿度",
+      "baca": "しつど",
+      "arti": "Kelembapan"
+    },
+    {
+      "kanji": "見えない",
+      "baca": "みえない",
+      "arti": "Tidak Terlihat"
+    },
+    {
+      "kanji": "原材料",
+      "baca": "げんざいりょう",
+      "arti": "Bahan Baku"
+    },
+    {
+      "kanji": "洗う",
+      "baca": "あらう",
+      "arti": "Mencuci"
+    },
+    {
+      "kanji": "観察",
+      "baca": "かんさつ",
+      "arti": "Mengamati"
+    },
+    {
+      "kanji": "記録",
+      "baca": "きろく",
+      "arti": "Mencatat"
+    },
+    {
+      "kanji": "異常",
+      "baca": "いじょう",
+      "arti": "Kelainan, Abnormal"
+    },
+    {
+      "kanji": "中止",
+      "baca": "ちゅうし",
+      "arti": "Menghentikan"
+    },
+    {
+      "kanji": "不適合品",
+      "baca": "ふてきごうひん",
+      "arti": "Produk Cacat"
+    },
+    {
+      "kanji": "指示",
+      "baca": "しじ",
+      "arti": "Instruksi"
+    },
+    {
+      "kanji": "従う",
+      "baca": "したがう",
+      "arti": "Mengikuti"
+    },
+    {
+      "kanji": "処理",
+      "baca": "しょり",
+      "arti": "Penanganan"
+    }
+  ]
+}

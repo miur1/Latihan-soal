@@ -1,0 +1,606 @@
+{
+  "judul": "Kotoba PM 22-1 - Pertemuan 5",
+  "tipe": "flashcard",
+  "kartu": [
+    {
+      "kanji": "工程",
+      "baca": "こうてい",
+      "arti": "Proses"
+    },
+    {
+      "kanji": "基本的",
+      "baca": "きほんてき",
+      "arti": "Mendasar"
+    },
+    {
+      "kanji": "考え方",
+      "baca": "かんがえかた",
+      "arti": "Konsep"
+    },
+    {
+      "kanji": "良い",
+      "baca": "よい",
+      "arti": "Baik"
+    },
+    {
+      "kanji": "不可欠",
+      "baca": "ふかけつ",
+      "arti": "Sangat Diperlukan"
+    },
+    {
+      "kanji": "段階",
+      "baca": "だんかい",
+      "arti": "Tahap"
+    },
+    {
+      "kanji": "危害要因",
+      "baca": "きがいよういん",
+      "arti": "Faktor Bahaya"
+    },
+    {
+      "kanji": "詳しく",
+      "baca": "くわしく",
+      "arti": "Secara Rinci"
+    },
+    {
+      "kanji": "危害分析",
+      "baca": "きがいぶんせき",
+      "arti": "Analisis Bahaya"
+    },
+    {
+      "kanji": "明確",
+      "baca": "めいかく",
+      "arti": "Jelas"
+    },
+    {
+      "kanji": "過去",
+      "baca": "過去",
+      "arti": "Masa Lalu"
+    },
+    {
+      "kanji": "検査結果",
+      "baca": "けんさけっか",
+      "arti": "Hasil Pemeriksaan"
+    },
+    {
+      "kanji": "関連",
+      "baca": "かんれん",
+      "arti": "Berhubungan, Terkait"
+    },
+    {
+      "kanji": "文献",
+      "baca": "ぶんけん",
+      "arti": "Referensi"
+    },
+    {
+      "kanji": "資料",
+      "baca": "しりょう",
+      "arti": "Dokumen"
+    },
+    {
+      "kanji": "程度",
+      "baca": "ていど",
+      "arti": "Tingkat, Kadar"
+    },
+    {
+      "kanji": "リスク",
+      "baca": "りすく",
+      "arti": "Risiko"
+    },
+    {
+      "kanji": "含む",
+      "baca": "ふくむ",
+      "arti": "Mencakup, Termasuk"
+    },
+    {
+      "kanji": "具体的",
+      "baca": "ぐたいてき",
+      "arti": "Konkret, Spesifik"
+    },
+    {
+      "kanji": "数値",
+      "baca": "すうち",
+      "arti": "Nilai Angka"
+    },
+    {
+      "kanji": "調べる",
+      "baca": "しらべる",
+      "arti": "Mencari Tahu"
+    },
+    {
+      "kanji": "対応",
+      "baca": "たいおう",
+      "arti": "Penanganan, Tindakan"
+    },
+    {
+      "kanji": "判断",
+      "baca": "はんだん",
+      "arti": "Pertimbangan"
+    },
+    {
+      "kanji": "データ",
+      "baca": "でーた",
+      "arti": "Data"
+    },
+    {
+      "kanji": "仕掛品",
+      "baca": "しかかりひん",
+      "arti": "Produk dalam Proses"
+    },
+    {
+      "kanji": "中間製品",
+      "baca": "ちゅうかんせいひん",
+      "arti": "Produk ½ Jadi"
+    },
+    {
+      "kanji": "急速",
+      "baca": "きゅうそく",
+      "arti": "Cepat, Pesat"
+    },
+    {
+      "kanji": "途中",
+      "baca": "とちゅう",
+      "arti": "Dalam Proses"
+    },
+    {
+      "kanji": "完成",
+      "baca": "かんせい",
+      "arti": "Selesai Jadi"
+    },
+    {
+      "kanji": "加工",
+      "baca": "かこう",
+      "arti": "Pengolahan"
+    },
+    {
+      "kanji": "規定",
+      "baca": "きてい",
+      "arti": "Ketentuan, Aturan"
+    },
+    {
+      "kanji": "測定",
+      "baca": "そくてい",
+      "arti": "Pengukuran"
+    },
+    {
+      "kanji": "設定",
+      "baca": "せってい",
+      "arti": "Pengaturan"
+    },
+    {
+      "kanji": "中心温度",
+      "baca": "ちゅうしんおんど",
+      "arti": "Suhu Inti"
+    },
+    {
+      "kanji": "当てる",
+      "baca": "あてる",
+      "arti": "Mengenai"
+    },
+    {
+      "kanji": "冷水",
+      "baca": "れいすい",
+      "arti": "Air Dingin"
+    },
+    {
+      "kanji": "凍結",
+      "baca": "とうけつ",
+      "arti": "Pembekuan"
+    },
+    {
+      "kanji": "硬さ",
+      "baca": "かたさ",
+      "arti": "Kekerasan"
+    },
+    {
+      "kanji": "弾力",
+      "baca": "だんりょく",
+      "arti": "Elastisitas"
+    },
+    {
+      "kanji": "食感",
+      "baca": "しょっかん",
+      "arti": "Tekstur Makanan"
+    },
+    {
+      "kanji": "風味",
+      "baca": "ふうみ",
+      "arti": "Cita Rasa"
+    },
+    {
+      "kanji": "変化",
+      "baca": "へんか",
+      "arti": "Perubahan"
+    },
+    {
+      "kanji": "劣化",
+      "baca": "れっか",
+      "arti": "Kerusakan"
+    },
+    {
+      "kanji": "包装",
+      "baca": "ほうそう",
+      "arti": "Pengemasan"
+    },
+    {
+      "kanji": "金属検出機",
+      "baca": "きんぞくけんしゅつき",
+      "arti": "Mesin Deteksi Logam"
+    },
+    {
+      "kanji": "X-線異物",
+      "baca": "X-せんいぶつ",
+      "arti": "X-ray Benda Asing"
+    },
+    {
+      "kanji": "期限表示",
+      "baca": "きげんひょうじ",
+      "arti": "Tampilan Kadaluarsa"
+    },
+    {
+      "kanji": "検出",
+      "baca": "けんしゅつ",
+      "arti": "Deteksi"
+    },
+    {
+      "kanji": "数量",
+      "baca": "すうりょう",
+      "arti": "Jumlah, Kuantitas"
+    },
+    {
+      "kanji": "不足",
+      "baca": "ぶそく",
+      "arti": "Kekurangan"
+    },
+    {
+      "kanji": "形状",
+      "baca": "けいじょう",
+      "arti": "Bentuk"
+    },
+    {
+      "kanji": "不良品",
+      "baca": "ふりょうひん",
+      "arti": "Produk Cacat"
+    },
+    {
+      "kanji": "日付管理",
+      "baca": "ひづけかんり",
+      "arti": "Pengelolaan Tanggal"
+    },
+    {
+      "kanji": "出荷",
+      "baca": "しゅっか",
+      "arti": "Pengiriman"
+    },
+    {
+      "kanji": "回収",
+      "baca": "かいしゅう",
+      "arti": "Penarikan"
+    },
+    {
+      "kanji": "消費期限",
+      "baca": "しょうひきげん",
+      "arti": "Batas Aman Konsumsi"
+    },
+    {
+      "kanji": "賞味期限",
+      "baca": "しょうみきげん",
+      "arti": "Batas Kualitas Terbaik"
+    },
+    {
+      "kanji": "勘違い",
+      "baca": "かんちがい",
+      "arti": "Salah Paham"
+    },
+    {
+      "kanji": "ケアレスミス",
+      "baca": "けあれすみす",
+      "arti": "Kesalahan Ceroboh"
+    },
+    {
+      "kanji": "工夫",
+      "baca": "くふう",
+      "arti": "Upaya"
+    },
+    {
+      "kanji": "ロットナンバー",
+      "baca": "ろっとなんばー",
+      "arti": "Nomor Produksi"
+    },
+    {
+      "kanji": "掲示",
+      "baca": "けいじ",
+      "arti": "Pemberitahuan"
+    },
+    {
+      "kanji": "実際",
+      "baca": "じっさい",
+      "arti": "Sebenarnya"
+    },
+    {
+      "kanji": "印字",
+      "baca": "いんじ",
+      "arti": "Pencetakan"
+    },
+    {
+      "kanji": "フィルム",
+      "baca": "ふぃるむ",
+      "arti": "Lembar Film"
+    },
+    {
+      "kanji": "切り取る",
+      "baca": "きりとる",
+      "arti": "Memotong"
+    },
+    {
+      "kanji": "自主的",
+      "baca": "じしゅてき",
+      "arti": "Secara Mandiri"
+    },
+    {
+      "kanji": "項目",
+      "baca": "こうもく",
+      "arti": "Item, Bagian"
+    },
+    {
+      "kanji": "応じる",
+      "baca": "おうじる",
+      "arti": "Menanggapi, Sesuai"
+    },
+    {
+      "kanji": "法律",
+      "baca": "ほうりつ",
+      "arti": "Hukum"
+    },
+    {
+      "kanji": "備える",
+      "baca": "そなえる",
+      "arti": "Melengkapi"
+    },
+    {
+      "kanji": "割合",
+      "baca": "わりあい",
+      "arti": "Presentase"
+    },
+    {
+      "kanji": "抽出",
+      "baca": "ちゅうしゅつ",
+      "arti": "Mengekstrak"
+    },
+    {
+      "kanji": "纏める",
+      "baca": "まとめる",
+      "arti": "Merangkum"
+    },
+    {
+      "kanji": "望ましい",
+      "baca": "のぞましい",
+      "arti": "Diharapkan"
+    },
+    {
+      "kanji": "輸送",
+      "baca": "ゆそう",
+      "arti": "Pengangkutan"
+    },
+    {
+      "kanji": "冷凍車",
+      "baca": "れいとうしゃ",
+      "arti": "Truk Freezer"
+    },
+    {
+      "kanji": "冷蔵車",
+      "baca": "れいぞうしゃ",
+      "arti": "Truk Pendingin"
+    },
+    {
+      "kanji": "発症件数",
+      "baca": "はっしょうけんすう",
+      "arti": "Angka Penyakit"
+    },
+    {
+      "kanji": "基づく",
+      "baca": "もとづく",
+      "arti": "Berdasarkan"
+    },
+    {
+      "kanji": "比べる",
+      "baca": "くらべる",
+      "arti": "Membandingkan"
+    },
+    {
+      "kanji": "海老",
+      "baca": "えび",
+      "arti": "Udang"
+    },
+    {
+      "kanji": "蟹",
+      "baca": "かに",
+      "arti": "Kepiting"
+    },
+    {
+      "kanji": "小麦",
+      "baca": "こむぎ",
+      "arti": "Gandum"
+    },
+    {
+      "kanji": "蕎麦",
+      "baca": "そば",
+      "arti": "Soba"
+    },
+    {
+      "kanji": "卵",
+      "baca": "たまご",
+      "arti": "Telur"
+    },
+    {
+      "kanji": "乳",
+      "baca": "にゅう",
+      "arti": "Susu"
+    },
+    {
+      "kanji": "落花生",
+      "baca": "らっかせい",
+      "arti": "Kacang Tanah"
+    },
+    {
+      "kanji": "アーモンド",
+      "baca": "あーもんど",
+      "arti": "Almond"
+    },
+    {
+      "kanji": "鮑",
+      "baca": "あわび",
+      "arti": "Abalon"
+    },
+    {
+      "kanji": "烏賊",
+      "baca": "いか",
+      "arti": "Cumi-cumi"
+    },
+    {
+      "kanji": "いくら",
+      "baca": "いくら",
+      "arti": "Telur Salmon"
+    },
+    {
+      "kanji": "オレンジ",
+      "baca": "おれんじ",
+      "arti": "Jeruk"
+    },
+    {
+      "kanji": "カシューナッツ",
+      "baca": "かしゅーなっつ",
+      "arti": "Kacang Mede"
+    },
+    {
+      "kanji": "キウイフルーツ",
+      "baca": "きういふるーつ",
+      "arti": "Buah Kiwi"
+    },
+    {
+      "kanji": "牛肉",
+      "baca": "ぎゅうにく",
+      "arti": "Daging Sapi"
+    },
+    {
+      "kanji": "胡桃",
+      "baca": "くるみ",
+      "arti": "Kacang kenari"
+    },
+    {
+      "kanji": "胡麻",
+      "baca": "ごま",
+      "arti": "Wijen"
+    },
+    {
+      "kanji": "鮭",
+      "baca": "さけ",
+      "arti": "Ikan Salmon"
+    },
+    {
+      "kanji": "鯖",
+      "baca": "さば",
+      "arti": "Ikan Makarel"
+    },
+    {
+      "kanji": "大豆",
+      "baca": "だいず",
+      "arti": "Kedelai"
+    },
+    {
+      "kanji": "鶏肉",
+      "baca": "とりにく",
+      "arti": "Daging Ayam"
+    },
+    {
+      "kanji": "バナナ",
+      "baca": "ばなな",
+      "arti": "Pisang"
+    },
+    {
+      "kanji": "豚肉",
+      "baca": "ぶたにく",
+      "arti": "Daging Bagi"
+    },
+    {
+      "kanji": "松茸",
+      "baca": "まつたけ",
+      "arti": "Jamur Matsutake"
+    },
+    {
+      "kanji": "桃",
+      "baca": "もも",
+      "arti": "Persik"
+    },
+    {
+      "kanji": "山芋",
+      "baca": "やまいも",
+      "arti": "Ubi Jepang"
+    },
+    {
+      "kanji": "林檎",
+      "baca": "りんご",
+      "arti": "Apel"
+    },
+    {
+      "kanji": "ゼラチン",
+      "baca": "ぜらちん",
+      "arti": "Gelatin"
+    },
+    {
+      "kanji": "交差汚染",
+      "baca": "こうさおせん",
+      "arti": "Kontaminasi Silang"
+    },
+    {
+      "kanji": "区分",
+      "baca": "くぶん",
+      "arti": "Pembagian"
+    },
+    {
+      "kanji": "重ねる",
+      "baca": "かさねる",
+      "arti": "Menumpuk"
+    },
+    {
+      "kanji": "開封済み",
+      "baca": "かいふうずみ",
+      "arti": "Sudah Dibuka"
+    },
+    {
+      "kanji": "中身",
+      "baca": "なかみ",
+      "arti": "Isi"
+    },
+    {
+      "kanji": "零れる",
+      "baca": "こぼれる",
+      "arti": "Tumpah"
+    },
+    {
+      "kanji": "誤る",
+      "baca": "あやまる",
+      "arti": "Salah, Keliru"
+    },
+    {
+      "kanji": "事件",
+      "baca": "じけん",
+      "arti": "Kejadian, Insiden"
+    },
+    {
+      "kanji": "量",
+      "baca": "りょう",
+      "arti": "Takaran"
+    },
+    {
+      "kanji": "入出庫",
+      "baca": "にゅうしゅっこ",
+      "arti": "Masuk keluar Gudang"
+    },
+    {
+      "kanji": "台帳",
+      "baca": "だいちょう",
+      "arti": "Buku Catatan"
+    }
+  ]
+}

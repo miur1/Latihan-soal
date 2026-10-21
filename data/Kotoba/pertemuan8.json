@@ -1,0 +1,516 @@
+{
+  "judul": "Kotoba PM 22-1 - Pertemuan 8",
+  "tipe": "flashcard",
+  "kartu": [
+    {
+      "kanji": "睡眠不足",
+      "baca": "すいみんぶそく",
+      "arti": "Kurang Tidur"
+    },
+    {
+      "kanji": "食生活",
+      "baca": "しょくせいかつ",
+      "arti": "Pola Makan"
+    },
+    {
+      "kanji": "乱れ",
+      "baca": "みだれ",
+      "arti": "Tidak Teratur, Kacau"
+    },
+    {
+      "kanji": "体調",
+      "baca": "たいちょう",
+      "arti": "Kondisi Tubuh"
+    },
+    {
+      "kanji": "変化",
+      "baca": "へんか",
+      "arti": "Perubahan"
+    },
+    {
+      "kanji": "下着",
+      "baca": "しゅたぎ",
+      "arti": "Pakaian Dalam"
+    },
+    {
+      "kanji": "通気性",
+      "baca": "つうきせい",
+      "arti": "Daya Tembus Udara"
+    },
+    {
+      "kanji": "吸湿性",
+      "baca": "きゅうしつせい",
+      "arti": "Daya Serap Kelembapan"
+    },
+    {
+      "kanji": "速乾性",
+      "baca": "そっかんせい",
+      "arti": "Cepat Kering"
+    },
+    {
+      "kanji": "素材",
+      "baca": "そざい",
+      "arti": "Bahan"
+    },
+    {
+      "kanji": "休憩",
+      "baca": "きゅうけい",
+      "arti": "Istirahat"
+    },
+    {
+      "kanji": "補給",
+      "baca": "ほきゅう",
+      "arti": "Asupan, Pengisian Ulang"
+    },
+    {
+      "kanji": "配る",
+      "baca": "くばる",
+      "arti": "Membagikan"
+    },
+    {
+      "kanji": "頭痛",
+      "baca": "ずつう",
+      "arti": "Sakit Kepala"
+    },
+    {
+      "kanji": "目眩",
+      "baca": "めまい",
+      "arti": "Pusing (Berputar)"
+    },
+    {
+      "kanji": "立ち暗み",
+      "baca": "たちくらみ",
+      "arti": "Pusing Saat Berdiri"
+    },
+    {
+      "kanji": "嘔吐",
+      "baca": "おうと",
+      "arti": "Muntah"
+    },
+    {
+      "kanji": "吐き気",
+      "baca": "はきけ",
+      "arti": "Mual"
+    },
+    {
+      "kanji": "手足",
+      "baca": "てあし",
+      "arti": "Tangan dan Kaki"
+    },
+    {
+      "kanji": "痺れる",
+      "baca": "しびれる",
+      "arti": "Kesemutan, Mati Rasa"
+    },
+    {
+      "kanji": "こむら返り",
+      "baca": "こむらがえり",
+      "arti": "Kram Betis"
+    },
+    {
+      "kanji": "攣る",
+      "baca": "つる",
+      "arti": "Kram"
+    },
+    {
+      "kanji": "倦怠感",
+      "baca": "けんたいかん",
+      "arti": "Rasa Lelah, Lesu"
+    },
+    {
+      "kanji": "怠い",
+      "baca": "だるい",
+      "arti": "Lesu, Letih"
+    },
+    {
+      "kanji": "虚脱感",
+      "baca": "きょだつかん",
+      "arti": "Rasa Lemas"
+    },
+    {
+      "kanji": "様子",
+      "baca": "ようす",
+      "arti": "Keadaan, Kondisi"
+    },
+    {
+      "kanji": "意識",
+      "baca": "いしき",
+      "arti": "Kesadaran"
+    },
+    {
+      "kanji": "返事",
+      "baca": "へんじ",
+      "arti": "Jawaban, Respons"
+    },
+    {
+      "kanji": "可笑しい",
+      "baca": "おかしい",
+      "arti": "Aneh, Janggal"
+    },
+    {
+      "kanji": "痙攣",
+      "baca": "けいれん",
+      "arti": "Kejang"
+    },
+    {
+      "kanji": "涼しい",
+      "baca": "すずしい",
+      "arti": "Sejuk"
+    },
+    {
+      "kanji": "移動",
+      "baca": "いどう",
+      "arti": "Berpindah, Pemindahan"
+    },
+    {
+      "kanji": "衣服",
+      "baca": "いふく",
+      "arti": "Pakaian"
+    },
+    {
+      "kanji": "緩める",
+      "baca": "ゆるめる",
+      "arti": "Melonggarkan"
+    },
+    {
+      "kanji": "脇の下",
+      "baca": "わきのした",
+      "arti": "Ketiak"
+    },
+    {
+      "kanji": "付け根",
+      "baca": "つけね",
+      "arti": "Pangkal"
+    },
+    {
+      "kanji": "食塩水",
+      "baca": "しょくえんすい",
+      "arti": "Air Garam"
+    },
+    {
+      "kanji": "ブドウ糖",
+      "baca": "ぶどうとう",
+      "arti": "Glukosa"
+    },
+    {
+      "kanji": "溶かす",
+      "baca": "とかす",
+      "arti": "Melarutkan"
+    },
+    {
+      "kanji": "スポーツドリンク",
+      "baca": "すぽーつどりんく",
+      "arti": "Minuman Olahraga"
+    },
+    {
+      "kanji": "自力",
+      "baca": "じりき",
+      "arti": "Dengan Kekuatan Sendiri"
+    },
+    {
+      "kanji": "救急車",
+      "baca": "きゅうきゅうしゃ",
+      "arti": "Ambulans"
+    },
+    {
+      "kanji": "呼ぶ",
+      "baca": "よぶ",
+      "arti": "Memanggil"
+    },
+    {
+      "kanji": "近づける",
+      "baca": "ちかづける",
+      "arti": "Mendekatkan"
+    },
+    {
+      "kanji": "重心",
+      "baca": "じゅうしん",
+      "arti": "Pusat Gravitasi"
+    },
+    {
+      "kanji": "呼吸",
+      "baca": "こきゅう",
+      "arti": "Pernapasan"
+    },
+    {
+      "kanji": "整える",
+      "baca": "ととのえる",
+      "arti": "Mengatur, Merapikan"
+    },
+    {
+      "kanji": "片足",
+      "baca": "かたあし",
+      "arti": "Satu Kaki"
+    },
+    {
+      "kanji": "膝",
+      "baca": "ひざ",
+      "arti": "Lutut"
+    },
+    {
+      "kanji": "曲げます",
+      "baca": "まげます",
+      "arti": "Menekuk"
+    },
+    {
+      "kanji": "下ろす",
+      "baca": "おろす",
+      "arti": "Menurunkan"
+    },
+    {
+      "kanji": "抱える",
+      "baca": "かかえる",
+      "arti": "Membawa di Dekapan"
+    },
+    {
+      "kanji": "伸ばす",
+      "baca": "のばす",
+      "arti": "Meluruskan, Memanjangkan"
+    },
+    {
+      "kanji": "立ち上がる",
+      "baca": "たちあがる",
+      "arti": "Berdiri"
+    },
+    {
+      "kanji": "移動",
+      "baca": "いどう",
+      "arti": "Berpindah, Pemindahan"
+    },
+    {
+      "kanji": "昇る",
+      "baca": "のぼる",
+      "arti": "Naik"
+    },
+    {
+      "kanji": "体操",
+      "baca": "たいそう",
+      "arti": "Senam"
+    },
+    {
+      "kanji": "匂い",
+      "baca": "におい",
+      "arti": "Bau, Aroma"
+    },
+    {
+      "kanji": "音",
+      "baca": "おと",
+      "arti": "Suara"
+    },
+    {
+      "kanji": "消える",
+      "baca": "きえる",
+      "arti": "Menghilang, Padam"
+    },
+    {
+      "kanji": "点滅",
+      "baca": "てんめつ",
+      "arti": "Berkedip"
+    },
+    {
+      "kanji": "レバー",
+      "baca": "ればー",
+      "arti": "Tuas"
+    },
+    {
+      "kanji": "落ち着く",
+      "baca": "おちつく",
+      "arti": "Tenang"
+    },
+    {
+      "kanji": "素早く",
+      "baca": "すばやく",
+      "arti": "Dengan Cepat"
+    },
+    {
+      "kanji": "同僚",
+      "baca": "どうりょう",
+      "arti": "Rekan Kerja"
+    },
+    {
+      "kanji": "非常停止",
+      "baca": "ひじょうていし",
+      "arti": "Penghentian Darurat"
+    },
+    {
+      "kanji": "勝手",
+      "baca": "かって",
+      "arti": "Sembarangan, Seenaknya"
+    },
+    {
+      "kanji": "慌てる",
+      "baca": "あわてる",
+      "arti": "Panik, Gugup"
+    },
+    {
+      "kanji": "二次災害",
+      "baca": "にじさいがい",
+      "arti": "Kecelakaan Susulan"
+    },
+    {
+      "kanji": "被災者",
+      "baca": "ひさいしゃ",
+      "arti": "Korban Kecelakaan"
+    },
+    {
+      "kanji": "連絡",
+      "baca": "れんらく",
+      "arti": "Menghubungi"
+    },
+    {
+      "kanji": "補助",
+      "baca": "ほじょ",
+      "arti": "Bantuan"
+    },
+    {
+      "kanji": "搬送",
+      "baca": "はんそう",
+      "arti": "Pengangkutan (Korban)"
+    },
+    {
+      "kanji": "可能性",
+      "baca": "かのうせい",
+      "arti": "Kemungkinan"
+    },
+    {
+      "kanji": "日頃",
+      "baca": "ひごろ",
+      "arti": "Sehari-hari"
+    },
+    {
+      "kanji": "訓練",
+      "baca": "くんれん",
+      "arti": "Pelatihan"
+    },
+    {
+      "kanji": "準備",
+      "baca": "じゅんび",
+      "arti": "Persiapan"
+    },
+    {
+      "kanji": "参考",
+      "baca": "さんこう",
+      "arti": "Referensi"
+    },
+    {
+      "kanji": "かもしれない",
+      "baca": "かもしれない",
+      "arti": "Mungkin (Saja)"
+    },
+    {
+      "kanji": "挟まれ",
+      "baca": "はさまれ",
+      "arti": "Terjepit"
+    },
+    {
+      "kanji": "巻き込まれ",
+      "baca": "まきこまれ",
+      "arti": "Terlilit, Tertarik Masuk"
+    },
+    {
+      "kanji": "当たる",
+      "baca": "あたる",
+      "arti": "Terkena"
+    },
+    {
+      "kanji": "転ぶ",
+      "baca": "ころぶ",
+      "arti": "Jatuh, Tersandung"
+    },
+    {
+      "kanji": "落ちる",
+      "baca": "おちる",
+      "arti": "Jatuh"
+    },
+    {
+      "kanji": "火傷",
+      "baca": "やけど",
+      "arti": "Luka Bakar"
+    },
+    {
+      "kanji": "感電する",
+      "baca": "かんでんする",
+      "arti": "Tersengat Listrik"
+    },
+    {
+      "kanji": "ガス中毒",
+      "baca": "がすちゅうどく",
+      "arti": "Keracunan Gas"
+    },
+    {
+      "kanji": "酸欠",
+      "baca": "さんけつ",
+      "arti": "Kekurangan Oksigen"
+    },
+    {
+      "kanji": "動く",
+      "baca": "うごく",
+      "arti": "Bergerak"
+    },
+    {
+      "kanji": "回る",
+      "baca": "まわる",
+      "arti": "Berputar"
+    },
+    {
+      "kanji": "飛ぶ",
+      "baca": "とぶ",
+      "arti": "Terlempar, Terbang"
+    },
+    {
+      "kanji": "抜ける",
+      "baca": "ぬける",
+      "arti": "Lepas, Copot"
+    },
+    {
+      "kanji": "燃える",
+      "baca": "もえる",
+      "arti": "Terbakar"
+    },
+    {
+      "kanji": "倒れる",
+      "baca": "たおれる",
+      "arti": "Roboh, Jatuh"
+    },
+    {
+      "kanji": "崩れる",
+      "baca": "くずれる",
+      "arti": "Runtuh, Terganggu"
+    },
+    {
+      "kanji": "爆発する",
+      "baca": "ばくはつする",
+      "arti": "Meledak"
+    },
+    {
+      "kanji": "漏れる",
+      "baca": "もれる",
+      "arti": "Bocor"
+    },
+    {
+      "kanji": "整理",
+      "baca": "せいり",
+      "arti": "Ringkas"
+    },
+    {
+      "kanji": "整頓",
+      "baca": "せいとん",
+      "arti": "Rapi"
+    },
+    {
+      "kanji": "清掃",
+      "baca": "せいそう",
+      "arti": "Resik"
+    },
+    {
+      "kanji": "清潔",
+      "baca": "せいけつ",
+      "arti": "Rawat"
+    },
+    {
+      "kanji": "習慣",
+      "baca": "しゅうかん",
+      "arti": "Kebiasaan"
+    }
+  ]
+}

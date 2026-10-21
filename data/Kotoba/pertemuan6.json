@@ -1,0 +1,301 @@
+{
+  "judul": "Kotoba PM 22-1 - Pertemuan 6",
+  "tipe": "flashcard",
+  "kartu": [
+    {
+      "kanji": "ハサップ",
+      "baca": "はさっぷ",
+      "arti": "HACCP"
+    },
+    {
+      "kanji": "略語",
+      "baca": "りゃくご",
+      "arti": "Singkatan"
+    },
+    {
+      "kanji": "手法",
+      "baca": "しゅほう",
+      "arti": "Metode, Cara"
+    },
+    {
+      "kanji": "分析",
+      "baca": "ぶんせき",
+      "arti": "Analisis"
+    },
+    {
+      "kanji": "重要",
+      "baca": "じゅうよう",
+      "arti": "Penting"
+    },
+    {
+      "kanji": "管理点",
+      "baca": "かんりてん",
+      "arti": "Titik Kendali"
+    },
+    {
+      "kanji": "予測",
+      "baca": "よそく",
+      "arti": "Perkiraan, Prediksi"
+    },
+    {
+      "kanji": "監視",
+      "baca": "かんし",
+      "arti": "Pemantauan"
+    },
+    {
+      "kanji": "モニタリング",
+      "baca": "もにたりんぐ",
+      "arti": "Monitoring"
+    },
+    {
+      "kanji": "抜取検査",
+      "baca": "ぬきとりけんさ",
+      "arti": "Pemeriksaan Sample"
+    },
+    {
+      "kanji": "効果的",
+      "baca": "こうかてき",
+      "arti": "Efektif"
+    },
+    {
+      "kanji": "搬入",
+      "baca": "はんにゅう",
+      "arti": "Membawa Masuk"
+    },
+    {
+      "kanji": "調合",
+      "baca": "ちょうごう",
+      "arti": "Mencampur, Formulasi"
+    },
+    {
+      "kanji": "充填",
+      "baca": "じゅうてん",
+      "arti": "Pengisian"
+    },
+    {
+      "kanji": "密封",
+      "baca": "みっぷ",
+      "arti": "Penyegelan"
+    },
+    {
+      "kanji": "箱詰め",
+      "baca": "はこづめ",
+      "arti": "Mengemas Kedalam Kotak"
+    },
+    {
+      "kanji": "対象",
+      "baca": "たいしょう",
+      "arti": "Objek, Sasara"
+    },
+    {
+      "kanji": "黄色ブドウ球菌",
+      "baca": "おうしょくぶどうきゅうきん",
+      "arti": "Staphylococcus Aureus"
+    },
+    {
+      "kanji": "農薬",
+      "baca": "のうやく",
+      "arti": "Pestisida"
+    },
+    {
+      "kanji": "抗生物質",
+      "baca": "こうせいぶっしつ",
+      "arti": "Antibiotik"
+    },
+    {
+      "kanji": "危険異物",
+      "baca": "きけんいぶつ",
+      "arti": "Benda Asing Berbahaya"
+    },
+    {
+      "kanji": "石",
+      "baca": "いし",
+      "arti": "Batu"
+    },
+    {
+      "kanji": "ガラス",
+      "baca": "がらす",
+      "arti": "Kaca"
+    },
+    {
+      "kanji": "硬質",
+      "baca": "こうしつ",
+      "arti": "Keras"
+    },
+    {
+      "kanji": "プラスチック",
+      "baca": "ぷらすちっく",
+      "arti": "Plastik"
+    },
+    {
+      "kanji": "原則",
+      "baca": "げんそく",
+      "arti": "Prinsip"
+    },
+    {
+      "kanji": "リストアップ",
+      "baca": "りすとあっぷ",
+      "arti": "Membuat Daftar"
+    },
+    {
+      "kanji": "決定",
+      "baca": "けってい",
+      "arti": "Penentuan"
+    },
+    {
+      "kanji": "怪我",
+      "baca": "けが",
+      "arti": "Luka, Cedera"
+    },
+    {
+      "kanji": "発生",
+      "baca": "はっせい",
+      "arti": "Terjadi, Timbul"
+    },
+    {
+      "kanji": "基準",
+      "baca": "きじゅん",
+      "arti": "Standar"
+    },
+    {
+      "kanji": "頻度",
+      "baca": "ひんど",
+      "arti": "Frekuensi"
+    },
+    {
+      "kanji": "修正措置",
+      "baca": "しゅうせいそち",
+      "arti": "Langkah Perbaikan"
+    },
+    {
+      "kanji": "守る",
+      "baca": "まもる",
+      "arti": "Mematuhi"
+    },
+    {
+      "kanji": "戻る",
+      "baca": "もどる",
+      "arti": "Kembali"
+    },
+    {
+      "kanji": "処置",
+      "baca": "しょち",
+      "arti": "Langkah"
+    },
+    {
+      "kanji": "事前",
+      "baca": "じぜん",
+      "arti": "Terlebih Dahulu"
+    },
+    {
+      "kanji": "検証方法",
+      "baca": "けんしょうほうほう",
+      "arti": "Metode Verifikasi"
+    },
+    {
+      "kanji": "計画",
+      "baca": "けいかく",
+      "arti": "Rencana"
+    },
+    {
+      "kanji": "実施",
+      "baca": "じっし",
+      "arti": "Pelaksanaan"
+    },
+    {
+      "kanji": "内容",
+      "baca": "ないよう",
+      "arti": "Isi"
+    },
+    {
+      "kanji": "保管期間",
+      "baca": "ほかんきかん",
+      "arti": "Periode Penyimpanan"
+    },
+    {
+      "kanji": "実践",
+      "baca": "じっせん",
+      "arti": "Penerapan, Praktik"
+    },
+    {
+      "kanji": "代表的",
+      "baca": "だいひょうてき",
+      "arti": "Perwakilan, Tipikal"
+    },
+    {
+      "kanji": "減らす",
+      "baca": "へらす",
+      "arti": "Mengurangi"
+    },
+    {
+      "kanji": "予め",
+      "baca": "あらかじめ",
+      "arti": "Terlebih Dahulu"
+    },
+    {
+      "kanji": "保証",
+      "baca": "ほしょう",
+      "arti": "Jaminan"
+    },
+    {
+      "kanji": "非常",
+      "baca": "ひじょう",
+      "arti": "Sangat, Darurat"
+    },
+    {
+      "kanji": "業務",
+      "baca": "ぎょうむ",
+      "arti": "Pekerjaan, Tugas"
+    },
+    {
+      "kanji": "範囲",
+      "baca": "はんい",
+      "arti": "Cakupan, Lingkup"
+    },
+    {
+      "kanji": "保持",
+      "baca": "ほじ",
+      "arti": "Mempertahankan, Menjaga"
+    },
+    {
+      "kanji": "ステンレス",
+      "baca": "すてんれす",
+      "arti": "Stainless Steel"
+    },
+    {
+      "kanji": "鉄",
+      "baca": "てつ",
+      "arti": "Besi"
+    },
+    {
+      "kanji": "検知",
+      "baca": "けんち",
+      "arti": "Mendeteksi"
+    },
+    {
+      "kanji": "排除",
+      "baca": "はいじょ",
+      "arti": "Menghilangkan"
+    },
+    {
+      "kanji": "取組み",
+      "baca": "とりくみ",
+      "arti": "Upaya, Usaha"
+    },
+    {
+      "kanji": "証拠",
+      "baca": "しょうこ",
+      "arti": "Bukti"
+    },
+    {
+      "kanji": "安全性",
+      "baca": "あんぜんせい",
+      "arti": "Tingkat Keamanan"
+    },
+    {
+      "kanji": "従う",
+      "baca": "したがう",
+      "arti": "Mengikuti, Mematuhi"
+    }
+  ]
+}

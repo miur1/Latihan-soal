@@ -1,0 +1,601 @@
+{
+  "judul": "Kotoba PM 22-1 - Pertemuan 1",
+  "tipe": "flashcard",
+  "kartu": [
+    {
+      "kanji": "食品安全",
+      "baca": "しょくひんあんぜん",
+      "arti": "Keamanan Pangan"
+    },
+    {
+      "kanji": "品質管理",
+      "baca": "ひんしつかんり",
+      "arti": "Manajemen Kualitas"
+    },
+    {
+      "kanji": "基礎",
+      "baca": "きそ",
+      "arti": "Dasar"
+    },
+    {
+      "kanji": "工場",
+      "baca": "こうじょう",
+      "arti": "Pabrik"
+    },
+    {
+      "kanji": "消費者",
+      "baca": "しょうひしゃ",
+      "arti": "Konsumen"
+    },
+    {
+      "kanji": "安心",
+      "baca": "あんしん",
+      "arti": "Tenang"
+    },
+    {
+      "kanji": "同時",
+      "baca": "どうじ",
+      "arti": "Bersamaan"
+    },
+    {
+      "kanji": "求める",
+      "baca": "もとめる",
+      "arti": "Menginginkan"
+    },
+    {
+      "kanji": "健康障害",
+      "baca": "けんこうしょうがい",
+      "arti": "Gangguan Kesehatan"
+    },
+    {
+      "kanji": "起こる",
+      "baca": "おこる",
+      "arti": "Terjadi"
+    },
+    {
+      "kanji": "気をつける",
+      "baca": "きをつける",
+      "arti": "Memperhatikan"
+    },
+    {
+      "kanji": "製造",
+      "baca": "せいぞう",
+      "arti": "Produksi"
+    },
+    {
+      "kanji": "売る",
+      "baca": "うる",
+      "arti": "Menjual"
+    },
+    {
+      "kanji": "病気",
+      "baca": "びょうき",
+      "arti": "Sakit"
+    },
+    {
+      "kanji": "不信感",
+      "baca": "ふしんかん",
+      "arti": "Ketidakpercayaan"
+    },
+    {
+      "kanji": "大きくなる",
+      "baca": "おおきくなる",
+      "arti": "Meningkat"
+    },
+    {
+      "kanji": "商品",
+      "baca": "しょうひん",
+      "arti": "Produk"
+    },
+    {
+      "kanji": "職場",
+      "baca": "しょくば",
+      "arti": "Tempat Kerja"
+    },
+    {
+      "kanji": "信用",
+      "baca": "しんよう",
+      "arti": "Kepercayaan"
+    },
+    {
+      "kanji": "社会",
+      "baca": "しゃかい",
+      "arti": "Masyarakat"
+    },
+    {
+      "kanji": "全体",
+      "baca": "ぜんたい",
+      "arti": "Seluruh"
+    },
+    {
+      "kanji": "影響",
+      "baca": "えいきょう",
+      "arti": "Dampak"
+    },
+    {
+      "kanji": "与える",
+      "baca": "あたえる",
+      "arti": "Memberikan"
+    },
+    {
+      "kanji": "全体像",
+      "baca": "ぜんたいぞう",
+      "arti": "Gambaran Umum"
+    },
+    {
+      "kanji": "一般的",
+      "baca": "いっぱんてき",
+      "arti": "Umum"
+    },
+    {
+      "kanji": "衛生管理",
+      "baca": "えいせいかんり",
+      "arti": "Manajemen Kebersihan"
+    },
+    {
+      "kanji": "両方",
+      "baca": "りょうほう",
+      "arti": "Keduanya"
+    },
+    {
+      "kanji": "必要",
+      "baca": "ひつよう",
+      "arti": "Perlu"
+    },
+    {
+      "kanji": "原材料",
+      "baca": "げんざいりょう",
+      "arti": "Bahan Baku"
+    },
+    {
+      "kanji": "受入",
+      "baca": "うけいれ",
+      "arti": "Penerimaan"
+    },
+    {
+      "kanji": "環境",
+      "baca": "かんきょう",
+      "arti": "Lingkungan"
+    },
+    {
+      "kanji": "製造中",
+      "baca": "せいぞうちゅう",
+      "arti": "Saat Produksi"
+    },
+    {
+      "kanji": "衛生的",
+      "baca": "えいせいてき",
+      "arti": "Kebersihan"
+    },
+    {
+      "kanji": "取扱う",
+      "baca": "とりあつかう",
+      "arti": "Penanganan"
+    },
+    {
+      "kanji": "重要",
+      "baca": "じゅうよう",
+      "arti": "Penting"
+    },
+    {
+      "kanji": "図",
+      "baca": "ず",
+      "arti": "Diagram"
+    },
+    {
+      "kanji": "積み重ねる",
+      "baca": "つみかさねる",
+      "arti": "Menumpuk"
+    },
+    {
+      "kanji": "現場",
+      "baca": "げんば",
+      "arti": "Tempat Kejadian Perkara"
+    },
+    {
+      "kanji": "連続的",
+      "baca": "れんぞくてき",
+      "arti": "Berkelanjutan"
+    },
+    {
+      "kanji": "監視",
+      "baca": "かんし",
+      "arti": "Pemantauan"
+    },
+    {
+      "kanji": "記録",
+      "baca": "きろく",
+      "arti": "Pencatatan"
+    },
+    {
+      "kanji": "微生物",
+      "baca": "びせいぶつ",
+      "arti": "Mikroorganisme"
+    },
+    {
+      "kanji": "増殖",
+      "baca": "ぞうしょく",
+      "arti": "Berkembang biak"
+    },
+    {
+      "kanji": "防止",
+      "baca": "ぼうし",
+      "arti": "Pencegahan"
+    },
+    {
+      "kanji": "活動",
+      "baca": "かつどう",
+      "arti": "Aktivitas"
+    },
+    {
+      "kanji": "取り組む",
+      "baca": "とりくむ",
+      "arti": "Melaksanakan"
+    },
+    {
+      "kanji": "異物",
+      "baca": "いぶつ",
+      "arti": "Benda Asing"
+    },
+    {
+      "kanji": "混入",
+      "baca": "こんにゅう",
+      "arti": "Tercampur"
+    },
+    {
+      "kanji": "食中毒",
+      "baca": "しょくちゅうどく",
+      "arti": "Keracunan Makanan"
+    },
+    {
+      "kanji": "有害",
+      "baca": "ゆうがい",
+      "arti": "Berbahaya, Merugikan"
+    },
+    {
+      "kanji": "含む",
+      "baca": "ふくむ",
+      "arti": "Terkandung"
+    },
+    {
+      "kanji": "原因",
+      "baca": "げんいん",
+      "arti": "Penyebab"
+    },
+    {
+      "kanji": "主な",
+      "baca": "おもな",
+      "arti": "Utama"
+    },
+    {
+      "kanji": "症状",
+      "baca": "しょうじょう",
+      "arti": "Gejala"
+    },
+    {
+      "kanji": "発熱",
+      "baca": "はつねつ",
+      "arti": "Demam"
+    },
+    {
+      "kanji": "細菌",
+      "baca": "さいきん",
+      "arti": "Bakteri"
+    },
+    {
+      "kanji": "化学物質",
+      "baca": "かがくぶっしつ",
+      "arti": "Zat Kimia"
+    },
+    {
+      "kanji": "紹介",
+      "baca": "しょうかい",
+      "arti": "Pengenalan"
+    },
+    {
+      "kanji": "分類",
+      "baca": "ぶんるい",
+      "arti": "Klasifikasi"
+    },
+    {
+      "kanji": "感染型",
+      "baca": "かんせんがた",
+      "arti": "Tipe Penularan"
+    },
+    {
+      "kanji": "毒素型",
+      "baca": "どくそがた",
+      "arti": "Tipe Racun"
+    },
+    {
+      "kanji": "細胞",
+      "baca": "さいぼう",
+      "arti": "Sel"
+    },
+    {
+      "kanji": "破壊",
+      "baca": "はかい",
+      "arti": "Kerusakan"
+    },
+    {
+      "kanji": "腸管出血性大腸菌",
+      "baca": "ちょうかんしゅっけつせいだいちょうきん",
+      "arti": "Escherichia coli (O157:H7)"
+    },
+    {
+      "kanji": "サルモネラ属菌",
+      "baca": "さるもねらぞくきん",
+      "arti": "Bakteri Salmonella"
+    },
+    {
+      "kanji": "カンピロバクター",
+      "baca": "かんぴろばくたー",
+      "arti": "Campylobacter"
+    },
+    {
+      "kanji": "腸炎ビブリオ",
+      "baca": "ちょうえんびぶりお",
+      "arti": "Vibrio (Radang Usus)"
+    },
+    {
+      "kanji": "野菜",
+      "baca": "やさい",
+      "arti": "Sayuran"
+    },
+    {
+      "kanji": "食肉",
+      "baca": "しょくにく",
+      "arti": "Daging Konsumsi"
+    },
+    {
+      "kanji": "牛肉",
+      "baca": "ぎゅうにく",
+      "arti": "Daging Sapi"
+    },
+    {
+      "kanji": "井戸水",
+      "baca": "いどみず",
+      "arti": "Air Sumur"
+    },
+    {
+      "kanji": "鶏肉",
+      "baca": "とりにく",
+      "arti": "Daging Ayam"
+    },
+    {
+      "kanji": "鶏卵",
+      "baca": "けいらん",
+      "arti": "Telor Ayam"
+    },
+    {
+      "kanji": "海水",
+      "baca": "かいすい",
+      "arti": "Air Laut"
+    },
+    {
+      "kanji": "魚介類",
+      "baca": "ぎょかいるい",
+      "arti": "Ikan dan Hasil Laut"
+    },
+    {
+      "kanji": "腹痛",
+      "baca": "ふくつう",
+      "arti": "Sakit Perut"
+    },
+    {
+      "kanji": "血便",
+      "baca": "けつべん",
+      "arti": "Tinja Berdarah"
+    },
+    {
+      "kanji": "激しい",
+      "baca": "はげしい",
+      "arti": "Hebat, Parah"
+    },
+    {
+      "kanji": "予防",
+      "baca": "よぼう",
+      "arti": "Pencegahan"
+    },
+    {
+      "kanji": "対策",
+      "baca": "たいさく",
+      "arti": "Tindakan"
+    },
+    {
+      "kanji": "調理器具",
+      "baca": "ちょうりきぐ",
+      "arti": "Peralatan Memasak"
+    },
+    {
+      "kanji": "洗浄",
+      "baca": "せんじょう",
+      "arti": "Pencucian, Pembersihan"
+    },
+    {
+      "kanji": "中心部",
+      "baca": "ちゅうしんぶ",
+      "arti": "Bagian Inti, Tengah"
+    },
+    {
+      "kanji": "十分",
+      "baca": "じゅうぶん",
+      "arti": "Cukup"
+    },
+    {
+      "kanji": "分以上",
+      "baca": "ぷんいじょう",
+      "arti": "Menit atau Lebih"
+    },
+    {
+      "kanji": "流水",
+      "baca": "りゅうすい",
+      "arti": "Air Mengalir"
+    },
+    {
+      "kanji": "増える",
+      "baca": "ふえる",
+      "arti": "Bertambah, Berkembang"
+    },
+    {
+      "kanji": "人間",
+      "baca": "にんげん",
+      "arti": "Manusia"
+    },
+    {
+      "kanji": "弁当",
+      "baca": "べんとう",
+      "arti": "Bekal Makan"
+    },
+    {
+      "kanji": "ボツリヌス菌",
+      "baca": "ぼつりぬすきん",
+      "arti": "Bakteri Botulinum"
+    },
+    {
+      "kanji": "ウェルシュ菌",
+      "baca": "うぇるしゅきん",
+      "arti": "Clostridium perfringens"
+    },
+    {
+      "kanji": "セレウス菌",
+      "baca": "せれうすきん",
+      "arti": "Bakteri Bacillus cereus"
+    },
+    {
+      "kanji": "缶詰",
+      "baca": "かんづめ",
+      "arti": "Makanan Kaleng"
+    },
+    {
+      "kanji": "瓶詰め",
+      "baca": "びんづめ",
+      "arti": "Makana dalam Botol"
+    },
+    {
+      "kanji": "真空",
+      "baca": "しんくう",
+      "arti": "Kedap Udara"
+    },
+    {
+      "kanji": "大量",
+      "baca": "たいりょう",
+      "arti": "Jumlah Besar"
+    },
+    {
+      "kanji": "室温",
+      "baca": "しつおん",
+      "arti": "Suhu Ruang"
+    },
+    {
+      "kanji": "保存",
+      "baca": "ほぞん",
+      "arti": "Penyimpanan"
+    },
+    {
+      "kanji": "肉類",
+      "baca": "にくるい",
+      "arti": "Jenis-jenis Daging"
+    },
+    {
+      "kanji": "煮物",
+      "baca": "にもの",
+      "arti": "Makanan Rebus"
+    },
+    {
+      "kanji": "炒飯",
+      "baca": "ちゃーはん",
+      "arti": "Nasi Goreng"
+    },
+    {
+      "kanji": "ピラフ",
+      "baca": "ぴらふ",
+      "arti": "Pilaf"
+    },
+    {
+      "kanji": "パスタ",
+      "baca": "ぱすた",
+      "arti": "Pasta"
+    },
+    {
+      "kanji": "吐き気",
+      "baca": "はきけ",
+      "arti": "Mual"
+    },
+    {
+      "kanji": "嘔吐",
+      "baca": "おうと",
+      "arti": "Muntah"
+    },
+    {
+      "kanji": "呼吸困難",
+      "baca": "こきゅうこんあん",
+      "arti": "Kesulitan Bernapas"
+    },
+    {
+      "kanji": "芽胞",
+      "baca": "がほう",
+      "arti": "Spora"
+    },
+    {
+      "kanji": "状態",
+      "baca": "じょうたい",
+      "arti": "Kondisi, Keadaan"
+    },
+    {
+      "kanji": "冷却",
+      "baca": "れいきゃく",
+      "arti": "Pendinginan"
+    },
+    {
+      "kanji": "低温",
+      "baca": "ていおん",
+      "arti": "Suhu Rendah"
+    },
+    {
+      "kanji": "牡蠣",
+      "baca": "かき",
+      "arti": "Tiram"
+    },
+    {
+      "kanji": "二枚貝",
+      "baca": "にまいがい",
+      "arti": "Kerang dua Cangkang"
+    },
+    {
+      "kanji": "存在",
+      "baca": "そんざい",
+      "arti": "Keberadaan"
+    },
+    {
+      "kanji": "移る",
+      "baca": "うつる",
+      "arti": "Berpindah"
+    },
+    {
+      "kanji": "感染力",
+      "baca": "かんせんりょく",
+      "arti": "Daya Tular"
+    },
+    {
+      "kanji": "集団感染",
+      "baca": "しゅうだんかんせん",
+      "arti": "Infeksi Massal"
+    },
+    {
+      "kanji": "特徴",
+      "baca": "とくちょう",
+      "arti": "Ciri khas, Karakteristik"
+    },
+    {
+      "kanji": "徹底",
+      "baca": "てってい",
+      "arti": "Menyeluruh"
+    },
+    {
+      "kanji": "殺菌",
+      "baca": "さっきん",
+      "arti": "Sterilisasi"
+    }
+  ]
+}

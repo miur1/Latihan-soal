@@ -1,0 +1,336 @@
+{
+  "judul": "Kotoba PM 22-1 - Pertemuan 3",
+  "tipe": "flashcard",
+  "kartu": [
+    {
+      "kanji": "健康管理",
+      "baca": "けんこうかんり",
+      "arti": "Manajemen Kesehatan"
+    },
+    {
+      "kanji": "自分",
+      "baca": "じぶん",
+      "arti": "Diri Sendiri"
+    },
+    {
+      "kanji": "体調",
+      "baca": "たいちょう",
+      "arti": "Kondisi Tubuh"
+    },
+    {
+      "kanji": "咳が出る",
+      "baca": "せきがでる",
+      "arti": "Batuk"
+    },
+    {
+      "kanji": "痛い",
+      "baca": "いたい",
+      "arti": "Sakit"
+    },
+    {
+      "kanji": "気持ちが悪い",
+      "baca": "きもちがわるい",
+      "arti": "Tidak Enak Badan, Mual"
+    },
+    {
+      "kanji": "服装",
+      "baca": "ふくそう",
+      "arti": "Pakaian"
+    },
+    {
+      "kanji": "頭髪",
+      "baca": "とうはつ",
+      "arti": "Rambut"
+    },
+    {
+      "kanji": "ゴム",
+      "baca": "ごむ",
+      "arti": "Karet"
+    },
+    {
+      "kanji": "束ねる",
+      "baca": "たばねる",
+      "arti": "Mengikat"
+    },
+    {
+      "kanji": "爪",
+      "baca": "つめ",
+      "arti": "Kuku"
+    },
+    {
+      "kanji": "マニキュア",
+      "baca": "まにきゅあ",
+      "arti": "Kuteks"
+    },
+    {
+      "kanji": "イアリング",
+      "baca": "いありんぐ",
+      "arti": "Anting"
+    },
+    {
+      "kanji": "ネックレス",
+      "baca": "ねっくれす",
+      "arti": "Kalung"
+    },
+    {
+      "kanji": "指輪",
+      "baca": "ゆびわ",
+      "arti": "Cincin"
+    },
+    {
+      "kanji": "装飾品",
+      "baca": "そうしょくひん",
+      "arti": "Perhiasan, Aksesoris"
+    },
+    {
+      "kanji": "腕時計",
+      "baca": "うでどけい",
+      "arti": "Jam Tangan"
+    },
+    {
+      "kanji": "香水",
+      "baca": "こうすい",
+      "arti": "Parfum"
+    },
+    {
+      "kanji": "帽子",
+      "baca": "ぼうし",
+      "arti": "Topi"
+    },
+    {
+      "kanji": "マスク",
+      "baca": "ますく",
+      "arti": "Masker"
+    },
+    {
+      "kanji": "着用",
+      "baca": "ちゃくよう",
+      "arti": "Mengenakan"
+    },
+    {
+      "kanji": "被る",
+      "baca": "かぶる",
+      "arti": "Memakai"
+    },
+    {
+      "kanji": "内側",
+      "baca": "うちがわ",
+      "arti": "Bagian Dalam"
+    },
+    {
+      "kanji": "作業服",
+      "baca": "さぎょうふく",
+      "arti": "Pakaian Kerja"
+    },
+    {
+      "kanji": "ボタン",
+      "baca": "ぼたん",
+      "arti": "Kancing"
+    },
+    {
+      "kanji": "ジッパー",
+      "baca": "じっぱー",
+      "arti": "Resleting"
+    },
+    {
+      "kanji": "T-シャツ",
+      "baca": "T-しゃつ",
+      "arti": "Kaos"
+    },
+    {
+      "kanji": "ポケット",
+      "baca": "ぽけっと",
+      "arti": "Kantong"
+    },
+    {
+      "kanji": "袖",
+      "baca": "そで",
+      "arti": "Lengan Baju"
+    },
+    {
+      "kanji": "絞る",
+      "baca": "しぼる",
+      "arti": "Memeras"
+    },
+    {
+      "kanji": "洗濯",
+      "baca": "せんたく",
+      "arti": "Mencuci Pakaian"
+    },
+    {
+      "kanji": "作業靴",
+      "baca": "さぎょうぐつ",
+      "arti": "Sepatu Kerja"
+    },
+    {
+      "kanji": "履き替える",
+      "baca": "はきかえる",
+      "arti": "Mengganti Sepatu"
+    },
+    {
+      "kanji": "汚染区",
+      "baca": "おせんく",
+      "arti": "Area Tercemar"
+    },
+    {
+      "kanji": "非汚染区",
+      "baca": "ひおせんく",
+      "arti": "Area tidak Tercemar"
+    },
+    {
+      "kanji": "消毒液",
+      "baca": "しょうどくえき",
+      "arti": "Cairan Disinfektan"
+    },
+    {
+      "kanji": "洗浄装置",
+      "baca": "せんじょうそうち",
+      "arti": "Alat Pencucian"
+    },
+    {
+      "kanji": "順序",
+      "baca": "じゅんじょ",
+      "arti": "Urutan"
+    },
+    {
+      "kanji": "鏡",
+      "baca": "かがみ",
+      "arti": "Cermin"
+    },
+    {
+      "kanji": "ブラッシング",
+      "baca": "ぶらっしんぐ",
+      "arti": "Menyisir"
+    },
+    {
+      "kanji": "ヘアーネット",
+      "baca": "へあーねっと",
+      "arti": "Jaring Rambut"
+    },
+    {
+      "kanji": "留める",
+      "baca": "とめる",
+      "arti": "Mengencangkan"
+    },
+    {
+      "kanji": "毛髪",
+      "baca": "もうはつ",
+      "arti": "Rambut"
+    },
+    {
+      "kanji": "作業着",
+      "baca": "さぎょうぎ",
+      "arti": "Pakaian Kerja"
+    },
+    {
+      "kanji": "手洗い",
+      "baca": "てあらい",
+      "arti": "Cuci Tangan"
+    },
+    {
+      "kanji": "洗剤",
+      "baca": "せんざい",
+      "arti": "Deterjen"
+    },
+    {
+      "kanji": "皺",
+      "baca": "しわ",
+      "arti": "Kerutan"
+    },
+    {
+      "kanji": "流す",
+      "baca": "ながす",
+      "arti": "Membilas, Mengalirkan"
+    },
+    {
+      "kanji": "使い捨て",
+      "baca": "つかいすて",
+      "arti": "Sekali Pakai"
+    },
+    {
+      "kanji": "エアータオル",
+      "baca": "えあーたおる",
+      "arti": "Pengering Tangan"
+    },
+    {
+      "kanji": "拭き取る",
+      "baca": "ふきとる",
+      "arti": "Mengelap"
+    },
+    {
+      "kanji": "擦り込む",
+      "baca": "すりこむ",
+      "arti": "Menggosok"
+    },
+    {
+      "kanji": "配置票",
+      "baca": "はいちひょう",
+      "arti": "Daftar Penempatan"
+    },
+    {
+      "kanji": "担当",
+      "baca": "たんとう",
+      "arti": "Tanggung Jawab"
+    },
+    {
+      "kanji": "マニュアル",
+      "baca": "まにゅある",
+      "arti": "Panduan Kerja"
+    },
+    {
+      "kanji": "内容",
+      "baca": "ないよう",
+      "arti": "Isi"
+    },
+    {
+      "kanji": "使用前",
+      "baca": "しようまえ",
+      "arti": "Sebelum Digunakan"
+    },
+    {
+      "kanji": "確認",
+      "baca": "かくにん",
+      "arti": "Memeriksa"
+    },
+    {
+      "kanji": "不備",
+      "baca": "ふび",
+      "arti": "Kekurangan, Cacat"
+    },
+    {
+      "kanji": "点検",
+      "baca": "てんけん",
+      "arti": "Inspeksi"
+    },
+    {
+      "kanji": "点検表",
+      "baca": "てんけんひょう",
+      "arti": "Lembar Pemeriksaan"
+    },
+    {
+      "kanji": "洗浄剤",
+      "baca": "せんじょうざい",
+      "arti": "Deterjen"
+    },
+    {
+      "kanji": "殺菌剤",
+      "baca": "さっきんざい",
+      "arti": "Disinfektan"
+    },
+    {
+      "kanji": "使用方法",
+      "baca": "しようほうほう",
+      "arti": "Cara Penggunaan"
+    },
+    {
+      "kanji": "濃度",
+      "baca": "のうど",
+      "arti": "Konsentrasi"
+    },
+    {
+      "kanji": "確かめる",
+      "baca": "たしかめる",
+      "arti": "Memastikan"
+    }
+  ]
+}
