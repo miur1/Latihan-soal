@@ -51,6 +51,12 @@ const KATEGORI = [
           { id: "ssw-modul-2022", nama: "modul ssw pm 2022 bahasa jepang", file: "data/modul/modul2022.json" }
         ],
       },
+       {
+          id: "ssw-2022",
+          nama: "2022",
+          ikon: "📚",
+          paket: [
+             { id: "2022-1", nama: "pertemuan 1", file: "data/
     ],
   },
   {
