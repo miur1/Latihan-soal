@@ -57,6 +57,13 @@ const KATEGORI = [
           ikon: "📚",
           paket: [
              { id: "2022-1", nama: "pertemuan 1", file: "data/Kotoba/pertemuan1.json" },
+             { id: "2022-1", nama: "pertemuan 2", file: "data/Kotoba/pertemuan2.json" }, 
+             { id: "2022-1", nama: "pertemuan 3", file: "data/Kotoba/pertemuan3.json" }, 
+             { id: "2022-1", nama: "pertemuan 4", file: "data/Kotoba/pertemuan4.json" },
+             { id: "2022-1", nama: "pertemuan 5", file: "data/Kotoba/pertemuan5.json" },
+             { id: "2022-1", nama: "pertemuan 6", file: "data/Kotoba/pertemuan6.json" },
+             { id: "2022-1", nama: "pertemuan 7", file: "data/Kotoba/pertemuan7.json" },
+             { id: "2022-1", nama: "pertemuan 8", file: "data/Kotoba/pertemuan8.json" },
           ],
        },    
     ],
